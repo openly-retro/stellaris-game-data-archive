@@ -1,0 +1,9 @@
+# This is a template which multiple species can use. 
+
+sharpbeak_portrait_outfit = {
+	default = "gfx/models/portraits/paragon/sharpbeak_portrait_outfit.dds"
+}
+
+avian_hair_1 = { 
+	default = "gfx/transparent.dds"
+}

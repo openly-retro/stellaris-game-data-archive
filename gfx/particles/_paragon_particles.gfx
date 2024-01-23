@@ -1,0 +1,108 @@
+objectTypes = {
+
+######  Renown Paragons
+	pdxparticle = {
+		name = "par_01_head_holo_effect"
+		type = "par_01_head_holo_file"
+		
+		scale = 1.0
+	}
+	pdxparticle = {
+		name = "par_01_hand_holo_effect"
+		type = "par_01_hand_holo_file"
+		
+		scale = 1.0
+	}
+	pdxparticle = {
+		name = "par_01_welding_effect_01_effect"
+		type = "par_01_welding_effect_01_file"
+		
+		scale = 1.0
+	}
+	pdxparticle = {
+		name = "par_01_welding_effect_02_effect"
+		type = "par_01_welding_effect_02_file"
+		
+		scale = 1.0
+	}
+#	pdxparticle = {
+#		name = "par_01_tablet_effect"
+#		type = "par_01_tablet_effect_file"
+#		
+#		scale = 1.0
+#	}
+###### Legendary Paragons
+
+pdxparticle = {
+	name = "par_01_beholder_portrait_ship_part_effect"
+	type = "par_01_beholder_portrait_ship_part_effect_file"
+	
+	scale = 1.0
+}
+pdxparticle = {
+	name = "par_01_beholder_portrait_sparkles_effect"
+	type = "par_01_beholder_portrait_sparkles_effect_file"
+	
+	scale = 1.0
+}
+
+pdxparticle = {
+	name = "par_01_beholder_top_temple_part_effect"
+	type = "par_01_beholder_top_temple_part_effect_file"
+	
+	scale = 1.0
+}
+
+pdxparticle = {
+	name = "par_01_beholder_center_effect"
+	type = "par_01_beholder_center_file"
+	
+	scale = 1.0
+}
+
+pdxparticle = {
+	name = "par_01_beholder_charge_effect"
+	type = "par_01_beholder_charge_effect_file"
+	
+	scale = 1.0
+}
+
+pdxparticle = {
+	name = "par_01_beholder_laser_effect"
+	type = "par_01_beholder_laser_effect_file"
+	
+	scale = 1.0
+}
+
+pdxparticle = {
+	name = "par_01_beholder_sparkle_effect"
+	type = "par_01_beholder_sparkle_effect_file"
+	
+	scale = 1.0
+}
+
+pdxparticle = {
+	name = "paragon_01_ship_light_effect"
+	type = "paragon_01_ship_light_effect"
+
+	scale = 1.0
+}
+
+pdxparticle = {
+	name = "paragon_075_ship_explosion_effect"
+	type = "paragon_01_ship_explosion_file"
+
+	scale = 0.75
+}
+
+pdxparticle = {
+	name = "paragon_050_ship_explosion_effect"
+	type = "paragon_01_ship_explosion_02_file"
+
+	scale = 0.75
+}
+		
+}
+
+
+

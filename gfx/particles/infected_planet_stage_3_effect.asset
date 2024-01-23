@@ -1,0 +1,210 @@
+particle={
+	name="infected_planet_stage_3_effect"
+	subsystem={
+		name="clouds"
+		max_amount=200
+		slave_particles=0
+		sort="distance"
+		emitter_type="sphere"
+		sphere_emitter_radius={ 3 0.25 }
+		sphere_emitter_yaw={ 0 180 }
+		sphere_emitter_pitch={ 0 85 }
+		invert=no
+		trail=no
+		spritesheet_animation=yes
+		spritesheet_animation_loop=1.000000
+		local_space=yes
+		billboard=yes
+		hide=no
+		texture={
+			file="gfx/particles/explosion_02_smoke_6_6.dds"
+			x=6
+			y=6
+			shader="ParticleAdditive"
+		}
+		color={
+			x={ 120 4 }
+			y={ 110 2 }
+			z={ 20 1 }
+			alpha={ 140,smoke_a 20 }
+		}
+		position={
+			x=0
+			y=0
+			z=0
+		}
+		start=0
+		duration=-1
+		emitter_yaw={ 0 0 }
+		emitter_pitch={ 0 0 }
+		velocity_pitch={ 0 180 }
+		velocity_yaw={ 0 180 }
+		velocity={ 0 0 }
+		life={ 8 1 }
+		emission=12
+		size={ 3,size_grow 0.1 }
+		rotation={ 0 180 }
+		rotation_speed={ 0 0 }
+		mass={ 4 0.5 }
+	}
+	subsystem={
+		name="glow"
+		max_amount=2
+		slave_particles=0
+		sort="distance"
+		emitter_type="point"
+		invert=no
+		trail=no
+		spritesheet_animation=yes
+		spritesheet_animation_loop=1.000000
+		local_space=yes
+		billboard=yes
+		hide=no
+		texture={
+			file="gfx/particles/explosion_02_smoke_6_6.dds"
+			x=6
+			y=6
+			shader="ParticleAdditive"
+		}
+		color={
+			x={ 120 4 }
+			y={ 110 2 }
+			z={ 20 1 }
+			alpha={ 120,smoke_a 20 }
+		}
+		position={
+			x=0
+			y=0
+			z=0
+		}
+		start=0
+		duration=-1
+		emitter_yaw={ 0 0 }
+		emitter_pitch={ 0 0 }
+		velocity_pitch=0
+		velocity_yaw=0
+		velocity=0
+		life={ 6 1 }
+		emission=12
+		size={ 7,size_grow 1 }
+		rotation={ 0 180 }
+		rotation_speed={ 0 0 }
+		mass={ 4 0.5 }
+		force=push,turb
+	}
+	subsystem={
+		name="infection"
+		max_amount=500
+		slave_particles=0
+		sort="age"
+		emitter_type="sphere"
+		sphere_emitter_radius={ 3.5 0 }
+		sphere_emitter_yaw={ 0 180 }
+		sphere_emitter_pitch={ 0 85 }
+		invert=no
+		trail=no
+		spritesheet_animation=no
+		spritesheet_animation_loop=1.000000
+		local_space=yes
+		billboard=yes
+		hide=no
+		texture={
+			file="gfx/particles/rain.dds"
+			x=3
+			y=3
+			shader="ParticleAlphaBlend"
+		}
+		color={
+			x={ 120 4 }
+			y={ 110 2 }
+			z={ 20 1 }
+			alpha={ 255,fade 20 }
+		}
+		position={
+			x=0
+			y=0
+			z=0
+		}
+		start=0
+		duration=-1
+		emitter_yaw={ 0 0 }
+		emitter_pitch={ 0 0 }
+		velocity_pitch={ 0 180 }
+		velocity_yaw={ 0 180 }
+		velocity={ 0 0 }
+		life={ 8 1 }
+		emission=75
+		size={ 1,size_grow 0.1 }
+		rotation={ 0 180 }
+		rotation_speed={ 0 0 }
+		mass={ 4 0.5 }
+		force=push,turb
+	}
+	animation={
+		name="fade"
+		start=0
+		duration=1
+		repeat=yes
+		minValue=0
+		maxValue=0.8
+		curve={
+			0 0 0.05294 0.71875 0.26471 0.95313 0.47941 0.67188 0.74412 0.20313 1 0 
+		}
+		op="MUL"
+		time="life"
+	}
+	animation={
+		name="size_grow"
+		start=0
+		duration=1
+		repeat=no
+		minValue=1
+		maxValue=3
+		curve={
+			0 0.656 1 1 
+		}
+		op="MUL"
+		time="life"
+	}
+	animation={
+		name="smoke_a"
+		start=0
+		duration=1
+		repeat=no
+		minValue=0
+		maxValue=1
+		curve={
+			0 0 0.25588 0.86719 1 0 
+		}
+		op="MUL"
+		time="life"
+	}
+	force={
+		type="point"
+		name="push"
+		position={
+			0 0 0 
+		}
+		direction={
+			0.7 1 0 
+		}
+		local_force=yes
+		yaw=0
+		division=16
+		amount=0.3
+	}
+	force={
+		type="turbulence"
+		name="turb"
+		position={
+			0 0 0 
+		}
+		direction={
+			0 1 0 
+		}
+		local_force=yes
+		yaw=0
+		division=16
+		amount=1
+	}
+}

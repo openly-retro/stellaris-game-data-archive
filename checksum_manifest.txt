@@ -1,0 +1,29 @@
+directory 
+name = common
+sub_directories = yes
+file_extension = .txt
+
+directory 
+name = common
+sub_directories = yes
+file_extension = .shader
+
+directory
+name = common
+sub_directories = yes
+file_extension = .csv
+
+directory
+name = events
+sub_directories = yes
+file_extension = .txt
+
+directory
+name = map
+sub_directories = yes
+file_extension = .shader
+
+directory
+name = map
+sub_directories = yes
+file_extension = .txt

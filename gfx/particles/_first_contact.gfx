@@ -1,0 +1,130 @@
+objectTypes = {
+
+### Pre FTL
+	pdxparticle = {
+		name = "pre_ftl_01_engine_effect"
+		type = "pre_ftl_01_engine_effect_file"
+		
+		scale = 1.5
+	}
+
+	pdxparticle = {
+		name = "pre_ftl_01_manouever_engine_effect"
+		type = "pre_ftl_01_manouever_engine_effect_file"
+		
+		scale = 1.0
+	}
+	
+	pdxparticle = {
+		name = "pre_ftl_02_engine_effect"
+		type = "pre_ftl_02_engine_effect_file"
+		
+		scale = 1.0
+	}
+	pdxparticle = {
+		name = "pre_ftl_chemical_death_explosion_effect"
+		type = "pre_ftl_chemical_death_explosion_effect_file"
+		
+		scale = 1.0
+	}
+	
+	pdxparticle = {
+		name = "pre_ftl_laser_death_explosion_effect"
+		type = "pre_ftl_laser_death_explosion_effect_file"
+		
+		scale = 1.0
+	}
+	
+	pdxparticle = {
+		name = "pre_ftl_1_explosion_effect"
+		type = "pre_ftl_explosion_effect_file"
+		
+		scale = 1.0
+	}
+
+	pdxparticle = {
+		name = "pre_ftl_075_explosion_effect"
+		type = "pre_ftl_explosion_effect_file"
+		
+		scale = 0.75
+	}
+
+	pdxparticle = {
+		name = "pre_ftl_050_explosion_effect"
+		type = "pre_ftl_explosion_effect_file"
+		
+		scale = 0.5
+	}
+
+	pdxparticle = {
+		name = "pre_ftl_01_ship_light_effect"
+		type = "pre_ftl_01_ship_light_effect_file"
+		
+		scale = 1
+	}
+	
+	pdxparticle = {
+		name = "evil_slaver_ship_engine"
+		type = "evil_slaver_ship_engine_file"
+		
+		scale = 1.0
+	}
+
+	pdxparticle = {
+		name = "evil_slaver_ship_engine_idle"
+		type = "evil_slaver_ship_engine_idle_file"
+		
+		scale = 1.0
+	}
+
+	pdxparticle = {
+		name = "evil_slaver_habitat_engine"
+		type = "evil_slaver_habitat_engine_file"
+		
+		scale = 1.0
+	}
+	
+	pdxparticle = {
+		name = "evil_slaver_ship_explosion_death"
+		type = "evil_slaver_ship_explosion_death_file"
+		
+		scale = 12.0
+	}
+	
+	pdxparticle = {
+		name = "evil_slaver_1_ship_explosion"
+		type = "evil_slaver_ship_explosion_file"
+		
+		scale = 1.0
+	}
+	
+	pdxparticle = {
+		name = "evil_slaver_15_ship_explosion"
+		type = "evil_slaver_ship_explosion_file"
+		
+		scale = 1.5
+	}
+	
+	pdxparticle = {
+		name = "evil_slaver_125_ship_explosion"
+		type = "evil_slaver_ship_explosion_file"
+		
+		scale = 1.25
+	}	
+	pdxparticle = {
+		name = "evil_slaver_075_ship_explosion"
+		type = "evil_slaver_ship_explosion_file"
+		
+		scale = 0.75
+	}
+	
+	pdxparticle = {
+		name = "fc_01_front_end_fog"
+		type = "fc_01_front_end_fog_file"
+		
+		scale = 0.05
+	}	
+	
+}
+
+

@@ -1,0 +1,17 @@
+# This is a template which multiple species can use. 
+
+firstcontact_outfit_01 = {
+	default = "gfx/models/portraits/first_contact/firstcontact_outfit_slaver_male.dds"
+}
+
+avian_hair_1 = { 
+	default = "gfx/transparent.dds"
+}
+
+firstcontact_outfit_02 = {
+	default = "gfx/models/portraits/first_contact/firstcontact_outfit_slaver_female.dds"
+}
+
+avian_hair_1 = { 
+	default = "gfx/transparent.dds"
+}

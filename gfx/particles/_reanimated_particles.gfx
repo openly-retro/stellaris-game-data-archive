@@ -1,0 +1,80 @@
+objectTypes = {
+	
+	pdxparticle = {
+		name = "reanimated_space_dragon_smoke_trail_effect"
+		type = "reanimated_space_dragon_smoke_trail_file"
+		scale = 1.0
+	}
+
+	pdxparticle = {
+		name = "reanimated_space_dragon_eye_smoke_effect"
+		type = "reanimated_space_dragon_eye_smoke_file"
+		scale = 1.0
+	}
+
+	pdxparticle = {
+		name = "reanimated_aquatic_dragon_smoke_trail_effect"
+		type = "reanimated_aquatic_dragon_smoke_trail_file"
+		scale = 1.0
+	}
+
+	pdxparticle = {
+		name = "reanimated_aquatic_dragon_eye_smoke_effect"
+		type = "reanimated_aquatic_dragon_eye_smoke_file"
+		scale = 1.0
+	}
+	
+	pdxparticle = {
+		name = "reanimated_voidspawn_smoke_trail_effect"
+		type = "reanimated_voidspawn_smoke_trail_file"
+		scale = 1.0
+	}
+
+	pdxparticle = {
+		name = "reanimated_voidspawn_smoke_l_trail_effect"
+		type = "reanimated_voidspawn_smoke_l_trail_file"
+		scale = 1.0
+	}
+	
+	pdxparticle = {
+		name = "reanimated_voidspawn_eye_smoke_effect"
+		type = "reanimated_voidspawn_eye_smoke_file"
+		scale = 1.0
+	}
+	
+	pdxparticle = {
+		name = "reanimated_space_whale_head_effect"
+		type = "reanimated_space_whale_head_file"
+		scale = 1.0
+	}
+	
+	pdxparticle = {
+		name = "reanimated_space_whale_trail_effect"
+		type = "reanimated_space_whale_trail_file"
+		scale = 1.0
+	}
+	
+	pdxparticle = {
+		name = "reanimated_elder_tiyanki_head_effect"
+		type = "reanimated_elder_tiyanki_head_file"
+		scale = 1.0
+	}
+	
+	pdxparticle = {
+		name = "reanimated_amoeba_medium_trail_effect"
+		type = "reanimated_amoeba_medium_trail_file"
+		scale = 1.0
+	}
+	
+	pdxparticle = {
+		name = "reanimated_amoeba_mother_body_effect"
+		type = "reanimated_amoeba_mother_body_file"
+		scale = 1.0
+	}
+
+	pdxparticle = {
+		name = "reanimated_amoeba_mother_trail_effect"
+		type = "reanimated_amoeba_mother_trail_file"
+		scale = 1.0
+	}	
+}

@@ -1,0 +1,27 @@
+##############################################################
+###	PORTRAITS SETTINGS
+###
+### Which portraits are used is set in
+### common\species_classes\00_species_classes.txt
+###
+###	This file configures how portraits and planet backgrounds are built.
+###	Default position orientation is lower left.
+##############################################################
+
+############################
+portraits = {
+	# 01 male
+	msi_slaver1_male = {	entity = "msi_slaver1_male" clothes_selector = "firstcontact_outfit_01" attachment_selector = "no_texture"	greeting_sound = "humanoid_male_greeting_a"
+		character_textures = {
+			"gfx/models/portraits/humanoid/humanoid_03_male_01.dds"		
+
+		}
+	}
+
+	#01 female
+	msi_slaver1_female = {	entity = "msi_slaver1_female" clothes_selector = "firstcontact_outfit_02" attachment_selector = "no_texture"	greeting_sound = "humanoid_female_greeting_d"
+		character_textures = {
+			"gfx/models/portraits/humanoid/humanoid_03_female_01.dds"
+		}
+	}
+}

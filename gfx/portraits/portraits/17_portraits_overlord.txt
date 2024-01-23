@@ -1,0 +1,43 @@
+##############################################################
+###	PORTRAITS SETTINGS
+###
+### Which portraits are used is set in 
+### common\species_classes\00_species_classes.txt
+###
+###	This file configures how portraits and planet backgrounds are built.
+###	Default position orientation is lower left.
+##############################################################
+
+portraits = {
+	# Enclaves
+	salvager01 	= {	entity = "salvager_01_portrait_entity" clothes_selector = "no_texture" attachment_selector = "no_texture" greeting_sound = "ove_portrait_salvager"
+	character_textures = {
+		"gfx/models/portraits/salvager/salvager_portrait_beige.dds"
+	 	}
+	}
+	salvager02 	= {	entity = "salvager_01_portrait_entity" clothes_selector = "no_texture" attachment_selector = "no_texture" greeting_sound = "ove_portrait_salvager"
+	character_textures = {
+		"gfx/models/portraits/salvager/salvager_portrait_brown.dds"
+	 	}
+	}
+	salvager03 	= {	entity = "salvager_01_portrait_entity" clothes_selector = "no_texture" attachment_selector = "no_texture" greeting_sound = "ove_portrait_salvager"
+	character_textures = {
+		"gfx/models/portraits/salvager/salvager_portrait_beige.dds"
+	 	}
+	}
+	shroudwalker01 	= {	entity = "portrait_shroudwalker_01_entity" clothes_selector = "no_texture" attachment_selector = "no_texture" greeting_sound = "ove_portrait_shroudwalker"
+	character_textures = {
+		"gfx/models/portraits/shroudwalker/shroudwalker_01_normal_portrait.dds"
+	 	}
+	}
+	shroudwalker02 	= {	entity = "portrait_shroudwalker_02_entity" clothes_selector = "no_texture" attachment_selector = "no_texture" greeting_sound = "ove_portrait_shroudwalker"
+	character_textures = {
+		"gfx/models/portraits/shroudwalker/shroudwalker_01_massive_portrait.dds"
+		 }
+	}
+	shroudwalker03 	= {	entity = "portrait_shroudwalker_03_entity" clothes_selector = "no_texture" attachment_selector = "no_texture" greeting_sound = "ove_portrait_shroudwalker"
+	character_textures = {
+		"gfx/models/portraits/shroudwalker/shroudwalker_01_slender_portrait.dds"
+		 }
+	}
+}

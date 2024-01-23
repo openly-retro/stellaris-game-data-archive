@@ -1,0 +1,177 @@
+objectTypes = {
+### Quantum Catapult
+	pdxparticle = {
+		name = "quantum_catapult_lightning_stage_3_effect"
+		type = "quantum_catapult_lightning_stage_3_effect_file"
+		
+		scale = 1.0
+	}
+	
+	pdxparticle = {
+		name = "quantum_catapult_outer_stage_3_effect"
+		type = "quantum_catapult_outer_stage_3_effect_file"
+		
+		scale = 1.0
+	}
+
+	pdxparticle = {
+		name = "quantum_catapult_outer_stage_2_effect"
+		type = "quantum_catapult_outer_stage_2_effect_file"
+		
+		scale = 1.0
+	}
+
+	pdxparticle = {
+		name = "quantum_catapult_outer_stage_1_effect"
+		type = "quantum_catapult_outer_stage_1_effect_file"
+		
+		scale = 1.0
+	}
+	
+	pdxparticle = {
+		name = "quantum_catapult_lightning_stage_2_effect"
+		type = "quantum_catapult_lightning_stage_2_effect_file"
+		
+		scale = 1.0
+	}
+	
+	pdxparticle = {
+		name = "quantum_catapult_lightning_stage_1_effect"
+		type = "quantum_catapult_lightning_stage_1_effect_file"
+		
+		scale = 1.0
+	}
+###### Shroudwalker
+
+	pdxparticle = {
+		name = "shroudwalker_core_effect"
+		type = "shroudwalker_core_effect_file"
+		
+		scale = 1.0
+	}
+	
+	pdxparticle = {
+		name = "shroudwalker_storm_effect"
+		type = "shroudwalker_storm_effect_file"
+		
+		scale = 1.0
+	}
+
+	pdxparticle = {
+		name = "shroudwalker_city_effect"
+		type = "shroudwalker_city_effect_file"
+		
+		scale = 1.0
+	}
+
+	pdxparticle = {
+		name = "shroudwalker_front_effect"
+		type = "shroudwalker_front_effect_file"
+		
+		scale = 1.0
+	}
+
+	pdxparticle = {
+		name = "shroudwalker_01_station_explosion_effect"
+		type = "shroudwalker_01_station_explosion_file"
+		
+		scale = 1
+	}	
+	
+	pdxparticle = {
+		name = "shroudwalker_01_station_explosion_03_effect"
+		type = "shroudwalker_01_station_explosion_s_file"
+		
+		scale = 0.3
+	}
+
+	pdxparticle = {
+		name = "shroudwalker_01_station_explosion_02_effect"
+		type = "shroudwalker_01_station_explosion_s_file"
+		
+		scale = 0.2
+	}	
+
+	pdxparticle = {
+		name = "shroudwalker_01_station_explosion_01_effect"
+		type = "shroudwalker_01_station_explosion_s_file"
+		
+		scale = 0.1
+	}	
+
+############Salvager
+
+	pdxparticle = {
+		name = "salvager_01_explosion_station_effect"
+		type = "salvager_01_explosion_station_file"
+		
+		scale = 6.5
+	}
+	
+	pdxparticle = {
+		name = "salvager_01_explosion_1_station_effect"
+		type = "salvager_01_explosion_s_station_file"
+		
+		scale = 1
+	}
+	
+		pdxparticle = {
+		name = "salvager_01_explosion_05_station_effect"
+		type = "salvager_01_explosion_s_station_file"
+		
+		scale = 0.5
+	}
+	
+		pdxparticle = {
+		name = "salvager_01_explosion_25_station_effect"
+		type = "salvager_01_explosion_s_station_file"
+		
+		scale = 0.25
+	}
+
+######## Mercenary Station
+
+	pdxparticle = {
+		name = "mercenary_station_station_explosion_effect"
+		type = "mercenary_station_station_explosion_file"
+		
+		scale = 1
+	}
+
+	pdxparticle = {
+		name = "mercenary_station_station_005_explosion_file"
+		type = "mercenary_station_station_s_explosion_file"
+		
+		scale = 0.05
+	}	
+
+	pdxparticle = {
+		name = "mercenary_station_station_01_explosion_file"
+		type = "mercenary_station_station_s_explosion_file"
+		
+		scale = 0.1
+	}
+	
+	pdxparticle = {
+		name = "mercenary_station_station_015_explosion_file"
+		type = "mercenary_station_station_s_explosion_file"
+		
+		scale = 0.15
+	}
+
+	pdxparticle = {
+		name = "mercenary_station_station_02_explosion_file"
+		type = "mercenary_station_station_s_explosion_file"
+		
+		scale = 0.2
+	}
+	pdxparticle = {
+		name = "mercenary_station_station_025_explosion_file"
+		type = "mercenary_station_station_s_explosion_file"
+		
+		scale = 0.25
+	}		
+}
+
+
+

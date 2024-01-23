@@ -1,0 +1,337 @@
+particle={
+	name="hive_planet_effect"
+	subsystem={
+		name="web_billboard"
+		max_amount=2
+		slave_particles=0
+		sort="depth"
+		emitter_type="point"
+		invert=no
+		trail=no
+		spritesheet_animation=no
+		spritesheet_animation_loop=1.000000
+		local_space=yes
+		billboard=yes
+		hide=no
+		texture={
+			file="gfx/particles/circle_eroded.dds"
+			x=1
+			y=1
+			shader="ParticleAlphaBlend"
+		}
+		color={
+			x={ 90 2 }
+			y={ 120 2 }
+			z={ 30 1 }
+			alpha={ 30,fade 5 }
+		}
+		position={
+			x=0
+			y=0
+			z=0
+		}
+		start=0
+		duration=-1
+		emitter_yaw={ 0 0 }
+		emitter_pitch={ 0 0 }
+		velocity_pitch={ 0 180 }
+		velocity_yaw={ 0 180 }
+		velocity={ 0 0 }
+		life={ 14 1 }
+		emission=3
+		size={ 10,size_grow 0.1 }
+		particle_yaw={ 0 180 }
+		particle_pitch={ 0 180 }
+		rotation={ 0 180 }
+		rotation_speed_yaw={ 0 2 }
+		rotation_speed_pitch={ 0 2 }
+		rotation_speed={ 0 2 }
+		mass={ 8 0.5 }
+		force=push
+	}
+	subsystem={
+		name="web_billboard_purple"
+		max_amount=2
+		slave_particles=0
+		sort="depth"
+		emitter_type="point"
+		invert=no
+		trail=no
+		spritesheet_animation=no
+		spritesheet_animation_loop=1.000000
+		local_space=yes
+		billboard=yes
+		hide=no
+		texture={
+			file="gfx/particles/circle_eroded.dds"
+			x=1
+			y=1
+			shader="ParticleAlphaBlend"
+		}
+		color={
+			x={ 140 2 }
+			y={ 10 2 }
+			z={ 90 1 }
+			alpha=40,fade
+		}
+		position={
+			x=0
+			y=0
+			z=0
+		}
+		start=0
+		duration=-1
+		emitter_yaw={ 0 0 }
+		emitter_pitch={ 0 0 }
+		velocity_pitch={ 0 180 }
+		velocity_yaw={ 0 180 }
+		velocity={ 0 0 }
+		life={ 14 1 }
+		emission=3
+		size={ 9,size_grow 0.1 }
+		particle_yaw={ 0 180 }
+		particle_pitch={ 0 180 }
+		rotation={ 0 180 }
+		rotation_speed_yaw={ 0 2 }
+		rotation_speed_pitch={ 0 2 }
+		rotation_speed={ 0 2 }
+		mass={ 8 0.5 }
+		force=push
+	}
+	subsystem={
+		name="web"
+		max_amount=4
+		slave_particles=0
+		sort="depth"
+		emitter_type="point"
+		invert=no
+		trail=no
+		spritesheet_animation=no
+		spritesheet_animation_loop=1.000000
+		local_space=yes
+		billboard=no
+		hide=yes
+		texture={
+			file="gfx/particles/circle_eroded.dds"
+			x=1
+			y=1
+			shader="ParticlePreAlphaBlend"
+		}
+		color={
+			x={ 35,fade 2 }
+			y={ 37,fade 2 }
+			z={ 30,fade 1 }
+			alpha=255,fade
+		}
+		position={
+			x=0
+			y=0
+			z=0
+		}
+		start=0
+		duration=-1
+		emitter_yaw={ 0 0 }
+		emitter_pitch={ 0 0 }
+		velocity_pitch={ 0 180 }
+		velocity_yaw={ 0 180 }
+		velocity={ 0 0 }
+		life={ 14 1 }
+		emission=3
+		size={ 10,size_grow 0.1 }
+		particle_yaw={ 0 180 }
+		particle_pitch={ 0 180 }
+		rotation={ 0 180 }
+		rotation_speed_yaw={ 0 2 }
+		rotation_speed_pitch={ 0 2 }
+		rotation_speed={ 0 2 }
+		mass={ 8 0.5 }
+		force=push
+	}
+	subsystem={
+		name="Infestation"
+		max_amount=100
+		slave_particles=0
+		sort="depth"
+		emitter_type="sphere"
+		sphere_emitter_radius={ 2.5 0 }
+		sphere_emitter_yaw={ 0 180 }
+		sphere_emitter_pitch={ 0 85 }
+		invert=no
+		trail=no
+		spritesheet_animation=no
+		spritesheet_animation_loop=1.000000
+		local_space=yes
+		billboard=no
+		hide=no
+		texture={
+			file="gfx/particles/blood_gib.dds"
+			x=2
+			y=2
+			shader="ParticleAlphaBlend"
+		}
+		color={
+			x={ 95,fade 3 }
+			y={ 84,fade 2 }
+			z={ 90,fade 2 }
+			alpha=255,fade
+		}
+		position={
+			x=0
+			y=0
+			z=0
+		}
+		start=0
+		duration=-1
+		emitter_yaw={ 0 0 }
+		emitter_pitch={ 0 0 }
+		velocity_pitch={ 0 180 }
+		velocity_yaw={ 0 180 }
+		velocity={ 0 0 }
+		life={ 14 1 }
+		emission=3
+		size={ 3.5,size_grow 0.4 }
+		particle_yaw={ 0 180 }
+		particle_pitch={ 0 180 }
+		rotation={ 0 180 }
+		rotation_speed={ 0 0 }
+		mass={ 8 0.5 }
+		force=push
+	}
+	subsystem={
+		name="Infestation_dark"
+		max_amount=100
+		slave_particles=0
+		sort="depth"
+		emitter_type="sphere"
+		sphere_emitter_radius={ 2.5 0 }
+		sphere_emitter_yaw={ 0 180 }
+		sphere_emitter_pitch={ 0 85 }
+		invert=no
+		trail=no
+		spritesheet_animation=no
+		spritesheet_animation_loop=1.000000
+		local_space=yes
+		billboard=yes
+		hide=yes
+		texture={
+			file="gfx/particles/gib_01.dds"
+			x=1
+			y=1
+			shader="ParticleAlphaBlend"
+		}
+		color={
+			x={ 50,fade 7 }
+			y={ 40,fade 2 }
+			z={ 55,fade 5 }
+			alpha=255,fade
+		}
+		position={
+			x=0
+			y=0
+			z=0
+		}
+		start=0
+		duration=-1
+		emitter_yaw={ 0 0 }
+		emitter_pitch={ 0 0 }
+		velocity_pitch={ 0 180 }
+		velocity_yaw={ 0 180 }
+		velocity={ 0 0 }
+		life={ 14 1 }
+		emission=8
+		size={ 5,size_grow 0.1 }
+		rotation={ 0 180 }
+		rotation_speed={ 0 0 }
+		mass={ 8 0.5 }
+		force=push
+	}
+	subsystem={
+		name="flare"
+		max_amount=15
+		slave_particles=0
+		sort="depth"
+		emitter_type="point"
+		invert=no
+		trail=no
+		spritesheet_animation=no
+		spritesheet_animation_loop=1.000000
+		local_space=yes
+		billboard=yes
+		hide=no
+		texture={
+			file="gfx/particles/circle_flare.dds"
+			x=1
+			y=1
+			shader="ParticleAdditive"
+		}
+		color={
+			x={ 130 10 }
+			y={ 140 2 }
+			z={ 255 1 }
+			alpha={ 30,fade 5 }
+		}
+		position={
+			x=0
+			y=0
+			z=0
+		}
+		start=0
+		duration=-1
+		emitter_yaw={ 0 0 }
+		emitter_pitch={ 0 0 }
+		velocity_pitch={ 0 180 }
+		velocity_yaw={ 0 180 }
+		velocity={ 0 0 }
+		life={ 7 1 }
+		emission=1
+		size=20
+		particle_yaw={ 0 180 }
+		particle_pitch={ 0 180 }
+		rotation={ 0 180 }
+		rotation_speed_yaw=0
+		rotation_speed_pitch=0
+		rotation_speed=0
+		mass={ 8 0.5 }
+		force=push
+	}
+	animation={
+		name="fade"
+		start=0
+		duration=1
+		repeat=yes
+		minValue=0
+		maxValue=1.5
+		curve={
+			0 0 0.09118 0.70313 0.26471 0.95313 0.47941 0.67188 0.74412 0.20313 1 0 
+		}
+		op="MUL"
+		time="life"
+	}
+	animation={
+		name="size_grow"
+		start=0
+		duration=1
+		repeat=no
+		minValue=1
+		maxValue=3
+		curve={
+			0 0.125 0.32059 0.51563 1 1 
+		}
+		op="MUL"
+		time="life"
+	}
+	force={
+		type="point"
+		name="push"
+		position={
+			0 0 0 
+		}
+		direction={
+			0.7 1 0 
+		}
+		local_force=yes
+		yaw=0
+		division=16
+		amount=0.3
+	}
+}

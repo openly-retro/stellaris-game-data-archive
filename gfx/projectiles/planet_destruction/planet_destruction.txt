@@ -1,0 +1,623 @@
+# See example.txt for an example beam
+
+
+shatter_planet_gfx = {
+
+	texture = "gfx/models/combat_items/shatter_planet_laser.dds"
+
+	color = { 1.0 1.0 1.0 1.0 }
+	planet_dissolve_color_mult = { 1.5 0.75 0.4 }
+
+	windup_entity = "colossus_shatter_planet_windup_entity"
+
+	ship_fire_entity = "colossus_shatter_planet_muzzle_entity"
+
+	planet_hit_entity = "colossus_shatter_planet_hit_entity"
+
+	megastructure_hit_entity = "colossus_shatter_planet_hit_entity"
+
+	windup = {
+		duration = 5.0
+	}
+	start = {
+		duration = 2.0
+		width = {
+			0.0 1.0
+			1.0 12.0
+		}
+		texture_scroll_speed = {
+			0.0 1.5
+		}
+		texture_tiling = 2.0
+		alpha = {
+			0.0 0.0
+			0.25 4.0
+			1.0 2.0
+		}
+	}
+	in_progress = {
+		duration = 10.0
+		width = {
+			0.0 12.0
+			0.5  9.0
+			1.0 12.0
+		}
+		texture_scroll_speed = {
+			0.0 1.5
+		}
+		texture_tiling = {
+			0.0 	2.0
+		}
+		alpha = {
+			0.0 2.0
+			0.5 2.2
+			1.0 2.0
+		}
+	}
+	end = {
+		duration = 2.0
+		width = {
+			0.0 11.0
+			1.0 0.0
+		}
+		texture_scroll_speed = 1.5
+		texture_tiling = 2.0
+		alpha = {
+			0.0 	2.1
+			0.05	10.0
+			0.7		1.0
+			1.0 	0.0
+		}
+	}
+
+	fade = {
+		fade_in = { 0.0 50.0 }
+		fade_out = { 1.0 50.0 }
+	}
+}
+
+
+
+global_pacifier_gfx = {
+
+	texture = "gfx/models/combat_items/shield_planet_laser.dds"
+
+	color = { 1.0 1.0 1.0 1.0 }
+
+	windup_entity = "colossus_shield_planet_windup_entity"
+
+	ship_fire_entity = "colossus_shield_planet_muzzle_entity"
+
+	planet_hit_entity = "colossus_shield_planet_hit_entity"
+
+	megastructure_hit_entity = "colossus_shield_planet_hit_entity"
+
+	planet_overlay_entity = "planet_shield_alpha_override_effect_entity"
+
+	windup = {
+		duration = 0.0
+	}
+	start = {
+		duration = 1.5
+		width = {
+			1.0 35.0
+		}
+		texture_scroll_speed = {
+			0.0 0.2
+		}
+		texture_tiling = 2.5
+		alpha = {
+			0.0 0.0
+			1.0 1.0
+		}
+	}
+	in_progress = {
+		duration = 10.0
+		width = {
+			0.0 35.0
+			0.5 35.0
+			1.0 35.0
+		}
+		texture_scroll_speed = {
+			0.0 0.2
+		}
+		texture_tiling = {
+			0.0 	2.5
+		}
+		alpha = {
+			0.0 1.0
+			0.5 1.2
+			1.0 1.0
+		}
+	}
+	end = {
+		duration = 2.0
+		width = {
+			1.0 35.0
+		}
+		texture_scroll_speed = 0.2
+		texture_tiling = 2.5
+		alpha = {
+			0.0 1.1
+			1.0 0.0
+		}
+	}
+
+	fade = {
+		fade_in = { 0.0 50.0 }
+		fade_out = { 1.0 50.0 }
+	}
+}
+
+
+
+neutron_planet_gfx = {
+
+	texture = "gfx/models/combat_items/neutron_planet_laser.dds"
+
+	color = { 1.0 1.0 1.0 1.0 }
+	planet_dissolve_color_mult = { 0.4 1.0 2.0 }
+
+	windup_entity = "colossus_neutron_planet_windup_entity"
+
+	ship_fire_entity = "colossus_neutron_planet_muzzle_entity"
+
+	planet_hit_entity = "colossus_neutron_planet_hit_entity"
+
+	megastructure_hit_entity = "colossus_neutron_planet_hit_entity"
+
+	windup = {
+		duration = 0.0
+	}
+	start = {
+		duration = 2.0
+		width = {
+			0.0 0.0
+			1.0 12.0
+		}
+		texture_scroll_speed = {
+			0.0 1.5
+		}
+		texture_tiling = 2.0
+		alpha = {
+			0.0 0.0
+			1.0 1.2
+		}
+	}
+	in_progress = {
+		duration = 10.0
+		width = {
+			0.0 12.0
+			0.5 9.0
+			1.0 12.0
+		}
+		texture_scroll_speed = {
+			0.0 1.5
+		}
+		texture_tiling = {
+			0.0 	2.0
+		}
+		alpha = {
+			0.0 1.7
+			0.5 2.0
+			1.0 1.7
+		}
+	}
+	end = {
+		duration = 2.0
+		width = {
+			0.0 12.0
+			1.0 0.0
+		}
+		texture_scroll_speed = 1.5
+		texture_tiling = 2.0
+		alpha = {
+			0.0 	1.1
+			0.05	10.0
+			0.7		1.0
+			1.0 	0.0
+		}
+	}
+
+	fade = {
+		fade_in = { 0.0 50.0 }
+		fade_out = { 1.0 50.0 }
+	}
+}
+
+
+
+god_ray_gfx = {
+
+	texture = "gfx/models/combat_items/god_ray_laser.dds"
+
+	color = { 1.0 1.0 1.0 1.0 }
+	planet_dissolve_color_mult = { 1.0 1.0 1.0 }
+
+	windup_entity = "colossus_god_ray_windup_entity"
+
+	ship_fire_entity = "colossus_god_ray_muzzle_entity"
+
+	planet_hit_entity = "colossus_god_ray_hit_entity"
+
+	megastructure_hit_entity = "colossus_god_ray_megastructure_hit_entity"
+
+	windup = {
+		duration = 0.0
+	}
+	start = {
+		duration = 2.0
+		width = {
+			0.0 0.0
+			0.1 10.0
+			0.3	10.0
+			1.0 50.0
+		}
+		texture_scroll_speed = {
+			0.0	0.05
+		}
+		texture_tiling = 2.0
+		alpha = {
+			0.0 0.0
+			1.0 1.0
+		}
+	}
+	in_progress = {
+		duration = 10.0
+		width = {
+			0.0 50.0
+		}
+		texture_scroll_speed = {
+			0.0 0.05
+		}
+		texture_tiling = {
+			0.0 	2.0
+		}
+		alpha = {
+			0.0 1.0
+			0.5 1.2
+			1.0 1.0
+		}
+	}
+	end = {
+		duration = 2.0
+		width = {
+			0.0 50.0
+			1.0 0.0
+		}
+		texture_scroll_speed = 0.05
+		texture_tiling = 2.0
+		alpha = {
+			0.0 1.1
+			1.0 0.0
+		}
+	}
+
+	fade = {
+		fade_in = { 0.0 50.0 }
+		fade_out = { 1.0 50.0 }
+	}
+}
+
+
+
+
+
+
+assimilation_nanobots_gfx = {
+
+	texture = "gfx/models/combat_items/assimilator_diffuse.dds"
+
+	color = { 1.0 1.0 1.0 4.0 }
+	planet_dissolve_color_mult = { 0.8 1.2 1.5 }
+
+	windup_entity = "colossus_assimilate_windup_entity"
+
+	ship_fire_entity = "colossus_assimilate_muzzle_entity"
+
+	planet_hit_entity = "colossus_assimilate_hit_entity"
+
+	megastructure_hit_entity = "colossus_assimilate_megastructure_hit_entity"
+
+	windup = {
+		duration = 0.0
+	}
+	start = {
+		duration = 2.0
+		width = {
+			1.0 50.0
+		}
+		texture_scroll_speed = {
+			0.0 0.2
+		}
+		texture_tiling = 2.5
+		alpha = {
+			0.0 0.0
+			1.0 1.0
+		}
+	}
+	in_progress = {
+		duration = 10.0
+		width = {
+			0.0 50.0
+			0.5 35.0
+			1.0 50.0
+		}
+		texture_scroll_speed = {
+			0.0 0.2
+		}
+		texture_tiling = {
+			0.0 	2.5
+		}
+		alpha = {
+			0.0 1.0
+			0.5 1.2
+			1.0 1.0
+		}
+	}
+	end = {
+		duration = 2.0
+		width = {
+			1.0 50.0
+		}
+		texture_scroll_speed = 0.2
+		texture_tiling = 2.5
+		alpha = {
+			0.0 1.1
+			1.0 0.0
+		}
+	}
+
+	fade = {
+		fade_in = { 0.0 50.0 }
+		fade_out = { 1.0 50.0 }
+	}
+}
+
+planet_deluge_gfx = {
+
+	texture = "gfx/models/combat_items/deluge_laser.dds"
+
+	color = { 0.4 0.90 1.0 1.0 }
+
+	planet_dissolve_color_mult = { 0.3 0.6 0.70 }
+
+	windup_entity = "deluge_windup_entity"
+
+	ship_fire_entity = "deluge_muzzle_entity"
+
+	planet_hit_entity = "deluge_planet_hit_entity"
+
+	megastructure_hit_entity = "deluge_megastructure_hit_entity"
+
+	windup = {
+		duration = 0.0
+	}
+	start = {
+		duration = 1.5
+		width = {
+			1.0 40.0
+		}
+		texture_scroll_speed = {
+			0.0 0.2
+		}
+		texture_tiling = 2.5
+		alpha = {
+			0.0 0.0
+			1.0 1.0
+		}
+	}
+	in_progress = {
+		duration = 10.0
+		width = {
+			0.0 40.0
+			0.25 28.0
+			0.5 35.0
+			0.7 29.0
+			1.0 40.0
+		}
+		texture_scroll_speed = {
+			0.0 0.3
+		}
+		texture_tiling = {
+			0.0 	2.5
+		}
+		alpha = {
+			0.0 1.0
+			0.25 4.2
+			0.5 2.5
+			0.7 3.2
+			1.0 1.0
+		}
+	}
+	end = {
+		duration = 0.25
+		width = {
+			0.0 40.0
+			1.0 45.0
+		}
+		texture_scroll_speed = 0.2
+		texture_tiling = 2.5
+		alpha = {
+			0.0 1.1
+			1.0 0.0
+		}
+	}
+
+	fade = {
+		fade_in = { 0.0 50.0 }
+		fade_out = { 1.0 50.0 }
+	}
+}
+
+planet_toxifier_gfx = {
+
+	texture = "gfx/models/combat_items/toxoid_god_laser.dds"
+
+	color = { 0.8  0.9 0.3 1.0 }	### RGB
+
+	planet_dissolve_color_mult = { 0.85 0.9 0.3 }
+
+	windup_entity = "toxifier_planet_windup_entity"
+
+	ship_fire_entity = "toxifier_planet_muzzle_entity"
+
+	planet_hit_entity = "toxifier_planet_hit_entity"
+
+	megastructure_hit_entity = "toxifier_planet_hit_entity"
+
+	windup = {
+		duration = 5.0
+		width = {
+			0.0 0.0
+			0.6 7.0
+			0.8	15.0
+			1.0 30.0
+		}
+		texture_scroll_speed = {
+			0.0	0.04
+		}
+		texture_tiling = 2.0
+		alpha = {
+			0.0 0.0
+			0.6 0.00
+			0.8 0.00
+			0.9 0.00
+			1.0 0.0
+		}
+	}
+	
+	start = {
+		duration = 1.5
+		width = {
+			0.0 0.0
+			0.20 10.0
+			1.0 20.0
+		}
+		texture_scroll_speed = {
+			0.0 0.2
+		}
+		texture_tiling = 2.5
+		alpha = {
+			0.0 0.0
+			1.0 1.0
+		}
+	}
+	in_progress = {
+		duration = 10.0
+		width = {
+			0.0 20.0
+			0.25 28.0
+			0.5 25.0
+			0.7 29.0
+			1.0 40.0
+		}
+		texture_scroll_speed = {
+			0.0 0.3
+		}
+		texture_tiling = {
+			0.0 	2.5
+		}
+		alpha = {
+			0.0 1.0
+			0.25 2.2
+			0.5 2.5
+			0.7 3.2
+			1.0 0.0
+		}
+	}
+	end = {
+		duration = 0.5
+		width = {
+			0.0 40.0
+			1.0 50.0
+		}
+		texture_scroll_speed = 0.2
+		texture_tiling = 2.5
+		alpha = {
+			0.0 1.0
+			1.0 0.0
+		}
+	}
+
+	fade = {
+		fade_in = { 0.0 50.0 }
+		fade_out = { 1.0 50.0 }
+	}
+}
+
+star_destroyer_effect_gfx = {
+
+	texture = "gfx/models/combat_items/star_eater_beam_diffuse.dds"
+
+	color = { 1.0 1.0 1.0 4.0 }
+	planet_dissolve_color_mult = { 0.8 1.2 1.5 }
+
+	windup_entity = "star_eater_muzzle_windup_entity"
+
+	ship_fire_entity = "star_eater_chargeup_entity"
+
+	planet_hit_entity = "star_eater_hit_entity"
+
+	star_hit_entity = "star_eater_hit_entity"
+
+	megastructure_hit_entity = "star_eater_hit_entity"
+
+	hit_entity_positioning = entity_center
+
+	windup = {
+		duration = 0.0
+	}
+	start = {
+		duration = 1.0
+		width = {
+			0.0 10.0
+			1.0 80.0
+		}
+		texture_scroll_speed = {
+			0.0 0.2
+		}
+		texture_tiling = 2.5
+		alpha = {
+			0.0 0.0
+			1.0 1.0
+		}
+	}
+	in_progress = {
+		duration = 1.0
+		width = {
+			0.0 80.0
+			0.5 90.0
+			1.0 80.0
+		}
+		texture_scroll_speed = {
+			0.0 0.3
+		}
+		texture_tiling = {
+			0.0 	2.5
+		}
+		alpha = {
+			0.0 0.5
+			0.5 0.70
+			1.0 0.5
+		}
+	}
+	end = {
+		duration = 1.0
+		width = {
+			0.0 80.0
+			1.0 10.0
+		}
+		texture_scroll_speed = 0.2
+		texture_tiling = 2.5
+		alpha = {
+			0.0 1.1
+			1.0 0.0
+		}
+	}
+
+	fade = {
+		fade_in = { 0.0 50.0 }
+		fade_out = { 1.0 50.0 }
+	}
+}

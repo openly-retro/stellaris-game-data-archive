@@ -1,0 +1,575 @@
+objectTypes = {
+### Engines
+
+	pdxparticle = {
+		name = "tox_01_025_ship_exhaust"
+		type = "tox_01_ship_exhaust_file"
+	
+		scale = 0.25
+	}
+	
+	pdxparticle = {
+		name = "tox_01_035_ship_exhaust"
+		type = "tox_01_ship_exhaust_file"
+	
+		scale = 0.35
+	}
+	
+	pdxparticle = {
+		name = "tox_01_050_ship_exhaust"
+		type = "tox_01_ship_exhaust_file"
+	
+		scale = 0.5
+	}
+	
+	pdxparticle = {
+		name = "tox_01_075_ship_exhaust"
+		type = "tox_01_ship_exhaust_file"
+	
+		scale = 0.75
+	}
+
+	pdxparticle = {
+		name = "tox_01_100_ship_exhaust"
+		type = "tox_01_ship_exhaust_file"
+	
+		scale = 1.0
+	}
+	
+	pdxparticle = {
+		name = "tox_01_150_ship_exhaust"
+		type = "tox_01_ship_exhaust_file"
+	
+		scale = 1.5
+	}
+	
+	pdxparticle = {
+		name = "tox_01_250_ship_exhaust"
+		type = "tox_01_ship_exhaust_file"
+	
+		scale = 2.5
+	}
+
+	pdxparticle = {
+		name = "tox_01_350_ship_exhaust"
+		type = "tox_01_ship_exhaust_file"
+	
+		scale = 3.5
+	}
+	
+	pdxparticle = {
+		name = "tox_01_500_ship_exhaust"
+		type = "tox_01_ship_exhaust_file"
+	
+		scale = 5
+	}
+	
+	pdxparticle = {
+		name = "tox_01_700_ship_exhaust"
+		type = "tox_01_ship_exhaust_file"
+	
+		scale = 7
+	}
+###### Ship effects
+#
+#	pdxparticle = {
+#		name = "tox_01_ship_core_effect"
+#		type = "tox_01_ship_core_effect_file"
+#	
+#		scale = 6
+#	}
+#
+#	pdxparticle = {
+#		name = "tox_01_ion_core_effect"
+#		type = "tox_01_ion_core_effect_file"
+#	
+#		scale = 6
+#	}
+#
+#	pdxparticle = {
+#		name = "tox_01_colossus_core_effect"
+#		type = "tox_01_ion_core_effect_file"
+#	
+#		scale = 18
+#	}
+#	
+	pdxparticle = {
+		name = "tox_01_ship_light_effect"
+		type = "tox_01_ship_light_effect"
+	
+		scale = 1
+	}
+#	
+#	pdxparticle = {
+#		name = "tox_01_large_station_explosion_file"
+#		type = "tox_01_station_explosion_file"
+#		
+#		scale = 1.5
+#	}
+#	
+#	pdxparticle = {
+#		name = "tox_01_medium_station_explosion_file"
+#		type = "tox_01_station_explosion_file"
+#		
+#		scale = 1
+#	}
+######## Explosions
+###################
+#
+#	pdxparticle = {
+#		name = "tox_ship_explosion_60_dreadnought"
+#		type = "tox_ship_explosion_dreadnought_file"
+#		
+#		scale = 60.0
+#	}
+#	
+#	pdxparticle = {
+#		name = "tox_ship_explosion_dreadnought"
+#		type = "tox_ship_explosion_dreadnought_file"
+#		
+#		scale = 50.0
+#	}
+#	pdxparticle = {
+#		name = "tox_ship_explosion_dreadnought_s"
+#		type = "tox_ship_explosion_dreadnought_file"
+#		
+#		scale = 1.0
+#	}
+#	
+#	pdxparticle = {
+#		name = "tox_01_massive_ship_explosion_file"
+#		type = "tox_01_large_ship_explosion_file"
+#		
+#		scale = 2.9
+#	}
+#	
+#	pdxparticle = {
+#		name = "tox_01_large_ship_explosion"
+#		type = "tox_01_large_ship_explosion_file"
+#	
+#		scale = 1.9
+#	}
+#
+#
+	pdxparticle = {
+		name = "tox_01_juggernaut_explosion_effect"
+		type = "tox_01_juggernaut_explosion_file"
+	
+		scale = 1.15
+	}
+
+	pdxparticle = {
+		name = "tox_01_8_titan_explosion_effect"
+		type = "tox_01_titan_explosion_file"
+	
+		scale = 8
+	}
+	
+	pdxparticle = {
+		name = "tox_01_6_titan_explosion_effect"
+		type = "tox_01_titan_explosion_file"
+	
+		scale = 6
+	}
+
+
+	pdxparticle = {
+		name = "tox_01_5_titan_explosion_effect"
+		type = "tox_01_titan_explosion_file"
+	
+		scale = 5
+	}
+	
+	pdxparticle = {
+		name = "tox_01_4_titan_explosion_effect"
+		type = "tox_01_titan_explosion_file"
+	
+		scale = 4
+	}
+	
+	pdxparticle = {
+		name = "tox_01_6_ship_explosion_effect"
+		type = "tox_01_ship_explosion_file"
+	
+		scale = 6
+	}	
+	pdxparticle = {
+		name = "tox_01_5_ship_explosion_effect"
+		type = "tox_01_ship_explosion_file"
+	
+		scale = 5
+	}
+	
+	pdxparticle = {
+		name = "tox_01_4_ship_explosion_effect"
+		type = "tox_01_ship_explosion_file"
+	
+		scale = 4
+	}
+
+	pdxparticle = {
+		name = "tox_01_3_ship_explosion_effect"
+		type = "tox_01_ship_explosion_file"
+	
+		scale = 3
+	}
+
+	pdxparticle = {
+		name = "tox_01_15_ship_explosion_effect"
+		type = "tox_01_ship_explosion_file"
+	
+		scale = 1.5
+	}	
+	pdxparticle = {
+		name = "tox_01_2_ship_explosion_effect"
+		type = "tox_01_ship_explosion_file"
+	
+		scale = 2
+	}
+	
+	pdxparticle = {
+		name = "tox_01_1_ship_explosion_effect"
+		type = "tox_01_ship_explosion_file"
+	
+		scale = 1
+	}
+
+	pdxparticle = {
+		name = "tox_01_075_ship_explosion_effect"
+		type = "tox_01_ship_explosion_file"
+	
+		scale = 0.75
+	}
+	
+	pdxparticle = {
+		name = "tox_01_050_ship_explosion_effect"
+		type = "tox_01_ship_explosion_file"
+	
+		scale = 0.5
+	}
+	
+	pdxparticle = {
+		name = "tox_01_025_ship_explosion_effect"
+		type = "tox_01_ship_explosion_file"
+	
+		scale = 0.25
+	}
+	
+	
+	pdxparticle = {
+		name = "tox_01_125_ship_explosion_w_effect"
+		type = "tox_01_ship_explosion_w_file"
+	
+		scale = 1.25
+	}
+
+	pdxparticle = {
+		name = "tox_01_1_ship_explosion_w_effect"
+		type = "tox_01_ship_explosion_w_file"
+	
+		scale = 1
+	}
+	
+	pdxparticle = {
+		name = "tox_01_075_ship_explosion_w_effect"
+		type = "tox_01_ship_explosion_w_file"
+	
+		scale = 0.75
+	}
+	
+	pdxparticle = {
+		name = "tox_01_050_ship_explosion_w_effect"
+		type = "tox_01_ship_explosion_w_file"
+	
+		scale = 0.5
+	}
+	
+	pdxparticle = {
+		name = "tox_01_025_ship_explosion_w_effect"
+		type = "tox_01_ship_explosion_w_file"
+	
+		scale = 0.25
+	}
+
+########## Portraits ###############
+
+	pdxparticle = {
+		name = "tox_01_spore_smoke_effect"
+		type = "tox_01_spore_smoke_file"
+	
+		scale = 1
+	}
+
+	pdxparticle = {
+		name = "tox_01_tank_smoke_effect"
+		type = "tox_01_tank_smoke_file"
+	
+		scale = 1
+	}
+
+	pdxparticle = {
+		name = "tox_01_portrait_holo_effect"
+		type = "tox_01_portrait_holo_file"
+	
+		scale = 1
+	}
+	
+	pdxparticle = {
+		name = "tox_01_portrait_hover_smoke"
+		type = "tox_01_portrait_hover_smoke_file"
+	
+		scale = 1
+	}	
+
+	pdxparticle = {
+		name = "tox_01_075_portrait_hover_smoke"
+		type = "tox_01_portrait_hover_smoke_file"
+	
+		scale = 0.75
+	}
+	
+	pdxparticle = {
+		name = "tox_01_portrait_piston_effect"
+		type = "tox_01_portrait_piston_file"
+	
+		scale = 1
+	}	
+######## Misc #########
+
+	pdxparticle = {
+		name = "tox_01_mining_smoke_effect"
+		type = "tox_01_mining_smoke_file"
+	
+		scale = 1
+	}
+	
+	pdxparticle = {
+		name = "tox_01_research_smoke_effect"
+		type = "tox_01_research_smoke_file"
+	
+		scale = 1
+	}
+
+	pdxparticle = {
+		name = "tox_01_research_smoke_bottom_effect"
+		type = "tox_01_research_smoke_bottom_file"
+	
+		scale = 1
+	}
+	
+	pdxparticle = {
+		name = "tox_01_research_energy_effect"
+		type = "tox_01_research_energy_file"
+	
+		scale = 1
+	}
+
+	pdxparticle = {
+		name = "toxic_class_star_effect"
+		type = "toxic_class_star_file"
+	
+		scale = 1
+	}
+
+
+	
+#	
+#	pdxparticle = {
+#		name = "tox_01_26_large_player_ship_explosion_particle"
+#		type = "tox_player_ship_explosion_effect"
+#		scale = 2.6
+#	}
+#	
+#	pdxparticle = {
+#		name = "tox_01_large_player_ship_explosion_particle"
+#		type = "tox_player_ship_explosion_effect"
+#		scale = 2.1
+#	}
+#
+#	pdxparticle = {
+#		name = "tox_01_medium_player_ship_explosion_particle"
+#		type = "tox_player_ship_explosion_effect"
+#		scale = 1.6
+#	}
+#	
+#	pdxparticle = {
+#		name = "tox_01_small_player_ship_explosion_particle"
+#		type = "tox_player_ship_explosion_effect"
+#		scale = 1.1
+#	}
+#	
+#	pdxparticle = {
+#		name = "tox_01_small_2_player_ship_explosion_particle"
+#		type = "tox_player_ship_explosion_effect"
+#		scale = 0.9
+#	}
+
+
+
+#### Weapons
+
+	pdxparticle = {
+		name = "tox_01_perdition_muzzle_smoke_effect"
+		type = "tox_01_perdition_muzzle_smoke_effect_file"
+	
+		scale = 1
+	}
+
+	pdxparticle = {
+		name = "tox_01_perdition_windup_effect"
+		type = "tox_01_perdition_windup_effect_file"
+	
+		scale = 1
+	}
+	
+	pdxparticle = {
+		name = "tox_01_perdition_beam_muzzle_effect"
+		type = "tox_01_perdition_beam_muzzle"
+	
+		scale = 1
+	}
+	
+	pdxparticle = {
+		name = "tox_01_perdition_beam_hit_effect"
+		type = "tox_01_perdition_beam_hit_effect"
+	
+		scale = 1
+	}
+
+	pdxparticle = {
+		name = "tox_01_ion_cannon_windup_effect"
+		type = "tox_01_ion_cannon_windup_file"
+		
+		scale = 1.0
+	}
+
+	pdxparticle = {
+		name = "tox_01_ion_cannon_muzzle_effect"
+		type = "tox_01_ion_cannon_muzzle_file"
+		
+		scale = 1.0
+	}
+	pdxparticle = {
+		name = "tox_01_ion_cannon_hit_effect"
+		type = "tox_01_ion_cannon_hit_effect"
+		
+		scale = 1.0
+	}
+	
+	pdxparticle = {
+		name = "tox_01_proj_pd_idle_effect"
+		type = "tox_01_proj_pd_idle"
+		
+		scale = 1.0
+	}
+	
+	pdxparticle = {
+		name = "tox_01_proj_pd_hit_effect"
+		type = "tox_01_proj_pd_hit_effect"
+		
+		scale = 1.0
+	}
+	
+	pdxparticle = {
+		name = "tox_01_proj_pd_muzzle_effect"
+		type = "tox_01_proj_pd_muzzle"
+		
+		scale = 1.0
+	}
+	
+	pdxparticle = {
+		name = "tox_01_projectile_effect"
+		type = "tox_01_projectile"
+		
+		scale = 1.0
+	}
+	
+	pdxparticle = {
+		name = "tox_01_projectile_hit_effect"
+		type = "tox_01_projectile_hit_effect"
+		
+		scale = 1.0
+	}
+	
+	pdxparticle = {
+		name = "tox_01_projectile_muzzle_effect"
+		type = "tox_01_projectile_muzzle"
+		
+		scale = 1.0
+	}
+	
+#### Toxic god
+
+
+	pdxparticle = {
+		name = "toxic_god_planet_windup_effect"
+		type = "toxic_god_planet_windup_file"
+	
+		scale = 1
+	}
+	
+	pdxparticle = {
+		name = "toxoid_god_planet_hit_effect"
+		type = "toxoid_god_planet_hit_file"
+	
+		scale = 1
+	}
+
+
+	pdxparticle = {
+		name = "toxoid_god_planet_muzzle_effect"
+		type = "toxoid_god_planet_muzzle_file"
+	
+		scale = 1
+	}	
+	
+	
+	pdxparticle = {
+		name = "toxic_god_strike_craft_projectile_effect"
+		type = "toxic_god_strike_craft_projectile_effect"
+		
+		scale = 0.2
+	}
+	
+	pdxparticle = {
+		name = "toxic_god_strike_craft_muzzle_effect"
+		type = "toxic_god_strike_craft_muzzle_effect"
+		
+		scale = 1.0
+	}
+	
+	pdxparticle = {
+		name = "toxic_god_strike_craft_hit_effect"
+		type = "toxic_god_strike_craft_hit_effect"
+		
+		scale = 0.2
+	}
+	
+	pdxparticle = {
+		name = "toxic_god_beam_muzzle_smoke_effect"
+		type = "toxic_god_beam_muzzle_smoke_effect_file"
+	
+		scale = 1
+	}
+
+	pdxparticle = {
+		name = "toxic_god_beam_windup_effect"
+		type = "toxic_god_beam_windup_effect_file"
+	
+		scale = 1
+	}
+	
+	pdxparticle = {
+		name = "toxic_god_beam_muzzle_effect"
+		type = "toxic_god_beam_muzzle"
+	
+		scale = 1
+	}
+	
+	pdxparticle = {
+		name = "toxic_god_beam_hit_effect"
+		type = "toxic_god_beam_hit_effect"
+	
+		scale = 1
+	}
+}

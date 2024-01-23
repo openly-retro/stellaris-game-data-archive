@@ -1,0 +1,477 @@
+##############################################################
+###	PORTRAITS SETTINGS
+###
+### Which portraits are used is set in
+### common\species_classes\00_species_classes.txt
+###
+###	This file configures how portraits and planet backgrounds are built.
+###	Default position orientation is lower left.
+##############################################################
+
+portraits = {
+
+	# Human
+
+	#female
+	human_female_01 = {	entity = "portrait_human_female_entity"	clothes_selector = "new_human_female_clothes_01" attachment_selector = "new_human_female_hair_01"	greeting_sound = "human_female_greetings_03"
+	character_textures = {
+		"gfx/models/portraits/human/new_human/human_female_body_latina_brown_eyes.dds"
+		"gfx/models/portraits/human/new_human/human_female_body_latina_light_brown_eyes.dds"
+		"gfx/models/portraits/human/new_human/human_female_body_latina_green_eyes.dds"
+		"gfx/models/portraits/human/new_human/human_female_body_latina_blue_eyes.dds"
+		"gfx/models/portraits/human/new_human/human_female_body_latina_hazel_eyes.dds"
+	}
+	custom_attachment_label = "HAIR_STYLE"
+}
+	human_female_02 = {	entity = "portrait_human_female_entity"	clothes_selector = "new_human_female_clothes_01" attachment_selector = "new_human_female_hair_01"	greeting_sound = "human_female_greetings_04"
+	character_textures = {
+		"gfx/models/portraits/human/new_human/human_female_body_asian_brown_eyes.dds"
+		"gfx/models/portraits/human/new_human/human_female_body_asian_light_brown_eyes.dds"
+		"gfx/models/portraits/human/new_human/human_female_body_asian_green_eyes.dds"
+		"gfx/models/portraits/human/new_human/human_female_body_asian_blue_eyes.dds"
+		"gfx/models/portraits/human/new_human/human_female_body_asian_hazel_eyes.dds"
+	}
+	custom_attachment_label = "HAIR_STYLE"
+}
+	human_female_03 = {	entity = "portrait_human_female_entity"	clothes_selector = "new_human_female_clothes_01" attachment_selector = "new_human_female_hair_01"	greeting_sound = "human_female_greetings_05"
+	character_textures = {
+		"gfx/models/portraits/human/new_human/human_female_body_mideastern_brown_eyes.dds"
+		"gfx/models/portraits/human/new_human/human_female_body_mideastern_light_brown_eyes.dds"
+		"gfx/models/portraits/human/new_human/human_female_body_mideastern_green_eyes.dds"
+		"gfx/models/portraits/human/new_human/human_female_body_mideastern_blue_eyes.dds"
+		"gfx/models/portraits/human/new_human/human_female_body_mideastern_hazel_eyes.dds"
+	}
+	custom_attachment_label = "HAIR_STYLE"
+}
+	human_female_04 = {	entity = "portrait_human_female_entity"			clothes_selector = "new_human_female_clothes_01" 	attachment_selector = "new_human_female_hair_01"	greeting_sound = "human_female_greetings_01"
+	character_textures = {
+		"gfx/models/portraits/human/new_human/human_female_body_caucasian_brown_eyes.dds"
+		"gfx/models/portraits/human/new_human/human_female_body_caucasian_light_brown_eyes.dds"
+		"gfx/models/portraits/human/new_human/human_female_body_caucasian_green_eyes.dds"
+		"gfx/models/portraits/human/new_human/human_female_body_caucasian_blue_eyes.dds"
+		"gfx/models/portraits/human/new_human/human_female_body_caucasian_hazel_eyes.dds"
+	}
+	custom_attachment_label = "HAIR_STYLE"
+}
+	human_female_05 = {	entity = "portrait_human_female_entity"			clothes_selector = "new_human_female_clothes_01" 	attachment_selector = "new_human_female_hair_01"	greeting_sound = "human_female_greetings_02"
+	character_textures = {
+		"gfx/models/portraits/human/new_human/human_female_body_african_brown_eyes.dds"
+		"gfx/models/portraits/human/new_human/human_female_body_african_light_brown_eyes.dds"
+		"gfx/models/portraits/human/new_human/human_female_body_african_green_eyes.dds"
+		"gfx/models/portraits/human/new_human/human_female_body_african_blue_eyes.dds"
+		"gfx/models/portraits/human/new_human/human_female_body_african_hazel_eyes.dds"
+	}
+	custom_attachment_label = "HAIR_STYLE"
+}
+
+	#male
+	human_male_01 = {	entity = "portrait_human_male_entity"	clothes_selector = "new_human_male_clothes_01" attachment_selector = "new_human_male_hair_01"	greeting_sound = "human_male_greetings_03"
+	character_textures = {
+		"gfx/models/portraits/human/new_human/human_male_body_latino_brown_eyes.dds"
+		"gfx/models/portraits/human/new_human/human_male_body_latino_light_brown_eyes.dds"
+		"gfx/models/portraits/human/new_human/human_male_body_latino_green_eyes.dds"
+		"gfx/models/portraits/human/new_human/human_male_body_latino_blue_eyes.dds"
+		"gfx/models/portraits/human/new_human/human_male_body_latino_hazel_eyes.dds"
+	}
+	custom_attachment_label = "HAIR_STYLE"
+}
+	human_male_02 = {	entity = "portrait_human_male_entity"	clothes_selector = "new_human_male_clothes_01" attachment_selector = "new_human_male_hair_01"	greeting_sound = "human_male_greetings_04"
+	character_textures = {
+		"gfx/models/portraits/human/new_human/human_male_body_asian_brown_eyes.dds"
+		"gfx/models/portraits/human/new_human/human_male_body_asian_light_brown_eyes.dds"
+		"gfx/models/portraits/human/new_human/human_male_body_asian_green_eyes.dds"
+		"gfx/models/portraits/human/new_human/human_male_body_asian_blue_eyes.dds"
+		"gfx/models/portraits/human/new_human/human_male_body_asian_hazel_eyes.dds"
+	}
+	custom_attachment_label = "HAIR_STYLE"
+}
+	human_male_03 = {	entity = "portrait_human_male_entity"	clothes_selector = "new_human_male_clothes_01" attachment_selector = "new_human_male_hair_01"	greeting_sound = "human_male_greetings_05"
+	character_textures = {
+		"gfx/models/portraits/human/new_human/human_male_body_mideastern_brown_eyes.dds"
+		"gfx/models/portraits/human/new_human/human_male_body_mideastern_light_brown_eyes.dds"
+		"gfx/models/portraits/human/new_human/human_male_body_mideastern_green_eyes.dds"
+		"gfx/models/portraits/human/new_human/human_male_body_mideastern_blue_eyes.dds"
+		"gfx/models/portraits/human/new_human/human_male_body_mideastern_hazel_eyes.dds"
+	}
+	custom_attachment_label = "HAIR_STYLE"
+}
+	human_male_04 = {	entity = "portrait_human_male_entity"			clothes_selector = "new_human_male_clothes_01"	attachment_selector = "new_human_male_hair_01"	greeting_sound = "human_male_greetings_01"
+	character_textures = {
+		"gfx/models/portraits/human/new_human/human_male_body_caucasian_brown_eyes.dds"
+		"gfx/models/portraits/human/new_human/human_male_body_caucasian_light_brown_eyes.dds"
+		"gfx/models/portraits/human/new_human/human_male_body_caucasian_green_eyes.dds"
+		"gfx/models/portraits/human/new_human/human_male_body_caucasian_blue_eyes.dds"
+		"gfx/models/portraits/human/new_human/human_male_body_caucasian_hazel_eyes.dds"
+	}
+	custom_attachment_label = "HAIR_STYLE"
+}
+	human_male_05 = {	entity = "portrait_human_male_entity"			clothes_selector = "new_human_male_clothes_01"	attachment_selector = "new_human_male_hair_01"	greeting_sound = "human_male_greetings_02"
+	character_textures = {
+		"gfx/models/portraits/human/new_human/human_male_body_african_brown_eyes.dds"
+		"gfx/models/portraits/human/new_human/human_male_body_african_light_brown_eyes.dds"
+		"gfx/models/portraits/human/new_human/human_male_body_african_green_eyes.dds"
+		"gfx/models/portraits/human/new_human/human_male_body_african_blue_eyes.dds"
+		"gfx/models/portraits/human/new_human/human_male_body_african_hazel_eyes.dds"
+	}
+	custom_attachment_label = "HAIR_STYLE"
+}
+
+# Human Legacy
+human_legacy_female_01 = {	entity = "portrait_human_female_01_entity"	clothes_selector = "mammalian_human_female_clothes_01" attachment_selector = "human_female_hair_01"	greeting_sound = "human_female_greetings_03" custom_attachment_label = "HAIR_STYLE" }
+human_legacy_female_02 = {	entity = "portrait_human_female_02_entity"	clothes_selector = "mammalian_human_female_clothes_01" attachment_selector = "human_female_hair_02"	greeting_sound = "human_female_greetings_04" custom_attachment_label = "HAIR_STYLE" }
+human_legacy_female_03 = {	entity = "portrait_human_female_03_entity"	clothes_selector = "mammalian_human_female_clothes_01" attachment_selector = "human_female_hair_03"	greeting_sound = "human_female_greetings_05" custom_attachment_label = "HAIR_STYLE" }
+human_legacy_female_04 = {	entity = "portrait_human_female_04_entity"			clothes_selector = "mammalian_human_female_clothes_01" 	attachment_selector = "human_female_hair_04"	greeting_sound = "human_female_greetings_01" custom_attachment_label = "HAIR_STYLE" }
+human_legacy_female_05 = {	entity = "portrait_human_female_05_entity"			clothes_selector = "mammalian_human_female_clothes_01" 	attachment_selector = "human_female_hair_05"	greeting_sound = "human_female_greetings_02" custom_attachment_label = "HAIR_STYLE" }
+human_legacy_male_01 = {	entity = "portrait_human_male_01_entity"	clothes_selector = "mammalian_human_male_clothes_01" attachment_selector = "human_male_hair_01"	greeting_sound = "human_male_greetings_03" custom_attachment_label = "HAIR_STYLE" }
+human_legacy_male_02 = {	entity = "portrait_human_male_02_entity"	clothes_selector = "mammalian_human_male_clothes_01" attachment_selector = "human_male_hair_02"	greeting_sound = "human_male_greetings_04" custom_attachment_label = "HAIR_STYLE" }
+human_legacy_male_03 = {	entity = "portrait_human_male_03_entity"	clothes_selector = "mammalian_human_male_clothes_01" attachment_selector = "human_male_hair_03"	greeting_sound = "human_male_greetings_05" custom_attachment_label = "HAIR_STYLE" }
+human_legacy_male_04 = {	entity = "portrait_human_male_04_entity"			clothes_selector = "mammalian_human_male_clothes_01" 	attachment_selector = "human_male_hair_04"	greeting_sound = "human_male_greetings_01" custom_attachment_label = "HAIR_STYLE" }
+human_legacy_male_05 = {	entity = "portrait_human_male_05_entity"			clothes_selector = "mammalian_human_male_clothes_01" 	attachment_selector = "human_male_hair_05"	greeting_sound = "human_male_greetings_02" custom_attachment_label = "HAIR_STYLE" }
+
+}
+
+portrait_groups = {
+	human = {
+		default = human_male_01
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = {
+						OR = {
+							gender = male
+							gender = indeterminable
+						}
+					}
+				}
+				portraits = {
+					human_male_01
+					human_male_02
+					human_male_03
+					human_male_04
+					human_male_05
+				}
+			}
+			add = {
+				trigger = {
+					ruler = {
+						OR = {
+							gender = female
+							gender = indeterminable
+						}
+					}
+				}
+				portraits = {
+					human_female_01
+					human_female_02
+					human_female_03
+					human_female_04
+					human_female_05
+				}
+			}
+			#set = {
+			#	trigger = { ... }
+			#	portraits = { ... }
+			#	#using "set =" instead of "add" will first clear any portraits already added
+			#}
+		}
+
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				trigger = {
+					exists = species
+					NOT = { species = { species_gender = male } }
+				}
+				portraits = {
+					human_female_01
+					human_female_02
+					human_female_03
+					human_female_04
+					human_female_05
+				}
+			}
+			add = {
+				trigger = {
+					exists = species
+					NOT = { species = { species_gender = female } }
+				}
+				portraits = {
+					human_male_01
+					human_male_02
+					human_male_03
+					human_male_04
+					human_male_05
+				}
+			}
+		}
+
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				trigger = {
+					NOT = { species = { species_gender = male } }
+				}
+				portraits = {
+					human_female_01
+					human_female_02
+					human_female_03
+					human_female_04
+					human_female_05
+				}
+			}
+			add = {
+				trigger = {
+					NOT = { species = { species_gender = female } }
+				}
+				portraits = {
+					human_male_01
+					human_male_02
+					human_male_03
+					human_male_04
+					human_male_05
+				}
+			}
+		}
+
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					OR = {
+						gender = female
+						gender = indeterminable
+					}
+				}
+				portraits = {
+					human_female_01
+					human_female_02
+					human_female_03
+					human_female_04
+					human_female_05
+				}
+			}
+			add = {
+				trigger = {
+					OR = {
+						gender = male
+						gender = indeterminable
+					}
+				}
+				portraits = {
+					human_male_01
+					human_male_02
+					human_male_03
+					human_male_04
+					human_male_05
+				}
+			}
+		}
+
+
+		#leader scope
+		ruler = {
+			add = {
+				trigger = {
+					OR = {
+						gender = female
+						gender = indeterminable
+					}
+				}
+				portraits = {
+					human_female_01
+					human_female_02
+					human_female_03
+					human_female_04
+					human_female_05
+				}
+			}
+			add = {
+				trigger = {
+					OR = {
+						gender = male
+						gender = indeterminable
+					}
+				}
+				portraits = {
+					human_male_01
+					human_male_02
+					human_male_03
+					human_male_04
+					human_male_05
+				}
+			}
+		}
+	}
+
+	human_legacy = {
+		default = human_legacy_male_01
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = {
+						OR = {
+							gender = male
+							gender = indeterminable
+						}
+					}
+				}
+				portraits = {
+					human_legacy_male_01
+					human_legacy_male_02
+					human_legacy_male_03
+					human_legacy_male_04
+					human_legacy_male_05
+				}
+			}
+			add = {
+				trigger = {
+					ruler = {
+						OR = {
+							gender = female
+							gender = indeterminable
+						}
+					}
+				}
+				portraits = {
+					human_legacy_female_01
+					human_legacy_female_02
+					human_legacy_female_03
+					human_legacy_female_04
+					human_legacy_female_05
+				}
+			}
+			#set = {
+			#	trigger = { ... }
+			#	portraits = { ... }
+			#	#using "set =" instead of "add" will first clear any portraits already added
+			#}
+		}
+
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				trigger = {
+					exists = species
+					NOT = { species = { species_gender = male } }
+				}
+				portraits = {
+					human_legacy_female_01
+					human_legacy_female_02
+					human_legacy_female_03
+					human_legacy_female_04
+					human_legacy_female_05
+				}
+			}
+			add = {
+				trigger = {
+					exists = species
+					NOT = { species = { species_gender = female } }
+				}
+				portraits = {
+					human_legacy_male_01
+					human_legacy_male_02
+					human_legacy_male_03
+					human_legacy_male_04
+					human_legacy_male_05
+				}
+			}
+		}
+
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				trigger = {
+					NOT = { species = { species_gender = male } }
+				}
+				portraits = {
+					human_legacy_female_01
+					human_legacy_female_02
+					human_legacy_female_03
+					human_legacy_female_04
+					human_legacy_female_05
+				}
+			}
+			add = {
+				trigger = {
+					NOT = { species = { species_gender = female } }
+				}
+				portraits = {
+					human_legacy_male_01
+					human_legacy_male_02
+					human_legacy_male_03
+					human_legacy_male_04
+					human_legacy_male_05
+				}
+			}
+		}
+
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					OR = {
+						gender = female
+						gender = indeterminable
+					}
+				}
+				portraits = {
+					human_legacy_female_01
+					human_legacy_female_02
+					human_legacy_female_03
+					human_legacy_female_04
+					human_legacy_female_05
+				}
+			}
+			add = {
+				trigger = {
+					OR = {
+						gender = male
+						gender = indeterminable
+					}
+				}
+				portraits = {
+					human_legacy_male_01
+					human_legacy_male_02
+					human_legacy_male_03
+					human_legacy_male_04
+					human_legacy_male_05
+				}
+			}
+		}
+
+
+		#leader scope
+		ruler = {
+			add = {
+				trigger = {
+					OR = {
+						gender = female
+						gender = indeterminable
+					}
+				}
+				portraits = {
+					human_legacy_female_01
+					human_legacy_female_02
+					human_legacy_female_03
+					human_legacy_female_04
+					human_legacy_female_05
+				}
+			}
+			add = {
+				trigger = {
+					OR = {
+						gender = male
+						gender = indeterminable
+					}
+				}
+				portraits = {
+					human_legacy_male_01
+					human_legacy_male_02
+					human_legacy_male_03
+					human_legacy_male_04
+					human_legacy_male_05
+				}
+			}
+		}
+	}
+}

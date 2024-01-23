@@ -1,0 +1,24 @@
+#reloadworldgfx
+gfx_settings = 
+{
+	# world tag identifier
+	world = customization_view_planet
+	
+    color_lut = "gfx/worldgfx/colorcorrection_neutral.tga"
+	environment_map = "gfx/worldgfx/cubemap_filtered_ldr.dds"
+	
+	cubemap_intensity = 0.7 #0.7
+	
+	galaxy_background_hsv_shift = { 0.0 0.0 0.0 }
+	galaxy_background_lut = "gfx/worldgfx/colorcorrection_neutral.tga"
+
+	system_back_light_diffuse = hsv { 0.58 0.5 1.5 }
+	
+	#ambient = hsv { 0.61 0.1 0.5 }	#global ambient, no direction
+	ambient = hsv { 0.5	0.0	0.1	}	#global ambient, no direction
+	#ambient = hsv { 0.0 1.0 1.0 }	#RED
+	#ambient = hsv { 0.0 0.0 0.0 }	#BLACK
+	
+	##NOT USED, but still required
+	system_light="character_customization_planet_light"
+}

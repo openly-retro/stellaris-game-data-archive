@@ -1,0 +1,20 @@
+# Ship designer main view
+
+ship_3d_view =
+{
+	camera_position	= { -150.0 -65.0 0.0 }
+	camera_look_at	= { 0.0 0.0 0.0 }
+	fov				= 40					# Field of view
+	near			= 1.0					# Z Near
+	far				= 6000					# Z Far
+
+	# Scaled to the ship's display size
+	min_zoom		= 3.0
+	max_zoom		= 10.0
+
+	zoom_speed		= 0.1	# Scaled to max zoom
+
+	position		= { 0.0 -10.0 -6.0 }
+
+	world = "ship_designer"	# World gfx used for post render effects
+}

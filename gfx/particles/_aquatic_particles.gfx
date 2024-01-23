@@ -1,0 +1,419 @@
+objectTypes = {
+### Engines
+
+	pdxparticle = {
+		name = "aquatic_01_025_ship_exhaust"
+		type = "aquatic_01_ship_exhaust_file"
+	
+		scale = 0.25
+	}
+	
+	pdxparticle = {
+		name = "aquatic_01_035_ship_exhaust"
+		type = "aquatic_01_ship_exhaust_file"
+	
+		scale = 0.35
+	}
+	
+	pdxparticle = {
+		name = "aquatic_01_050_ship_exhaust"
+		type = "aquatic_01_ship_exhaust_file"
+	
+		scale = 0.5
+	}
+	
+	pdxparticle = {
+		name = "aquatic_01_075_ship_exhaust"
+		type = "aquatic_01_ship_exhaust_file"
+	
+		scale = 0.75
+	}
+
+	pdxparticle = {
+		name = "aquatic_01_100_ship_exhaust"
+		type = "aquatic_01_ship_exhaust_file"
+	
+		scale = 1.0
+	}
+	
+	pdxparticle = {
+		name = "aquatic_01_150_ship_exhaust"
+		type = "aquatic_01_ship_exhaust_file"
+	
+		scale = 1.5
+	}
+	
+	pdxparticle = {
+		name = "aquatic_01_200_ship_exhaust"
+		type = "aquatic_01_ship_exhaust_file"
+	
+		scale = 2.0
+	}
+	
+	pdxparticle = {
+		name = "aquatic_01_250_ship_exhaust"
+		type = "aquatic_01_ship_exhaust_file"
+	
+		scale = 2.5
+	}
+
+	pdxparticle = {
+		name = "aquatic_01_300_ship_exhaust"
+		type = "aquatic_01_ship_exhaust_file"
+	
+		scale = 3
+	}
+	
+	pdxparticle = {
+		name = "aquatic_01_350_ship_exhaust"
+		type = "aquatic_01_ship_exhaust_file"
+	
+		scale = 3.5
+	}
+	
+	pdxparticle = {
+		name = "aquatic_01_500_ship_exhaust"
+		type = "aquatic_01_ship_exhaust_file"
+	
+		scale = 5
+	}
+	
+	pdxparticle = {
+		name = "aquatic_01_700_ship_exhaust"
+		type = "aquatic_01_ship_exhaust_file"
+	
+		scale = 7
+	}
+###### Ship effects
+
+
+	pdxparticle = {
+		name = "aquatic_01_colossus_tentacle_effect"
+		type = "aquatic_01_colossus_tentacle_effect_file"
+	
+		scale = 1
+	}
+
+	pdxparticle = {
+		name = "aquatic_01_colossus_tentacle_front_effect"
+		type = "aquatic_01_colossus_tentacle_front_effect_file"
+	
+		scale = 1
+	}
+	pdxparticle = {
+		name = "aquatic_01_ship_light_effect"
+		type = "aquatic_01_ship_light_effect"
+	
+		scale = 1
+	}
+	
+	pdxparticle = {
+		name = "aquatic_01_mining_smoke_effect"
+		type = "aquatic_01_mining_smoke_file"
+	
+		scale = 1
+	}
+	
+	pdxparticle = {
+		name = "aquatic_01_research_station_core_effect"
+		type = "aquatic_01_research_station_core_file"
+	
+		scale = 1
+	}
+	
+	pdxparticle = {
+		name = "aquatic_01_science_ship_core_effect"
+		type = "aquatic_01_science_ship_core_file"
+	
+		scale = 1
+	}
+
+	pdxparticle = {
+		name = "aquatic_01_science_starbase_core_effect"
+		type = "aquatic_01_science_ship_core_file"
+	
+		scale = 1.5
+	}
+
+#	
+#	pdxparticle = {
+#		name = "aquatic_01_large_station_explosion_file"
+#		type = "aquatic_01_station_explosion_file"
+#		
+#		scale = 1.5
+#	}
+#	
+#	pdxparticle = {
+#		name = "aquatic_01_medium_station_explosion_file"
+#		type = "aquatic_01_station_explosion_file"
+#		
+#		scale = 1
+#	}
+######## Explosions
+###################
+#
+	pdxparticle = {
+		name = "aquatic_01_ship_explosion_60_dreadnought"
+		type = "aquatic_01_ship_explosion_dreadnought_file"
+		
+		scale = 60.0
+	}
+	
+	pdxparticle = {
+		name = "aquatic_01_ship_explosion_dreadnought"
+		type = "aquatic_01_ship_explosion_dreadnought_file"
+		
+		scale = 50.0
+	}
+
+	pdxparticle = {
+		name = "aquatic_01_ship_explosion_25_dreadnought"
+		type = "aquatic_01_ship_explosion_dreadnought_file"
+		
+		scale = 25.0
+	}
+	
+	pdxparticle = {
+		name = "aquatic_01_ship_explosion_dreadnought_s"
+		type = "aquatic_01_ship_explosion_dreadnought_file"
+		
+		scale = 1.0
+	}
+	
+	pdxparticle = {
+		name = "aquatic_01_6_large_ship_explosion"
+		type = "aquatic_01_large_ship_explosion_file"
+		
+		scale = 6
+	}
+	
+	pdxparticle = {
+		name = "aquatic_01_4_large_ship_explosion"
+		type = "aquatic_01_large_ship_explosion_file"
+		
+		scale = 4
+	}
+	
+	pdxparticle = {
+		name = "aquatic_01_massive_ship_explosion_effect"
+		type = "aquatic_01_large_ship_explosion_file"
+		
+		scale = 2.9
+	}
+	
+	pdxparticle = {
+		name = "aquatic_01_large_ship_explosion"
+		type = "aquatic_01_large_ship_explosion_file"
+	
+		scale = 1.9
+	}
+
+	pdxparticle = {
+		name = "aquatic_01_large_15_ship_explosion"
+		type = "aquatic_01_large_ship_explosion_file"
+	
+		scale = 1.5
+	}
+
+	pdxparticle = {
+		name = "aquatic_01_3_ship_explosion_effect"
+		type = "aquatic_ship_explosion_file"
+	
+		scale = 3
+	}
+	pdxparticle = {
+		name = "aquatic_01_2_ship_explosion_effect"
+		type = "aquatic_ship_explosion_file"
+	
+		scale = 2
+	}
+	
+	pdxparticle = {
+		name = "aquatic_01_ship_explosion_effect"
+		type = "aquatic_ship_explosion_file"
+	
+		scale = 1
+	}
+	
+	pdxparticle = {
+		name = "aquatic_01_05_ship_explosion_effect"
+		type = "aquatic_ship_explosion_file"
+	
+		scale = 0.5
+	}
+#	
+#	pdxparticle = {
+#		name = "aquatic_01_26_large_player_ship_explosion_particle"
+#		type = "aquatic_player_ship_explosion_effect"
+#		scale = 2.6
+#	}
+#	
+#	pdxparticle = {
+#		name = "aquatic_01_large_player_ship_explosion_particle"
+#		type = "aquatic_01_large_ship_explosion_file"
+#		scale = 2.1
+#	}
+#
+	pdxparticle = {
+		name = "aquatic_01_medium_player_ship_explosion_effect"
+		type = "aquatic_ship_small_explosion_file"
+		scale = 1.6
+	}
+	
+	pdxparticle = {
+		name = "aquatic_01_small_player_ship_explosion_effect"
+		type = "aquatic_ship_small_explosion_file"
+		scale = 1.1
+	}
+	
+	pdxparticle = {
+		name = "aquatic_01_small_09_player_ship_explosion_effect"
+		type = "aquatic_ship_small_explosion_file"
+		scale = 0.9
+	}
+	
+	pdxparticle = {
+		name = "aquatic_01_small_05_player_ship_explosion_effect"
+		type = "aquatic_ship_small_explosion_file"
+		scale = 0.5
+	}
+	
+	pdxparticle = {
+		name = "aquatic_01_small_03_player_ship_explosion_effect"
+		type = "aquatic_ship_small_explosion_file"
+		scale = 0.3
+	}
+#### Weapons
+#
+	pdxparticle = {
+		name = "aquatic_01_perdition_muzzle_smoke_effect"
+		type = "aquatic_01_perdition_muzzle_smoke_effect_file"
+	
+		scale = 1
+	}
+
+	pdxparticle = {
+		name = "aquatic_01_perdition_windup_effect"
+		type = "aquatic_01_perdition_windup_effect_file"
+	
+		scale = 1
+	}
+	
+	pdxparticle = {
+		name = "aquatic_01_perdition_beam_muzzle_effect"
+		type = "aquatic_01_perdition_beam_muzzle"
+	
+		scale = 1
+	}
+	
+	pdxparticle = {
+		name = "aquatic_01_perdition_beam_hit_effect"
+		type = "aquatic_01_perdition_beam_hit_effect"
+	
+		scale = 1
+	}
+	
+
+
+	pdxparticle = {
+		name = "aquatic_01_ion_cannon_windup_effect"
+		type = "aquatic_01_ion_cannon_windup_effect_file"
+		
+		scale = 1.0
+	}
+	
+	pdxparticle = {
+		name = "aquatic_01_ion_cannon_muzzle_windup_effect"
+		type = "aquatic_01_ion_cannon_muzzle_windup_effect"
+		
+		scale = 1
+	}
+	pdxparticle = {
+		name = "aquatic_01_ion_cannon_muzzle_particle"
+		type = "aquatic_01_ion_cannon_muzzle"
+		
+		scale = 1.0
+	}
+	pdxparticle = {
+		name = "aquatic_01_ion_cannon_hit_effect"
+		type = "aquatic_01_ion_cannon_hit_effect"
+		
+		scale = 1.1
+	}
+	
+##### Deluge #####
+
+	pdxparticle = {
+		name = "deluge_planet_muzzle_windup_effect"
+		type = "deluge_planet_muzzle_windup_effect"
+		
+		scale = 1
+	}
+
+	pdxparticle = {
+		name = "deluge_neutron_planet_laser_hit_effect"
+		type = "deluge_neutron_planet_laser_hit_effect"
+		
+		scale = 1
+	}
+	
+	pdxparticle = {
+		name = "deluge_planet_laser_hit_effect"
+		type = "deluge_planet_laser_hit_effect"
+		
+		scale = 1
+	}
+
+	pdxparticle = {
+		name = "deluge_planet_laser_muzzle_effect"
+		type = "deluge_planet_laser_muzzle"
+		
+		scale = 1
+	}
+	
+
+##### Aquatic Dragon #####
+
+	pdxparticle = {
+		name = "aquatic_dragon_wing_projectile_particle"
+		type = "aquatic_dragon_wing_projectile"
+		
+		scale = 1
+	}
+
+	pdxparticle = {
+		name = "aquatic_dragon_wing_muzzle_effect"
+		type = "aquatic_dragon_wing_muzzle"
+		
+		scale = 1
+	}
+
+	pdxparticle = {
+		name = "aquatic_dragon_wing_hit_effect"
+		type = "aquatic_dragon_wing_hit_effect"
+		
+		scale = 1
+	}
+
+	pdxparticle = {
+		name = "aquatic_dragon_weapon_muzzle_windup_effect"
+		type = "aquatic_dragon_weapon_muzzle_windup_effect"
+		
+		scale = 1
+	}
+	
+	pdxparticle = {
+		name = "aquatic_dragon_weapon_hit_effect"
+		type = "aquatic_dragon_weapon_hit_effect"
+		
+		scale = 1
+	}	
+
+	pdxparticle = {
+		name = "aquatic_dragon_weapon_muzzle_effect"
+		type = "aquatic_dragon_weapon_muzzle_effect"
+		
+		scale = 1
+	}		
+}
+

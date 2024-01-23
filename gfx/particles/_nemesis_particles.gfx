@@ -1,0 +1,576 @@
+objectTypes = {
+### Engines
+	pdxparticle = {
+		name = "ship_burn_2_particle"
+		type = "ship_burn_2_effect"
+		
+		scale = 1.0
+	}
+	
+	
+	pdxparticle = {
+		name = "nemesis_01_star_eater_exhaust"
+		type = "nemesis_01_star_eater_exhaust_file"
+	
+		scale = 1
+	}
+
+	pdxparticle = {
+		name = "nemesis_01_star_eater_exhaust_idle_effect"
+		type = "star_eater_exhaust_idle_file"
+	
+		scale = 1
+	}
+	
+	pdxparticle = {
+		name = "nemesis_01_015_ship_exhaust"
+		type = "nemesis_01_ship_exhaust_file"
+	
+		scale = 0.15
+	}
+	
+	pdxparticle = {
+		name = "nemesis_01_025_ship_exhaust"
+		type = "nemesis_01_ship_exhaust_file"
+	
+		scale = 0.25
+	}
+	
+	pdxparticle = {
+		name = "nemesis_01_035_ship_exhaust"
+		type = "nemesis_01_ship_exhaust_file"
+	
+		scale = 0.35
+	}
+	
+	pdxparticle = {
+		name = "nemesis_01_050_ship_exhaust"
+		type = "nemesis_01_ship_exhaust_file"
+	
+		scale = 0.5
+	}
+	
+	pdxparticle = {
+		name = "nemesis_01_075_ship_exhaust"
+		type = "nemesis_01_ship_exhaust_file"
+	
+		scale = 0.75
+	}
+
+	pdxparticle = {
+		name = "nemesis_01_100_ship_exhaust"
+		type = "nemesis_01_ship_exhaust_file"
+	
+		scale = 1.0
+	}
+	
+	pdxparticle = {
+		name = "nemesis_01_150_ship_exhaust"
+		type = "nemesis_01_ship_exhaust_file"
+	
+		scale = 1.5
+	}
+	
+	pdxparticle = {
+		name = "nemesis_01_250_ship_exhaust"
+		type = "nemesis_01_ship_exhaust_file"
+	
+		scale = 2.5
+	}
+
+	pdxparticle = {
+		name = "nemesis_01_350_ship_exhaust"
+		type = "nemesis_01_ship_exhaust_file"
+	
+		scale = 3.5
+	}
+	
+	pdxparticle = {
+		name = "nemesis_01_500_ship_exhaust"
+		type = "nemesis_01_ship_exhaust_file"
+	
+		scale = 5
+	}
+	
+	pdxparticle = {
+		name = "nemesis_01_700_ship_exhaust"
+		type = "nemesis_01_ship_exhaust_file"
+	
+		scale = 7
+	}
+	
+	
+###### Ship effects
+
+	pdxparticle = {
+		name = "nemesis_01_science_trail_effect"
+		type = "nemesis_01_science_trail_file"
+	
+		scale = 1
+	}
+	
+	pdxparticle = {
+		name = "nemesis_01_science_lightning_effect"
+		type = "nemesis_01_science_lightning_file"
+	
+		scale = 1
+	}
+	
+	pdxparticle = {
+		name = "nemesis_01_ion_core_effect"
+		type = "nemesis_01_ion_core_file"
+	
+		scale = 1
+	}
+	
+	pdxparticle = {
+		name = "nemesis_01_science_lightning_core_effect"
+		type = "nemesis_01_science_lightning_core_file"
+	
+		scale = 1
+	}
+
+	pdxparticle = {
+		name = "nemesis_01_science_lightning_station_effect"
+		type = "nemesis_01_science_lightning_station_file"
+	
+		scale = 1
+	}
+
+	pdxparticle = {
+		name = "nemesis_01_science_lightning_station_s_effect"
+		type = "nemesis_01_science_lightning_station_file"
+	
+		scale = 0.15
+	}
+	
+	pdxparticle = {
+		name = "nemesis_01_mining_smoke_l_effect"
+		type = "nemesis_01_mining_smoke_file"
+	
+		scale = 1.25
+	}
+	
+	pdxparticle = {
+		name = "nemesis_01_mining_smoke_effect"
+		type = "nemesis_01_mining_smoke_file"
+	
+		scale = 1
+	}
+	
+	pdxparticle = {
+		name = "nemesis_01_mining_smoke_s_effect"
+		type = "nemesis_01_mining_smoke_file"
+	
+		scale = 0.75
+	}
+#	pdxparticle = {
+#		name = "nemesis_01_ship_core_effect"
+#		type = "nemesis_01_ship_core_effect_file"
+#	
+#		scale = 6
+#	}
+#
+#	pdxparticle = {
+#		name = "nemesis_01_ion_core_effect"
+#		type = "nemesis_01_ion_core_effect_file"
+#	
+#		scale = 6
+#	}
+#
+#	pdxparticle = {
+#		name = "nemesis_01_colossus_core_effect"
+#		type = "nemesis_01_ion_core_effect_file"
+#	
+#		scale = 18
+#	}
+#	
+	pdxparticle = {
+		name = "nemesis_01_ship_light_effect"
+		type = "nemesis_01_ship_light_effect"
+	
+		scale = 1
+	}
+#	
+#	pdxparticle = {
+#		name = "nemesis_01_large_station_explosion_file"
+#		type = "nemesis_01_station_explosion_file"
+#		
+#		scale = 1.5
+#	}
+#	
+#	pdxparticle = {
+#		name = "nemesis_01_medium_station_explosion_file"
+#		type = "nemesis_01_station_explosion_file"
+#		
+#		scale = 1
+#	}
+######## Explosions
+###################
+	
+	pdxparticle = {
+		name = "nemesis_01_ship_explosion_dreadnought"
+		type = "nemesis_01_ship_explosion_dreadnought_file"
+		
+		scale = 50.0
+	}
+
+	pdxparticle = {
+		name = "nemesis_01_ship_explosion_60_dreadnought"
+		type = "nemesis_01_ship_explosion_dreadnought_file"
+		
+		scale = 60.0
+	}
+	pdxparticle = {
+		name = "nemesis_01_ship_explosion_50_dreadnought"
+		type = "nemesis_01_ship_explosion_dreadnought_file"
+		
+		scale = 50.0
+	}
+	
+	pdxparticle = {
+		name = "nemesis_01_ship_explosion_35_dreadnought"
+		type = "nemesis_01_ship_explosion_dreadnought_file"
+		
+		scale = 35.0
+	}
+	
+	pdxparticle = {
+		name = "nemesis_01_ship_explosion_15_dreadnought"
+		type = "nemesis_01_ship_explosion_dreadnought_file"
+		
+		scale = 15.0
+	}
+
+	
+	pdxparticle = {
+		name = "nemesis_01_ship_explosion_dreadnought_s"
+		type = "nemesis_01_ship_explosion_dreadnought_file"
+		
+		scale = 1.0
+	}
+	
+	pdxparticle = {
+		name = "nemesis_01_medium_station_explosion"
+		type = "nemesis_01_station_explosion_file"
+		
+		scale = 14.0
+	}	
+
+	pdxparticle = {
+		name = "nemesis_01_350_large_ship_explosion"
+		type = "nemesis_01_large_ship_explosion_file"
+		
+		scale = 3.5
+	}
+	
+	pdxparticle = {
+		name = "nemesis_01_massive_ship_explosion_effect"
+		type = "nemesis_01_large_ship_explosion_file"
+		
+		scale = 2.9
+	}
+	
+	pdxparticle = {
+		name = "nemesis_01_large_ship_explosion"
+		type = "nemesis_01_large_ship_explosion_file"
+	
+		scale = 1.9
+	}
+
+	pdxparticle = {
+		name = "nemesis_01_1_large_ship_explosion"
+		type = "nemesis_01_large_ship_explosion_file"
+	
+		scale = 1
+	}
+	
+	pdxparticle = {
+		name = "nemesis_01_075_large_ship_explosion"
+		type = "nemesis_01_large_ship_explosion_file"
+	
+		scale = 0.75
+	}
+	
+	pdxparticle = {
+		name = "nemesis_01_3_ship_explosion_effect"
+		type = "nemesis_01_ship_explosion_file"
+	
+		scale = 3
+	}
+	pdxparticle = {
+		name = "nemesis_01_2_ship_explosion_effect"
+		type = "nemesis_01_ship_explosion_file"
+	
+		scale = 2
+	}
+	
+	pdxparticle = {
+		name = "nemesis_0125_ship_explosion_effect"
+		type = "nemesis_01_ship_explosion_file"
+	
+		scale = 1.25
+	}
+	
+	pdxparticle = {
+		name = "nemesis_01_ship_explosion_effect"
+		type = "nemesis_01_ship_explosion_file"
+	
+		scale = 1
+	}
+#	
+#	pdxparticle = {
+#		name = "nemesis_01_26_large_player_ship_explosion_particle"
+#		type = "nemesis_player_ship_explosion_effect"
+#		scale = 2.6
+#	}
+#	
+#	pdxparticle = {
+#		name = "nemesis_01_large_player_ship_explosion_particle"
+#		type = "nemesis_player_ship_explosion_effect"
+#		scale = 2.1
+#	}
+#
+#	pdxparticle = {
+#		name = "nemesis_01_medium_player_ship_explosion_particle"
+#		type = "nemesis_player_ship_explosion_effect"
+#		scale = 1.6
+#	}
+#	
+#	pdxparticle = {
+#		name = "nemesis_01_small_player_ship_explosion_particle"
+#		type = "nemesis_player_ship_explosion_effect"
+#		scale = 1.1
+#	}
+#	
+#	pdxparticle = {
+#		name = "nemesis_01_small_2_player_ship_explosion_particle"
+#		type = "nemesis_player_ship_explosion_effect"
+#		scale = 0.9
+#	}
+
+#### Weapons
+
+
+#	pdxparticle = {
+#		name = "nemesis_01_perdition_muzzle_smoke_effect"
+#		type = "nemesis_01_perdition_muzzle_smoke_effect_file"
+#	
+#		scale = 1
+#	}
+#
+	pdxparticle = {
+		name = "nemesis_01_perdition_beam_windup_effect"
+		type = "nemesis_01_perdition_beam_windup_effect"
+	
+		scale = 1
+	}
+	
+	pdxparticle = {
+		name = "nemesis_01_perdition_beam_muzzle_effect"
+		type = "nemesis_01_ion_cannon_muzzle_effect"
+		
+		scale = 2.0
+	}
+#	
+#	pdxparticle = {
+#		name = "nemesis_01_perdition_beam_muzzle_effect"
+#		type = "nemesis_01_perdition_beam_muzzle"
+#	
+#		scale = 1
+#	}
+#	
+#	pdxparticle = {
+#		name = "nemesis_01_perdition_beam_hit_effect"
+#		type = "nemesis_01_perdition_beam_hit_effect"
+#	
+#		scale = 1
+#	}
+#
+#	pdxparticle = {
+#		name = "nemesis_01_ion_cannon_windup_effect"
+#		type = "nemesis_01_ion_cannon_windup_effect"
+#		
+#		scale = 1.0
+#	}
+
+	pdxparticle = {
+		name = "nemesis_01_ion_cannon_muzzle_windup_2_effect"
+		type = "nemesis_01_ion_cannon_windup_2_effect"
+		
+		scale = 1
+	}
+	
+	pdxparticle = {
+		name = "nemesis_01_ion_cannon_muzzle_windup_effect"
+		type = "nemesis_01_ion_cannon_windup_effect"
+		
+		scale = 1
+	}
+	pdxparticle = {
+		name = "nemesis_01_ion_cannon_muzzle_particle"
+		type = "nemesis_01_ion_cannon_muzzle_effect"
+		
+		scale = 1.0
+	}
+	pdxparticle = {
+		name = "nemesis_01_ion_cannon_hit_effect"
+		type = "nemesis_01_ion_cannon_hit_effect"
+		
+		scale = 3.0
+	}
+
+
+	pdxparticle = {
+		name = "nemesis_colossus_side_lightning_effect"
+		type = "nemesis_colossus_side_lightning_file"
+		
+		scale = 1.0
+	}	
+	
+	pdxparticle = {
+		name = "nemesis_colossus_core_lightning_effect"
+		type = "nemesis_colossus_core_lightning_file"
+		
+		scale = 1.0
+	}
+	
+######## Star explosion ########
+	pdxparticle = {
+		name = "star_explosion_shockwave_effect"
+		type = "star_explosion_shockwave_file"
+		
+		scale = 1.0
+	}
+	
+	pdxparticle = {
+		name = "star_explosion_3_effect"
+		type = "star_explosion_2_file"
+		
+		scale = 60.0
+	}
+	
+	pdxparticle = {
+		name = "star_explosion_2_effect"
+		type = "star_explosion_2_file"
+		
+		scale = 75.0
+	}
+	
+	pdxparticle = {
+		name = "star_explosion_2_s_effect"
+		type = "star_explosion_2_file"
+		
+		scale = 1.0
+	}	
+	pdxparticle = {
+		name = "star_explosion_1_effect"
+		type = "star_explosion_1_file"
+		
+		scale = 1.0
+	}
+	
+	pdxparticle = {
+		name = "star_explosion_1_075_effect"
+		type = "star_explosion_1_file"
+		
+		scale = 0.75
+	}
+	
+	pdxparticle = {
+		name = "star_explosion_1_05_effect"
+		type = "star_explosion_1_file"
+		
+		scale = 0.5
+	}
+	
+	
+	pdxparticle = {
+		name = "star_eater_muzzle_windup_effect"
+		type = "star_eater_muzzle_windup_effect"
+		
+		scale = 1
+	}
+	
+	pdxparticle = {
+		name = "star_eater_muzzle_chargeup_effect"
+		type = "star_eater_muzzle_chargeup_file"
+		
+		scale = 1
+	}
+	
+	pdxparticle = {
+		name = "star_eater_explosion_effect"
+		type = "star_eater_explosion_file"
+		
+		scale = 1
+	}
+	
+	pdxparticle = {
+		name = "star_eater_explosion_2_effect"
+		type = "star_eater_explosion_2_file"
+		
+		scale = 1
+	}
+	
+	pdxparticle = {
+		name = "star_eater_explosion_3_effect"
+		type = "star_eater_explosion_3_file"
+		
+		scale = 1
+	}	
+
+	pdxparticle = {
+		name = "star_eater_explosion_4_effect"
+		type = "star_eater_explosion_4_file"
+		
+		scale = 1
+	}
+	
+######### System Effects ############
+
+		pdxparticle = {
+		name = "nemesis_system_effect_1_effect"
+		type = "nemesis_system_effect_1_file"
+		
+		scale = 1.0
+	}
+		
+	pdxparticle = {
+		name = "nemesis_system_core_effect"
+		type = "nemesis_system_core_file"
+		
+		scale = 1
+	}
+
+	pdxparticle = {
+		name = "desolation_core_effect"
+		type = "desolation_core_file"
+		
+		scale = 1
+	}
+
+######### Frontend ############
+	
+	pdxparticle = {
+		name = "nemesis_frontend_ship_light_effect"
+		type = "nemesis_frontend_ship_light_effect"
+		
+		scale = 1.0
+	}
+	
+	pdxparticle = {
+		name = "nemesis_frontend_gas_outburst_effect"
+		type = "nemesis_frontend_gas_outburst_effect"
+		
+		scale = 1.0
+	}
+	
+	pdxparticle = {
+		name = "nemesis_frontend_station_light_effect"
+		type = "nemesis_frontend_station_light_effect"
+		
+		scale = 1.0
+	}
+}
+

@@ -1,0 +1,27 @@
+objectTypes = {
+	
+	pdxparticle = {
+		name = "hyper_relay_portal_effect"
+		type = "hyper_relay_portal_file"
+		
+		scale = 1.0
+	}
+
+	pdxparticle = {
+		name = "hyper_relay_orb_effect"
+		type = "hyper_relay_orb_file"
+		
+		scale = 1.0
+	}
+
+	pdxparticle = {
+		name = "hyper_relay_connector_effect"
+		type = "hyper_relay_connector_file"
+		
+		scale = 1.0
+	}	
+	
+	
+}
+
+

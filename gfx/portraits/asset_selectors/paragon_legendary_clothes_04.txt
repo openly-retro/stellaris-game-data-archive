@@ -1,0 +1,8 @@
+# This is a template which multiple species can use. 
+paragon_01_legendary_04_clothes = {
+	default = "gfx/models/portraits/paragon/paragon_01_legendary_portrait_04_clothes.dds"
+}
+
+avian_hair_1 = { 
+	default = "gfx/transparent.dds"
+}

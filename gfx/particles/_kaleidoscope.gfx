@@ -1,0 +1,25 @@
+objectTypes = {
+### Kaleidoscope
+	pdxparticle = {
+		name = "kaleidoscope_system_mad_effect"
+		type = "kaleidoscope_system_mad_file"
+		
+		scale = 1.0
+	}
+
+	pdxparticle = {
+		name = "kaleidoscope_system_neutral_effect"
+		type = "kaleidoscope_system_neutral_file"
+		
+		scale = 1.0
+	
+	}	pdxparticle = {
+		name = "kaleidoscope_system_happy_effect"
+		type = "kaleidoscope_system_happy_file"
+		
+		scale = 1.0
+	}	
+}
+
+
+

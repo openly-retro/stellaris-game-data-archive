@@ -1,0 +1,75 @@
+particle={
+	name="pre_ftl_01_manouever_engine_effect_file"
+	subsystem={
+		name="smoke"
+		max_amount=15
+		slave_particles=0
+		sort="depth"
+		emitter_type="point"
+		invert=no
+		trail=no
+		spritesheet_animation=yes
+		spritesheet_animation_loop=1.000000
+		local_space=yes
+		billboard=yes
+		hide=no
+		texture={
+			file="gfx/particles/explosion_02_smoke_6_6.dds"
+			x=6
+			y=6
+			shader="ParticleAlphaBlend"
+		}
+		color={
+			x=150
+			y=150
+			z=180
+			alpha=15,flash_fade
+		}
+		position={
+			x=0
+			y=0
+			z=0
+		}
+		start={ 0 5 }
+		duration=-1
+		emission_pulse_duration={ 0.4 0.1 }
+		emission_pulse_silence={ 7 2 }
+		emitter_yaw={ 180 0 }
+		emitter_pitch={ 0 0 }
+		velocity_pitch={ 0 0 }
+		velocity_yaw={ 90 0 }
+		velocity={ 3 0.5 }
+		life={ 1.2 0.1 }
+		emission={ 20 5 }
+		size={ 1.5 0.2 }
+		rotation={ 0 180 }
+		rotation_speed={ 20 0 }
+	}
+	animation={
+		name="flash_fade"
+		start=0
+		duration=1
+		repeat=no
+		minValue=0
+		maxValue=1
+		curve={
+			0 0.133 0.041 1 1 0 
+		}
+		op="MUL"
+		time="life"
+	}
+	force={
+		type="planar"
+		name="force0"
+		position={
+			0 0 0 
+		}
+		direction={
+			0 1 0 
+		}
+		local_force=yes
+		yaw=0
+		division=16
+		amount=5
+	}
+}

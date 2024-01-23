@@ -1,0 +1,201 @@
+particle={
+	name="fc_01_front_end_fog_file"
+	subsystem={
+		name="left_fog"
+		max_amount=15
+		slave_particles=0
+		sort="depth"
+		emitter_type="box"
+		box_emitter_x={ 0 3 }
+		box_emitter_y={ 0 0.8 }
+		box_emitter_z=0
+		invert=no
+		trail=no
+		spritesheet_animation=no
+		spritesheet_animation_loop=1.000000
+		local_space=yes
+		billboard=yes
+		hide=no
+		texture={
+			file="gfx/particles/smoke_01.dds"
+			x=1
+			y=1
+			shader="ParticleAdditive"
+		}
+		color={
+			x=225
+			y=170
+			z=160
+			alpha={ 200,alpha_fade 15 }
+		}
+		position={
+			x=0
+			y=-4
+			z=-15
+		}
+		start=0
+		duration=-1
+		emitter_yaw={ -90 0 }
+		emitter_pitch={ 10 0 }
+		velocity_pitch=0
+		velocity_yaw=0
+		velocity=0
+		life={ 4.5 0.5 }
+		emission=8
+		size={ 0.003,drip_size 0.001 }
+		rotation={ 0 180 }
+		rotation_speed={ 10 2 }
+		mass={ 15 3 }
+		force=force0,up
+	}
+	subsystem={
+		name="right_fog"
+		max_amount=15
+		slave_particles=0
+		sort="depth"
+		emitter_type="box"
+		box_emitter_x={ 0 2 }
+		box_emitter_y={ 0 1 }
+		box_emitter_z=0
+		invert=no
+		trail=no
+		spritesheet_animation=no
+		spritesheet_animation_loop=1.000000
+		local_space=yes
+		billboard=yes
+		hide=no
+		texture={
+			file="gfx/particles/smoke_01.dds"
+			x=1
+			y=1
+			shader="ParticleAdditive"
+		}
+		color={
+			x=225
+			y=170
+			z=160
+			alpha=255,alpha_fade
+		}
+		position={
+			x=0
+			y=-4
+			z=18
+		}
+		start=0
+		duration=-1
+		emitter_yaw={ -90 0 }
+		emitter_pitch={ 0 0 }
+		velocity_pitch=0
+		velocity_yaw=0
+		velocity=0
+		life={ 4 1 }
+		emission=15
+		size={ 0.003,drip_size 0.001 }
+		rotation={ 0 180 }
+		rotation_speed={ 10 2 }
+		mass={ 15 3 }
+		force=force0,up
+	}
+	subsystem={
+		name="left_front_fog"
+		max_amount=35
+		slave_particles=0
+		sort="depth"
+		emitter_type="box"
+		box_emitter_x={ 0 6 }
+		box_emitter_y={ 0 0.8 }
+		box_emitter_z=0
+		invert=no
+		trail=no
+		spritesheet_animation=no
+		spritesheet_animation_loop=1.000000
+		local_space=yes
+		billboard=yes
+		hide=no
+		texture={
+			file="gfx/particles/smoke_01.dds"
+			x=1
+			y=1
+			shader="ParticleAdditive"
+		}
+		color={
+			x=225
+			y=170
+			z=160
+			alpha={ 130,alpha_fade 20 }
+		}
+		position={
+			x=0
+			y=-10
+			z=-12
+		}
+		start=0
+		duration=-1
+		emitter_yaw={ -90 0 }
+		emitter_pitch={ -20 0 }
+		velocity_pitch=0
+		velocity_yaw=0
+		velocity=0
+		life={ 7 1 }
+		emission=15
+		size={ 0.006,drip_size 0.001 }
+		rotation={ 0 180 }
+		rotation_speed={ 10 2 }
+		mass={ 13 3 }
+		force=force0,up
+	}
+	animation={
+		name="alpha_fade"
+		start=0
+		duration=1
+		repeat=no
+		minValue=0
+		maxValue=1
+		curve={
+			0 0 0.40882 0.75781 0.70882 0.60156 1 0 
+		}
+		op="MUL"
+		time="life"
+	}
+	animation={
+		name="drip_size"
+		start=0
+		duration=1
+		repeat=no
+		minValue=0
+		maxValue=1
+		curve={
+			0 0.72656 0.07941 0.96875 0.49706 0.80469 1 0.6875 
+		}
+		op="MUL"
+		time="life"
+	}
+	force={
+		type="planar"
+		name="force0"
+		position={
+			0 0 0 
+		}
+		direction={
+			-1 0 0 
+		}
+		local_force=yes
+		yaw=0
+		division=16
+		amount=1.6
+	}
+	force={
+		type="planar"
+		name="up"
+		position={
+			0 0 0 
+		}
+		direction={
+			0 1 0 
+		}
+		local_force=yes
+		yaw=0
+		division=16
+		amount=0.8
+	}
+}

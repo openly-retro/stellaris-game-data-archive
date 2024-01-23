@@ -140,6 +140,24 @@ objectTypes = {
 		type = "wormhole_active_effect"
 		scale = 1.0
 	}
+
+	pdxparticle = {
+		name = "astral_scar_particle"
+		type = "astral_scar_particle"
+		scale = 1.0
+	}
+
+	pdxparticle = {
+		name = "astral_rift_particle"
+		type = "astral_rift_particle"
+		scale = 1.0
+	}
+
+	pdxparticle = {
+		name = "crystal_rift_particle"
+		type = "crystal_rift_particle"
+		scale = 1.0
+	}
 	
 	pdxparticle = {
 		name = "gateway_active_effect"

@@ -1,20 +1,20 @@
-# This is a template which multiple species can use. 
-  
+# This is a template which multiple species can use.
+
 lith_human2_hair = {
 	default = "gfx/models/portraits/lithoid/lithoid_human2_hair1.dds"
-	
+
 	game_setup = {#will run with a limited country scope. species and government is set but the country does not actually exist
 		default = "gfx/models/portraits/lithoid/lithoid_human2_hair1.dds"
 	}
-	
+
 	#species scope
 	species = { #generic portrait for a species
 		default = "gfx/models/portraits/lithoid/lithoid_human2_hair1.dds"
 	}
-	
+
 	#pop scope
 	pop = { #for a specific pop
-	
+
 		default = "gfx/models/portraits/lithoid/lithoid_human2_hair1.dds"
 
 		random = {
@@ -24,35 +24,35 @@ lith_human2_hair = {
 				"gfx/models/portraits/lithoid/lithoid_human2_hair3.dds"
 				"gfx/models/portraits/lithoid/lithoid_human2_hair4.dds"
 			}
-		}	
+		}
 	}
-	
-	
-	
-	
+
+
+
+
 	#leader scope
 	leader = { #scientists, generals, admirals, governor
-	
+
 		random = {
-			trigger = { leader_class = general }
+			trigger = { always = no } # TODO Byron check army assignment
 			list = {
 				"gfx/models/portraits/lithoid/lithoid_human2_hair1.dds"
 				"gfx/models/portraits/lithoid/lithoid_human2_hair2.dds"
 				"gfx/models/portraits/lithoid/lithoid_human2_hair3.dds"
 				"gfx/models/portraits/lithoid/lithoid_human2_hair4.dds"
 			}
-		}		
-		
+		}
+
 		random = {
-			trigger = { leader_class = admiral }
+			trigger = { leader_class = commander }
 			list = {
 				"gfx/models/portraits/lithoid/lithoid_human2_hair1.dds"
 				"gfx/models/portraits/lithoid/lithoid_human2_hair2.dds"
 				"gfx/models/portraits/lithoid/lithoid_human2_hair3.dds"
 				"gfx/models/portraits/lithoid/lithoid_human2_hair4.dds"
 			}
-		}	
-		
+		}
+
 		random = {
 			trigger = { leader_class = scientist }
 			list = {
@@ -61,10 +61,10 @@ lith_human2_hair = {
 				"gfx/models/portraits/lithoid/lithoid_human2_hair3.dds"
 				"gfx/models/portraits/lithoid/lithoid_human2_hair4.dds"
 			}
-		}		
-		
+		}
+
 		random = {
-			trigger = { leader_class = governor }
+			trigger = { leader_class = official }
 			list = {
 				"gfx/models/portraits/lithoid/lithoid_human2_hair1.dds"
 				"gfx/models/portraits/lithoid/lithoid_human2_hair2.dds"
@@ -76,25 +76,12 @@ lith_human2_hair = {
 
 	#leader scope
 	ruler = { #for rulers
-		
+
 		random = {
 			trigger = {
 				owner = { has_militarist_government = yes }
 			}
-				
-			list = {
-				"gfx/models/portraits/lithoid/lithoid_human2_hair1.dds"
-				"gfx/models/portraits/lithoid/lithoid_human2_hair2.dds"
-				"gfx/models/portraits/lithoid/lithoid_human2_hair3.dds"
-				"gfx/models/portraits/lithoid/lithoid_human2_hair4.dds"
-			}
-		}		
-		
-		random = {
-			trigger = {
-				owner = { has_spiritualist_government = yes }
-			}
-			
+
 			list = {
 				"gfx/models/portraits/lithoid/lithoid_human2_hair1.dds"
 				"gfx/models/portraits/lithoid/lithoid_human2_hair2.dds"
@@ -102,7 +89,20 @@ lith_human2_hair = {
 				"gfx/models/portraits/lithoid/lithoid_human2_hair4.dds"
 			}
 		}
-		
+
+		random = {
+			trigger = {
+				owner = { has_spiritualist_government = yes }
+			}
+
+			list = {
+				"gfx/models/portraits/lithoid/lithoid_human2_hair1.dds"
+				"gfx/models/portraits/lithoid/lithoid_human2_hair2.dds"
+				"gfx/models/portraits/lithoid/lithoid_human2_hair3.dds"
+				"gfx/models/portraits/lithoid/lithoid_human2_hair4.dds"
+			}
+		}
+
 		random = {
 			trigger = {
 				owner = {
@@ -114,7 +114,7 @@ lith_human2_hair = {
 					}
 				}
 			}
-			
+
 			list = {
 				"gfx/models/portraits/lithoid/lithoid_human2_hair1.dds"
 				"gfx/models/portraits/lithoid/lithoid_human2_hair2.dds"

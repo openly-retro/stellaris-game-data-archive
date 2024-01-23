@@ -68,7 +68,7 @@ maweer = {
 		clothes = 0
 		ruler_title = "PRESCRIPTED_ruler_title_maweer"
  		trait = "leader_trait_principled"
-		leader_class = governor
+		leader_class = official
 	}
 }
 
@@ -222,7 +222,7 @@ pasharti = {
 		clothes = 0
 		ruler_title = "PRESCRIPTED_ruler_title_pasharti"
  		trait = "leader_trait_spycraft"
-		leader_class = general
+		leader_class = official
 	}
 	flags = { necrophage_start_empire }
 }
@@ -292,7 +292,7 @@ sathyrel = {
 		attachment = 0
 		clothes = 0
 		trait = "leader_trait_principled"
-		leader_class = governor
+		leader_class = official
 	}
 }
 
@@ -300,6 +300,9 @@ sathyrel = {
 gorthikan = {
 	name = EMPIRE_DESIGN_gorthikan
 	ship_prefix = PRESCRIPTED_ship_prefix_gorthikan
+
+	playable = has_toxoids
+
 	species = {
 		class = "TOX"
 		portrait = "tox4"
@@ -349,7 +352,7 @@ gorthikan = {
 		attachment = 0
 		clothes = 0
 		trait = "trait_ruler_charismatic"
-		leader_class = general
+		leader_class = commander
 	}
 	spawn_as_fallen = no
 	ignore_portrait_duplication = no
@@ -364,10 +367,13 @@ gorthikan = {
 	origin = "origin_overtuned"
 }
 
-# Rototavuul High Suzerainty 
+# Rototavuul High Suzerainty
 knights = {
 	name = EMPIRE_DESIGN_knights
 	ship_prefix = PRESCRIPTED_ship_prefix_knights
+
+	playable = has_toxoids
+
 	species = {
 		class = "TOX"
 		portrait = "tox9"
@@ -418,7 +424,7 @@ knights = {
 		attachment = 0
 		clothes = 0
 		trait = "trait_ruler_logistic_understanding"
-		leader_class = admiral
+		leader_class = commander
 		ruler_title = "PRESCRIPTED_ruler_title_knights"
 	}
 	spawn_as_fallen = no
@@ -434,4 +440,3 @@ knights = {
 	}
 	origin = "origin_toxic_knights"
 }
-

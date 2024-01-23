@@ -3,9 +3,9 @@ humans1 = {
 	adjective = "PRESCRIPTED_adjective_humans1"
 	spawn_enabled = no # yes / no / always
 	ignore_portrait_duplication = yes
-	
+
 	ship_prefix = "PRESCRIPTED_ship_prefix_humans1"
-	
+
 	species = {
 		class = "HUM"
 		portrait = "human"
@@ -17,30 +17,30 @@ humans1 = {
 		trait = "trait_nomadic"
 		trait = "trait_wasteful"
 	}
-	
+
 	playable = has_not_humanoids # scripted_triggers
-	
+
 	room = "personality_federation_builders_room"
-	
+
 	authority = "auth_democratic"
 	civics = { "civic_beacon_of_liberty" "civic_idealistic_foundation" }
 	government = gov_representative_democracy
-	
+
 	ethic = "ethic_xenophile"
 	ethic = "ethic_fanatic_egalitarian"
 
 	origin = "origin_default"
 
 	flags = { human_1 custom_start_screen }
-	
+
 	planet_name = "NAME_Earth"
 	planet_class = "pc_continental"
 	initializer = "sol_system_initializer"
 	system_name = "NAME_Sol"
-	
+
 	graphical_culture = "mammalian_01"
 	city_graphical_culture = "mammalian_01"
-	
+
 	empire_flag = {
 		icon= {
 			category = "human"
@@ -57,7 +57,7 @@ humans1 = {
 			"null"
 		}
 	}
-	
+
 	ruler = {
 		name = "PRESCRIPTED_ruler_name_humans1"
 		gender = female
@@ -66,7 +66,7 @@ humans1 = {
 		attachment = 1
 		clothes = 0
 		trait = "trait_ruler_eye_for_talent"
-		leader_class = governor
+		leader_class = official
 	}
 }
 
@@ -77,7 +77,7 @@ humans2 = {
 	ignore_portrait_duplication = yes
 
 	ship_prefix = "PRESCRIPTED_ship_prefix_humans2"
-	
+
 	species = {
 		class = "HUM"
 		portrait = "human"
@@ -89,11 +89,11 @@ humans2 = {
 		trait = "trait_nomadic"
 		trait = "trait_wasteful"
 	}
-	
+
 	playable = has_not_humanoids # scripted_triggers
-	
-	room = "personality_hegemonic_imperialists_room"	
-	
+
+	room = "personality_hegemonic_imperialists_room"
+
 	authority = "auth_dictatorial"
 	civics = { "civic_nationalistic_zeal" "civic_distinguished_admiralty" }
 	government = gov_military_dictatorship
@@ -104,15 +104,15 @@ humans2 = {
 	origin = "origin_lost_colony"
 
 	flags = { human_2 custom_start_screen }
-	
+
 	planet_name = "NAME_Unity"
 	planet_class = "pc_continental"
 	initializer = "deneb_system"
 	system_name = "NAME_Deneb"
-	
+
 	graphical_culture = "mammalian_01"
 	city_graphical_culture = "mammalian_01"
-	
+
 	empire_flag = {
 		icon= {
 			category = "human"
@@ -129,7 +129,7 @@ humans2 = {
 			"null"
 		}
 	}
-	
+
 	ruler = {
 		name = "PRESCRIPTED_ruler_name_humans2"
 		portrait = "human_female_04"
@@ -138,6 +138,6 @@ humans2 = {
 		attachment = 6
 		clothes = 4
 		trait = "trait_ruler_warlike"
-		leader_class = admiral
+		leader_class = commander
 	}
 }

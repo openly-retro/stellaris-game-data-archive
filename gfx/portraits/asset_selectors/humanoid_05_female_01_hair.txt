@@ -1,20 +1,20 @@
-# This is a template which multiple species can use. 
-  
+# This is a template which multiple species can use.
+
 humanoid_05_female_01_hair = {
 	default = "gfx/models/portraits/humanoid/humanoid_05_female_hair_blonde_style_03.dds"
-	
+
 	game_setup = {#will run with a limited country scope. species and government is set but the country does not actually exist
 		default = "gfx/models/portraits/humanoid/humanoid_05_female_hair_blonde_style_03.dds"
 	}
-	
+
 	#species scope
 	species = { #generic portrait for a species
 		default = "gfx/models/portraits/humanoid/humanoid_05_female_hair_blonde_style_03.dds"
 	}
-	
+
 	#pop scope
 	pop = { #for a specific pop
-	
+
 		default = "gfx/models/portraits/humanoid/humanoid_05_female_hair_blonde_style_03.dds"
 
 		random = {
@@ -40,7 +40,7 @@ humanoid_05_female_01_hair = {
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_pink_style_09.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_pink_style_10.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_light_blonde_style_01.dds"
-				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_light_blonde_style_03.dds"		
+				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_light_blonde_style_03.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_light_blonde_style_04.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_light_blonde_style_05.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_light_blonde_style_06.dds"
@@ -49,7 +49,7 @@ humanoid_05_female_01_hair = {
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_light_blonde_style_09.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_light_blonde_style_10.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_purple_style_01.dds"
-				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_purple_style_03.dds"		
+				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_purple_style_03.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_purple_style_04.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_purple_style_05.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_purple_style_06.dds"
@@ -58,7 +58,7 @@ humanoid_05_female_01_hair = {
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_purple_style_09.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_purple_style_10.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_red_style_01.dds"
-				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_red_style_03.dds"		
+				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_red_style_03.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_red_style_04.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_red_style_05.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_red_style_06.dds"
@@ -67,17 +67,17 @@ humanoid_05_female_01_hair = {
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_red_style_09.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_red_style_10.dds"
 			}
-		}	
+		}
 	}
-	
-	
-	
-	
+
+
+
+
 	#leader scope
 	leader = { #scientists, generals, admirals, governor
-	
+
 		random = {
-			trigger = { leader_class = general }
+			trigger = { always = no } # TODO Byron check army assignment
 			list = {
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_blonde_style_05.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_blonde_style_06.dds"
@@ -100,7 +100,7 @@ humanoid_05_female_01_hair = {
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_pink_style_09.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_pink_style_10.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_light_blonde_style_01.dds"
-				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_light_blonde_style_03.dds"		
+				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_light_blonde_style_03.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_light_blonde_style_04.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_light_blonde_style_05.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_light_blonde_style_06.dds"
@@ -109,7 +109,7 @@ humanoid_05_female_01_hair = {
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_light_blonde_style_09.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_light_blonde_style_10.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_purple_style_01.dds"
-				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_purple_style_03.dds"		
+				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_purple_style_03.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_purple_style_04.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_purple_style_05.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_purple_style_06.dds"
@@ -118,7 +118,7 @@ humanoid_05_female_01_hair = {
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_purple_style_09.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_purple_style_10.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_red_style_01.dds"
-				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_red_style_03.dds"		
+				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_red_style_03.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_red_style_04.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_red_style_05.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_red_style_06.dds"
@@ -127,10 +127,10 @@ humanoid_05_female_01_hair = {
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_red_style_09.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_red_style_10.dds"
 			}
-		}		
-		
+		}
+
 		random = {
-			trigger = { leader_class = admiral }
+			trigger = { leader_class = commander }
 			list = {
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_blonde_style_05.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_blonde_style_06.dds"
@@ -153,7 +153,7 @@ humanoid_05_female_01_hair = {
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_pink_style_09.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_pink_style_10.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_light_blonde_style_01.dds"
-				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_light_blonde_style_03.dds"		
+				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_light_blonde_style_03.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_light_blonde_style_04.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_light_blonde_style_05.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_light_blonde_style_06.dds"
@@ -162,7 +162,7 @@ humanoid_05_female_01_hair = {
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_light_blonde_style_09.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_light_blonde_style_10.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_purple_style_01.dds"
-				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_purple_style_03.dds"		
+				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_purple_style_03.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_purple_style_04.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_purple_style_05.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_purple_style_06.dds"
@@ -171,7 +171,7 @@ humanoid_05_female_01_hair = {
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_purple_style_09.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_purple_style_10.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_red_style_01.dds"
-				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_red_style_03.dds"		
+				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_red_style_03.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_red_style_04.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_red_style_05.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_red_style_06.dds"
@@ -180,8 +180,8 @@ humanoid_05_female_01_hair = {
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_red_style_09.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_red_style_10.dds"
 			}
-		}	
-		
+		}
+
 		random = {
 			trigger = { leader_class = scientist }
 			list = {
@@ -206,7 +206,7 @@ humanoid_05_female_01_hair = {
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_pink_style_09.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_pink_style_10.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_light_blonde_style_01.dds"
-				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_light_blonde_style_03.dds"		
+				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_light_blonde_style_03.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_light_blonde_style_04.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_light_blonde_style_05.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_light_blonde_style_06.dds"
@@ -215,7 +215,7 @@ humanoid_05_female_01_hair = {
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_light_blonde_style_09.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_light_blonde_style_10.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_purple_style_01.dds"
-				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_purple_style_03.dds"		
+				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_purple_style_03.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_purple_style_04.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_purple_style_05.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_purple_style_06.dds"
@@ -224,7 +224,7 @@ humanoid_05_female_01_hair = {
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_purple_style_09.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_purple_style_10.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_red_style_01.dds"
-				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_red_style_03.dds"		
+				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_red_style_03.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_red_style_04.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_red_style_05.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_red_style_06.dds"
@@ -233,10 +233,10 @@ humanoid_05_female_01_hair = {
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_red_style_09.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_red_style_10.dds"
 			}
-		}		
-		
+		}
+
 		random = {
-			trigger = { leader_class = governor }
+			trigger = { leader_class = official }
 			list = {
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_blonde_style_05.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_blonde_style_06.dds"
@@ -259,7 +259,7 @@ humanoid_05_female_01_hair = {
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_pink_style_09.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_pink_style_10.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_light_blonde_style_01.dds"
-				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_light_blonde_style_03.dds"		
+				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_light_blonde_style_03.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_light_blonde_style_04.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_light_blonde_style_05.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_light_blonde_style_06.dds"
@@ -268,7 +268,7 @@ humanoid_05_female_01_hair = {
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_light_blonde_style_09.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_light_blonde_style_10.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_purple_style_01.dds"
-				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_purple_style_03.dds"		
+				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_purple_style_03.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_purple_style_04.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_purple_style_05.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_purple_style_06.dds"
@@ -277,7 +277,7 @@ humanoid_05_female_01_hair = {
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_purple_style_09.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_purple_style_10.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_red_style_01.dds"
-				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_red_style_03.dds"		
+				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_red_style_03.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_red_style_04.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_red_style_05.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_red_style_06.dds"
@@ -288,15 +288,15 @@ humanoid_05_female_01_hair = {
 			}
 		}
 	}
-  
-	#leader scope 
+
+	#leader scope
 	ruler = { #for rulers
-		
+
 		random = {
-			trigger = { 
+			trigger = {
 				owner = { has_militarist_government = yes }
 			}
-				
+
 			list = {
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_blonde_style_05.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_blonde_style_06.dds"
@@ -319,7 +319,7 @@ humanoid_05_female_01_hair = {
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_pink_style_09.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_pink_style_10.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_light_blonde_style_01.dds"
-				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_light_blonde_style_03.dds"		
+				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_light_blonde_style_03.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_light_blonde_style_04.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_light_blonde_style_05.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_light_blonde_style_06.dds"
@@ -328,7 +328,7 @@ humanoid_05_female_01_hair = {
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_light_blonde_style_09.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_light_blonde_style_10.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_purple_style_01.dds"
-				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_purple_style_03.dds"		
+				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_purple_style_03.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_purple_style_04.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_purple_style_05.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_purple_style_06.dds"
@@ -337,7 +337,7 @@ humanoid_05_female_01_hair = {
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_purple_style_09.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_purple_style_10.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_red_style_01.dds"
-				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_red_style_03.dds"		
+				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_red_style_03.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_red_style_04.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_red_style_05.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_red_style_06.dds"
@@ -346,13 +346,13 @@ humanoid_05_female_01_hair = {
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_red_style_09.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_red_style_10.dds"
 			}
-		}		
-		
+		}
+
 		random = {
-			trigger = { 
+			trigger = {
 				owner = { has_spiritualist_government = yes }
-			}	
-			
+			}
+
 			list = {
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_blonde_style_05.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_blonde_style_06.dds"
@@ -375,7 +375,7 @@ humanoid_05_female_01_hair = {
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_pink_style_09.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_pink_style_10.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_light_blonde_style_01.dds"
-				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_light_blonde_style_03.dds"		
+				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_light_blonde_style_03.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_light_blonde_style_04.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_light_blonde_style_05.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_light_blonde_style_06.dds"
@@ -384,7 +384,7 @@ humanoid_05_female_01_hair = {
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_light_blonde_style_09.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_light_blonde_style_10.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_purple_style_01.dds"
-				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_purple_style_03.dds"		
+				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_purple_style_03.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_purple_style_04.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_purple_style_05.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_purple_style_06.dds"
@@ -393,7 +393,7 @@ humanoid_05_female_01_hair = {
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_purple_style_09.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_purple_style_10.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_red_style_01.dds"
-				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_red_style_03.dds"		
+				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_red_style_03.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_red_style_04.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_red_style_05.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_red_style_06.dds"
@@ -402,10 +402,10 @@ humanoid_05_female_01_hair = {
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_red_style_09.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_red_style_10.dds"
 			}
-		}		
-		
+		}
+
 		random = {
-			trigger = { 
+			trigger = {
 				owner = {
 					OR = {
 						has_government = gov_stagnant_ascendancy
@@ -415,7 +415,7 @@ humanoid_05_female_01_hair = {
 					}
 				}
 			}
-			
+
 			list = {
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_blonde_style_05.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_blonde_style_06.dds"
@@ -438,7 +438,7 @@ humanoid_05_female_01_hair = {
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_pink_style_09.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_pink_style_10.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_light_blonde_style_01.dds"
-				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_light_blonde_style_03.dds"		
+				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_light_blonde_style_03.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_light_blonde_style_04.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_light_blonde_style_05.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_light_blonde_style_06.dds"
@@ -447,7 +447,7 @@ humanoid_05_female_01_hair = {
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_light_blonde_style_09.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_light_blonde_style_10.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_purple_style_01.dds"
-				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_purple_style_03.dds"		
+				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_purple_style_03.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_purple_style_04.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_purple_style_05.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_purple_style_06.dds"
@@ -456,7 +456,7 @@ humanoid_05_female_01_hair = {
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_purple_style_09.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_purple_style_10.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_red_style_01.dds"
-				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_red_style_03.dds"		
+				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_red_style_03.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_red_style_04.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_red_style_05.dds"
 				"gfx/models/portraits/humanoid/humanoid_05_female_hair_update/humanoid_05_female_hair_red_style_06.dds"

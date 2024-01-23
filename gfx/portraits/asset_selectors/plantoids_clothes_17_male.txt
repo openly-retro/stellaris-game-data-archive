@@ -23,9 +23,9 @@ plantoid_clothes_17_male = {
     #leader scope
     leader = { #scientists, generals, admirals, governor
     "gfx/models/portraits/plantoid/plantoid_17_male_outfit_scientist.dds" = { leader_class = scientist }
-    "gfx/models/portraits/plantoid/plantoid_17_male_outfit_general.dds" = { leader_class = general }
-    "gfx/models/portraits/plantoid/plantoid_17_male_outfit_admiral.dds" = { leader_class = admiral }
-    "gfx/models/portraits/plantoid/plantoid_17_male_outfit_govenor.dds" = { leader_class = governor }
+    "gfx/models/portraits/plantoid/plantoid_17_male_outfit_general.dds" = { leader_class = commander should_wear_general_uniform = yes }
+    "gfx/models/portraits/plantoid/plantoid_17_male_outfit_admiral.dds" = { leader_class = commander should_wear_general_uniform = no }
+    "gfx/models/portraits/plantoid/plantoid_17_male_outfit_govenor.dds" = { leader_class = official }
     }
 
     #leader scope

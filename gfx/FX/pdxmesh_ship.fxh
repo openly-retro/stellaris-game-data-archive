@@ -167,8 +167,6 @@ PixelShader =
 			vProperties = lerp( vProperties, vec4( 0.f ), vDamageValue );
 
 			vDiffuse.rgb *= lerp( vec3( 1.f ), DMG_EDGE_COLOR, saturate( vDamageEdge ) );
-			
-			
 
 			#ifndef USE_EMPIRE_COLOR_MASK_FOR_EMISSIVE //If not defined, just color all of the emissive the empire color
 				if( PrimaryColor.a > 0.0f )

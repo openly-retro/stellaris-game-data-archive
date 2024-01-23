@@ -167,7 +167,7 @@ portraits = { #TODO PLACEHOLDER PORTRAITS TODO#
 	# GESTALT NODES
 
 	# Governor
-	councilor_hive_governor_1 = {	entity = "gestalt_node_governor_entity_01" clothes_selector = "no_texture" attachment_selector = "no_texture"  greeting_sound = "avian_01_greetings"
+	councilor_gestalt_growth_1 = {	entity = "gestalt_node_governor_entity_01" clothes_selector = "no_texture" attachment_selector = "no_texture"  greeting_sound = "avian_01_greetings"
 		character_textures = {
 		"gfx/models/portraits/paragon/gestalt_node_governor_01.dds"
 		}
@@ -176,7 +176,7 @@ portraits = { #TODO PLACEHOLDER PORTRAITS TODO#
 
 	}
 
-	councilor_hive_governor_2 = {	entity = "gestalt_node_governor_entity_02" clothes_selector = "no_texture" attachment_selector = "no_texture"  greeting_sound = "avian_01_greetings"
+	councilor_gestalt_growth_2 = {	entity = "gestalt_node_governor_entity_02" clothes_selector = "no_texture" attachment_selector = "no_texture"  greeting_sound = "avian_01_greetings"
 		character_textures = {
 		"gfx/models/portraits/paragon/gestalt_node_governor_02.dds"
 		}
@@ -185,7 +185,7 @@ portraits = { #TODO PLACEHOLDER PORTRAITS TODO#
 
 	}
 
-	councilor_hive_governor_3 = {	entity = "gestalt_node_governor_entity_03" clothes_selector = "no_texture" attachment_selector = "no_texture"  greeting_sound = "avian_01_greetings"
+	councilor_gestalt_growth_3 = {	entity = "gestalt_node_governor_entity_03" clothes_selector = "no_texture" attachment_selector = "no_texture"  greeting_sound = "avian_01_greetings"
 		character_textures = {
 		"gfx/models/portraits/paragon/gestalt_node_governor_03.dds"
 		}
@@ -195,7 +195,7 @@ portraits = { #TODO PLACEHOLDER PORTRAITS TODO#
 	}
 
 	# Scientist
-	councilor_hive_scientist_1 = {	entity = "gestalt_node_scientist_entity_01" clothes_selector = "no_texture" attachment_selector = "no_texture"  greeting_sound = "avian_01_greetings"
+	councilor_gestalt_cognitive_1 = {	entity = "gestalt_node_scientist_entity_01" clothes_selector = "no_texture" attachment_selector = "no_texture"  greeting_sound = "avian_01_greetings"
 		character_textures = {
 		"gfx/models/portraits/paragon/gestalt_node_scientist_01.dds"
 		}
@@ -204,7 +204,7 @@ portraits = { #TODO PLACEHOLDER PORTRAITS TODO#
 
 	}
 
-	councilor_hive_scientist_2 = {	entity = "gestalt_node_scientist_entity_02" clothes_selector = "no_texture" attachment_selector = "no_texture"  greeting_sound = "avian_01_greetings"
+	councilor_gestalt_cognitive_2 = {	entity = "gestalt_node_scientist_entity_02" clothes_selector = "no_texture" attachment_selector = "no_texture"  greeting_sound = "avian_01_greetings"
 		character_textures = {
 		"gfx/models/portraits/paragon/gestalt_node_scientist_02.dds"
 		}
@@ -214,7 +214,7 @@ portraits = { #TODO PLACEHOLDER PORTRAITS TODO#
 
 	}
 
-	councilor_hive_scientist_3 = {	entity = "gestalt_node_scientist_entity_03" clothes_selector = "no_texture" attachment_selector = "no_texture"  greeting_sound = "avian_01_greetings"
+	councilor_gestalt_cognitive_3 = {	entity = "gestalt_node_scientist_entity_03" clothes_selector = "no_texture" attachment_selector = "no_texture"  greeting_sound = "avian_01_greetings"
 		character_textures = {
 		"gfx/models/portraits/paragon/gestalt_node_scientist_03.dds"
 		}
@@ -224,7 +224,7 @@ portraits = { #TODO PLACEHOLDER PORTRAITS TODO#
 	}
 
 	#Admrial
-	councilor_hive_admiral_1 = {	entity = "gestalt_node_admiral_entity_01" clothes_selector = "no_texture" attachment_selector = "no_texture"  greeting_sound = "avian_01_greetings"
+	councilor_gestalt_legion_1 = {	entity = "gestalt_node_admiral_entity_01" clothes_selector = "no_texture" attachment_selector = "no_texture"  greeting_sound = "avian_01_greetings"
 		character_textures = {
 		"gfx/models/portraits/paragon/gestalt_node_admiral_01.dds"
 		}
@@ -233,7 +233,7 @@ portraits = { #TODO PLACEHOLDER PORTRAITS TODO#
 
 	}
 
-	councilor_hive_admiral_2 = {	entity = "gestalt_node_admiral_entity_02" clothes_selector = "no_texture" attachment_selector = "no_texture"  greeting_sound = "avian_01_greetings"
+	councilor_gestalt_legion_2 = {	entity = "gestalt_node_admiral_entity_02" clothes_selector = "no_texture" attachment_selector = "no_texture"  greeting_sound = "avian_01_greetings"
 		character_textures = {
 		"gfx/models/portraits/paragon/gestalt_node_admiral_02.dds"
 		}
@@ -242,7 +242,7 @@ portraits = { #TODO PLACEHOLDER PORTRAITS TODO#
 
 	}
 
-	councilor_hive_admiral_3 = {	entity = "gestalt_node_admiral_entity_03" clothes_selector = "no_texture" attachment_selector = "no_texture"  greeting_sound = "avian_01_greetings"
+	councilor_gestalt_legion_3 = {	entity = "gestalt_node_admiral_entity_03" clothes_selector = "no_texture" attachment_selector = "no_texture"  greeting_sound = "avian_01_greetings"
 		character_textures = {
 		"gfx/models/portraits/paragon/gestalt_node_admiral_03.dds"
 		}
@@ -252,7 +252,7 @@ portraits = { #TODO PLACEHOLDER PORTRAITS TODO#
 	}
 
 	#General
-	councilor_hive_general_1 = {	entity = "gestalt_node_general_entity_01" clothes_selector = "no_texture" attachment_selector = "no_texture"  greeting_sound = "avian_01_greetings"
+	councilor_gestalt_regulatory_1 = {	entity = "gestalt_node_general_entity_01" clothes_selector = "no_texture" attachment_selector = "no_texture"  greeting_sound = "avian_01_greetings"
 		character_textures = {
 		"gfx/models/portraits/paragon/gestalt_node_general_01.dds"
 		}
@@ -261,7 +261,7 @@ portraits = { #TODO PLACEHOLDER PORTRAITS TODO#
 
 	}
 
-	councilor_hive_general_2 = {	entity = "gestalt_node_general_entity_02" clothes_selector = "no_texture" attachment_selector = "no_texture"  greeting_sound = "avian_01_greetings"
+	councilor_gestalt_regulatory_2 = {	entity = "gestalt_node_general_entity_02" clothes_selector = "no_texture" attachment_selector = "no_texture"  greeting_sound = "avian_01_greetings"
 		character_textures = {
 		"gfx/models/portraits/paragon/gestalt_node_general_02.dds"
 		}
@@ -270,7 +270,7 @@ portraits = { #TODO PLACEHOLDER PORTRAITS TODO#
 
 	}
 
-	councilor_hive_general_3 = {	entity = "gestalt_node_general_entity_03" clothes_selector = "no_texture" attachment_selector = "no_texture"  greeting_sound = "avian_01_greetings"
+	councilor_gestalt_regulatory_3 = {	entity = "gestalt_node_general_entity_03" clothes_selector = "no_texture" attachment_selector = "no_texture"  greeting_sound = "avian_01_greetings"
 		character_textures = {
 		"gfx/models/portraits/paragon/gestalt_node_general_03.dds"
 		}

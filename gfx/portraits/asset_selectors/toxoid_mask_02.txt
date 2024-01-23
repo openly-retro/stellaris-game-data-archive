@@ -1,20 +1,20 @@
 # This is a template which multiple species can use.
-  
+
 toxoid_mask_02 = {
 	default = "gfx/models/portraits/toxoid/toxic_portrait_11_goggles_none.dds"
-	
+
 	game_setup = {#will run with a limited country scope. species and government is set but the country does not actually exist
 		default = "gfx/models/portraits/toxoid/toxic_portrait_11_goggles_none.dds"
 	}
-	
+
 	#species scope
 	species = { #generic portrait for a species
 		default = "gfx/models/portraits/toxoid/toxic_portrait_11_goggles_none.dds"
 	}
-	
+
 	#pop scope
 	pop = { #for a specific pop
-	
+
 		default = "gfx/models/portraits/toxoid/toxic_portrait_11_goggles_none.dds"
 
 		random = {
@@ -34,9 +34,9 @@ toxoid_mask_02 = {
 
 	#leader scope
 	leader = { #scientists, generals, admirals, governor
-	
+
 		random = {
-			trigger = { leader_class = general }
+			trigger = { always = no } # TODO Byron check army assignment
 			list = {
 				"gfx/models/portraits/toxoid/toxic_portrait_11_goggles_none.dds"
 				"gfx/models/portraits/toxoid/toxic_portrait_11_goggles_01.dds"
@@ -45,9 +45,9 @@ toxoid_mask_02 = {
 				"gfx/models/portraits/toxoid/toxic_portrait_11_goggles_04.dds"
 			}
 		}
-		
+
 		random = {
-			trigger = { leader_class = admiral }
+			trigger = { leader_class = commander }
 			list = {
 				"gfx/models/portraits/toxoid/toxic_portrait_11_goggles_none.dds"
 				"gfx/models/portraits/toxoid/toxic_portrait_11_goggles_01.dds"
@@ -56,7 +56,7 @@ toxoid_mask_02 = {
 				"gfx/models/portraits/toxoid/toxic_portrait_11_goggles_04.dds"
 			}
 		}
-		
+
 		random = {
 			trigger = { leader_class = scientist }
 			list = {
@@ -67,9 +67,9 @@ toxoid_mask_02 = {
 				"gfx/models/portraits/toxoid/toxic_portrait_11_goggles_04.dds"
 			}
 		}
-		
+
 		random = {
-			trigger = { leader_class = governor }
+			trigger = { leader_class = official }
 			list = {
 				"gfx/models/portraits/toxoid/toxic_portrait_11_goggles_none.dds"
 				"gfx/models/portraits/toxoid/toxic_portrait_11_goggles_01.dds"
@@ -83,12 +83,12 @@ toxoid_mask_02 = {
 	#leader scope
 	ruler = { #for rulers
 		#default = "gfx/models/portraits/toxic/toxic_portrait_02_mask_01.dds"
-		
+
 		random = {
 			trigger = {
 				owner = { has_militarist_government = yes }
 			}
-				
+
 			list = {
 				"gfx/models/portraits/toxoid/toxic_portrait_11_goggles_none.dds"
 				"gfx/models/portraits/toxoid/toxic_portrait_11_goggles_01.dds"
@@ -97,12 +97,12 @@ toxoid_mask_02 = {
 				"gfx/models/portraits/toxoid/toxic_portrait_11_goggles_04.dds"
 			}
 		}
-		
+
 		random = {
 			trigger = {
 				owner = { has_spiritualist_government = yes }
 			}
-			
+
 			list = {
 				"gfx/models/portraits/toxoid/toxic_portrait_11_goggles_none.dds"
 				"gfx/models/portraits/toxoid/toxic_portrait_11_goggles_01.dds"
@@ -111,7 +111,7 @@ toxoid_mask_02 = {
 				"gfx/models/portraits/toxoid/toxic_portrait_11_goggles_04.dds"
 			}
 		}
-		
+
 		random = {
 			trigger = {
 				owner = {
@@ -123,7 +123,7 @@ toxoid_mask_02 = {
 					}
 				}
 			}
-			
+
 			list = {
 				"gfx/models/portraits/toxoid/toxic_portrait_11_goggles_none.dds"
 				"gfx/models/portraits/toxoid/toxic_portrait_11_goggles_01.dds"

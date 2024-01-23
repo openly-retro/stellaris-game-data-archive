@@ -2,19 +2,19 @@
 
 human_male_hair_03 = {
 	default = "gfx/models/portraits/human/human_male_hair_black_style_03_and_beard_dark_style_01.dds"
-	
+
 	game_setup = {#will run with a limited country scope. species and government is set but the country does not actually exist
 		default = "gfx/models/portraits/human/human_male_hair_black_style_03_and_beard_dark_style_01.dds"
 	}
-	
+
 	#species scope
 	species = { #generic portrait for a species
 		default = "gfx/models/portraits/human/human_male_hair_black_style_03_and_beard_dark_style_01.dds"
 	}
-	
+
 	#pop scope
 	pop = { #for a specific pop
-	
+
 		default = "gfx/models/portraits/human/human_male_hair_black_style_03_and_beard_dark_style_01.dds"
 
 		random = {
@@ -43,24 +43,24 @@ human_male_hair_03 = {
 			}
 		}
 	}
-	
-	
-	
-	
+
+
+
+
 	#leader scope
 	leader = { #scientists, generals, admirals, governor
-	
+
 		random = {
-			trigger = { leader_class = general }
+			trigger = { always = no } # TODO Byron check army assignment
 			list = {
 				"gfx/models/portraits/human/human_male_hair_black_style_01_and_beard_dark_style_01.dds"
 				"gfx/models/portraits/human/human_male_hair_black_style_01_and_beard_dark_style_02.dds"
 				"gfx/models/portraits/human/human_male_hair_black_style_02_and_beard_dark_style_01.dds"
 				"gfx/models/portraits/human/human_male_hair_black_style_02_and_beard_dark_style_02.dds"
-				
+
 				"gfx/models/portraits/human/human_male_hair_black_style_01_and_beard_dark_style_01.dds"
 				"gfx/models/portraits/human/human_male_hair_black_style_02_and_beard_dark_style_01.dds"
-				
+
 				"gfx/models/portraits/human/human_male_hair_black_style_03_and_beard_dark_style_01.dds"
 				"gfx/models/portraits/human/human_male_hair_black_style_03_and_beard_dark_style_02.dds"
 				"gfx/models/portraits/human/human_male_hair_black_style_04_and_beard_dark_style_01.dds"
@@ -74,14 +74,14 @@ human_male_hair_03 = {
 				"gfx/models/portraits/human/human_male_hair_update/human_male_hair_black_style_08.dds"
 				"gfx/models/portraits/human/human_male_hair_update/human_male_hair_black_style_08_and_beard_style_06.dds"
 
-					
+
 			}
 		}
-		
+
 		random = {
-			trigger = { leader_class = admiral }
+			trigger = { leader_class = commander }
 			list = {
-				
+
 				"gfx/models/portraits/human/human_male_hair_black_style_01_and_beard_dark_style_02.dds"
 				"gfx/models/portraits/human/human_male_hair_black_style_02_and_beard_dark_style_02.dds"
 				"gfx/models/portraits/human/human_male_hair_black_style_03.dds"
@@ -101,13 +101,13 @@ human_male_hair_03 = {
 
 			}
 		}
-		
+
 		random = {
 			trigger = { leader_class = scientist }
 			list = {
 				"gfx/models/portraits/human/human_male_hair_black_style_01.dds"
 				"gfx/models/portraits/human/human_male_hair_black_style_01_and_beard_dark_style_02.dds"
-				
+
 				"gfx/models/portraits/human/human_male_hair_black_style_03.dds"
 				"gfx/models/portraits/human/human_male_hair_black_style_03_and_beard_dark_style_01.dds"
 				"gfx/models/portraits/human/human_male_hair_black_style_03_and_beard_dark_style_02.dds"
@@ -125,9 +125,9 @@ human_male_hair_03 = {
 
 			}
 		}
-		
+
 		random = {
-			trigger = { leader_class = governor }
+			trigger = { leader_class = official }
 			list = {
 				"gfx/models/portraits/human/human_male_hair_black_style_02_and_beard_dark_style_02.dds"
 				"gfx/models/portraits/human/human_male_hair_black_style_03.dds"
@@ -151,12 +151,12 @@ human_male_hair_03 = {
 	#leader scope
 	ruler = { #for rulers
 		#default = "gfx/models/portraits/human/human_male_clothes_ruler.dds"
-		
+
 		random = {
 			trigger = {
 				owner = { has_militarist_government = yes }
 			}
-				
+
 			list = {
 
 				"gfx/models/portraits/human/human_male_hair_black_style_01_and_beard_dark_style_01.dds"
@@ -180,17 +180,17 @@ human_male_hair_03 = {
 
 			}
 		}
-		
+
 		random = {
 			trigger = {
 				owner = { has_spiritualist_government = yes }
 			}
-			
+
 			list = {
 				"gfx/models/portraits/human/human_male_hair_black_style_04.dds"
 			}
 		}
-		
+
 		random = {
 			trigger = {
 				owner = {
@@ -202,7 +202,7 @@ human_male_hair_03 = {
 					}
 				}
 			}
-			
+
 			list = {
 				"gfx/models/portraits/human/human_male_hair_black_style_03.dds"
 				"gfx/models/portraits/human/human_male_hair_black_style_03_and_beard_dark_style_01.dds"
@@ -210,7 +210,7 @@ human_male_hair_03 = {
 				"gfx/models/portraits/human/human_male_hair_black_style_04.dds"
 				"gfx/models/portraits/human/human_male_hair_black_style_04_and_beard_dark_style_01.dds"
 				"gfx/models/portraits/human/human_male_hair_black_style_04_and_beard_dark_style_02.dds"
-				
+
 				"gfx/models/portraits/human/human_male_hair_black_style_02_and_beard_dark_style_02.dds"
 				"gfx/models/portraits/human/human_male_hair_black_style_03.dds"
 				"gfx/models/portraits/human/human_male_hair_black_style_03_and_beard_dark_style_02.dds"

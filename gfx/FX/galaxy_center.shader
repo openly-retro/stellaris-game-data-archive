@@ -71,6 +71,7 @@ PixelShader =
 		float4 main( VS_OUTPUT v ) : PDX_COLOR
 		{
 			float4 vColor = tex2D( CenterTexture, v.vUV );
+			vColor *= 0.5f;
 			vColor = ApplyTerraIncognita( vColor, v.vPos.xz, 1.f, TerraIncognitaTexture );
 			return vColor;
 		}

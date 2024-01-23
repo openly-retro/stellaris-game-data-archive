@@ -1,20 +1,20 @@
 # This is a template which multiple species can use.
-  
+
 new_human_male_hair_01 = {
 	default = "gfx/models/portraits/human/new_human/new_human_male_hair_black_style_01_nobeard.dds"
-	
+
 	game_setup = {#will run with a limited country scope. species and government is set but the country does not actually exist
 		default = "gfx/models/portraits/human/new_human/new_human_male_hair_black_style_01_nobeard.dds"
 	}
-	
+
 	#species scope
 	species = { #generic portrait for a species
 		default = "gfx/models/portraits/human/new_human/new_human_male_hair_black_style_01_nobeard.dds"
 	}
-	
+
 	#pop scope
 	pop = { #for a specific pop
-	
+
 		default = "gfx/models/portraits/human/new_human/new_human_male_hair_black_style_01_nobeard.dds"
 
 		random = {
@@ -132,9 +132,9 @@ new_human_male_hair_01 = {
 
 	#leader scope
 	leader = { #scientists, generals, admirals, governor
-	
+
 		random = {
-			trigger = { leader_class = general }
+			trigger = { always = no } # TODO Byron check army assignment
 			list = {
 				"gfx/models/portraits/human/new_human/new_human_male_hair_black_style_01_nobeard.dds"
 				"gfx/models/portraits/human/new_human/new_human_male_hair_brown_style_01_nobeard.dds"
@@ -241,12 +241,12 @@ new_human_male_hair_01 = {
 				"gfx/models/portraits/human/new_human/new_human_male_hair_blonde_style_05_bigbeard.dds"
 				"gfx/models/portraits/human/new_human/new_human_male_hair_platinum_style_05_bigbeard.dds"
 
-					
+
 			}
 		}
-		
+
 		random = {
-			trigger = { leader_class = admiral }
+			trigger = { leader_class = commander }
 			list = {
 				"gfx/models/portraits/human/new_human/new_human_male_hair_black_style_01_nobeard.dds"
 				"gfx/models/portraits/human/new_human/new_human_male_hair_brown_style_01_nobeard.dds"
@@ -354,7 +354,7 @@ new_human_male_hair_01 = {
 
 			}
 		}
-		
+
 		random = {
 			trigger = { leader_class = scientist }
 			list = {
@@ -464,9 +464,9 @@ new_human_male_hair_01 = {
 
 			}
 		}
-		
+
 		random = {
-			trigger = { leader_class = governor }
+			trigger = { leader_class = official }
 			list = {
 				"gfx/models/portraits/human/new_human/new_human_male_hair_black_style_01_nobeard.dds"
 				"gfx/models/portraits/human/new_human/new_human_male_hair_brown_style_01_nobeard.dds"
@@ -579,12 +579,12 @@ new_human_male_hair_01 = {
 	#leader scope
 	ruler = { #for rulers
 		#default = "gfx/models/portraits/human/human_male_hair_brown_style_01_and_beard_dark_style_01.dds"
-		
+
 		random = {
 			trigger = {
 				owner = { has_militarist_government = yes }
 			}
-				
+
 			list = {
 
 				"gfx/models/portraits/human/new_human/new_human_male_hair_black_style_01_nobeard.dds"
@@ -692,12 +692,12 @@ new_human_male_hair_01 = {
 				"gfx/models/portraits/human/new_human/new_human_male_hair_platinum_style_05_bigbeard.dds"
 			}
 		}
-		
+
 		random = {
 			trigger = {
 				owner = { has_spiritualist_government = yes }
 			}
-			
+
 			list = {
 				"gfx/models/portraits/human/new_human/new_human_male_hair_black_style_01_nobeard.dds"
 				"gfx/models/portraits/human/new_human/new_human_male_hair_brown_style_01_nobeard.dds"
@@ -804,7 +804,7 @@ new_human_male_hair_01 = {
 				"gfx/models/portraits/human/new_human/new_human_male_hair_platinum_style_05_bigbeard.dds"
 			}
 		}
-		
+
 		random = {
 			trigger = {
 				owner = {
@@ -816,7 +816,7 @@ new_human_male_hair_01 = {
 					}
 				}
 			}
-			
+
 			list = {
 
 				"gfx/models/portraits/human/new_human/new_human_male_hair_black_style_01_nobeard.dds"

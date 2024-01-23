@@ -1,0 +1,11 @@
+﻿l_japanese:
+ LIMBO_2_PROJECT: "辺獄：黄泉がえり"
+ LIMBO_2_PROJECT_DESC: "神経スキャンデータをロボットの身体にアップロードすることにより、 絶滅した古代の異星種族を復活させられる。"
+ GHOST_SHIP_PROJECT: "“幽霊船”の調査"
+ GHOST_SHIP_PROJECT_DESC: "放棄された調査船が、 1世紀ほどもヒロス星系を漂う運命に翻弄されている。 この孤独な旅に隠された真実とは？"
+ GHOST_SHIP_PROJECT_02: "ウブメの赤子に返事をする"
+ GHOST_SHIP_PROJECT_02_DESC: "ヒロス星系で検知された超常的交信は、 幽霊船「ウブメ」に取り残された人工意識体によるものだと思われる。"
+ ANCIENT_MANUFACTORIUM_PROJECT: "鋳造施設を稼働させる"
+ ANCIENT_MANUFACTORIUM_PROJECT_DESC: "すべての準備が整い、 ようやく機械を稼働させる時が来た。 施設を惑星の電力供給網に接続せよ！"
+ STRATOVENTS_PROJECT: "成層圏噴出孔プロジェクト"
+ STRATOVENTS_PROJECT_DESC: "§Y[planet.GetName]§!の成層圏噴出孔と宇宙生物に対する重要性を調査する。"

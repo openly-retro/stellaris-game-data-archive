@@ -1,0 +1,11 @@
+﻿# === [LocEditor:RedundantFile] File contains no active keys, does not exist in English, could be deleted ===
+# === [LocEditor:OrphanedFile] File contains only orphaned keys ===
+# l_german:
+# === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
+#  Moved key `MESSAGE_WAR_ENDED_DESC_4`
+#  Moved key `MESSAGE_WAR_ENDED_DESC_5`
+#  Moved key `MESSAGE_WAR_ENDED_DESC_6`
+#  Moved key `MESSAGE_VASSAL_ENTER_WAR_DESC_3`
+#  Moved key `MESSAGE_VASSAL_ENTER_WAR_DESC_4`
+#  Moved key `MESSAGE_VASSAL_ENTER_WAR_DESC_5`
+#  Moved key `MESSAGE_VASSAL_ENTER_WAR_DESC_6`

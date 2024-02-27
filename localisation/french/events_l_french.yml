@@ -1542,6 +1542,7 @@
  preftl.180.b.tt.notregular: "§RNous ne pouvons pas accueillir des individus au sein de notre Conscience : tous nous seraient asservis si nous le tentions.§!"
  preftl.180.b: "C'est risible, de la part d'une civilisation aussi immature"
  preftl.180.b.tooltip: "La [Root.GetName] conserve le contrôle de la §Ybase stellaire de [From.Capital.GetStarName]§!.\n\n§Y$opinion_not_ceded_starbase$§! : la §Y[From.GetName]§! va avoir une §Rmoins bonne§! §Hopinion§! de la §Y[Root.GetName]§!."
+ preftl.180.c: "Vous nous en voyez désolés, mais nous avons déjà une colonie dans votre système"
  ####################################
  #Observation Post Events
  ####################################

@@ -620,6 +620,8 @@
  IS_NOT_IMMORTAL_TRIGGER: "필멸자임"
  IS_HIDDEN_TRIGGER: "숨겨져 있음"
  IS_NOT_HIDDEN_TRIGGER: "숨겨져 있지 않음"
+ IS_LEADER_CLASS: "$CLASS|H$임"
+ IS_NOT_LEADER_CLASS: "$CLASS|H$(이)가 아님"
  IS_JOB_OF_CATEGORY: "$JOB|Y$(이)가 $CAT|Y$ 범주에 속함"
  IS_NOT_JOB_OF_CATEGORY: "$JOB|Y$(이)가 $CAT|Y$ 범주에 속하지 않음"
  HAS_ACCESS_MILITARY: "군사 통행권을 보유"

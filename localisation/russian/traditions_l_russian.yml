@@ -97,7 +97,6 @@
  tradition_domination_machine_desc: "Мы стремимся к гармоничной функциональности во всей галактике. Другие звездные существа сопротивляются этому из-за бесполезных личных прихотей. Мы будем удалять подобные отклонения как неисправные компоненты."
  tradition_domination_hive_desc: "Все, что не является Нами, должно Нам служить, будучи либо слугами, либо пищей."
  tr_domination_adopt: "Традиции господства"
- tr_domination_adopt_void_desc: "Расход £alloys£ сплавов на содержание §Yсреды обитания§!: §G-20%§!."
  tr_domination_colonial_viceroys: "Колониальные наместники"
  #tr_domination_colonial_viceroys_desc: "§Y$MOD_LEADER_GOVERNOR_SKILL_LEVELS$§! increased by §Y2§!."
  tr_domination_colonial_viceroys_delayed: "Наш контроль над колониями зависит от наличия способных и верных индивидуумов, которым можно доверять и которые будут следить за выполнением воли правительства."
@@ -289,7 +288,7 @@
  #tr_supremacy_right_of_conquest_machine_delayed: "By seeding the atmosphere of newly-conquered worlds with a selection of gases, harmless to us but lethal to our enemies, their willingness to cede territory without further resource expenditure is enhanced."
  #tr_supremacy_right_of_conquest_hive_delayed: "The others have strange minds. They react more strongly to a single drone being publicly dissolved in the digestion vats than to thousands killed by orbital bombardment. This kind of selective terrorization is effective at cowing their resistance."
  tr_supremacy_master_shipwrights: "Мастера-судостроители"
- tr_supremacy_master_shipwrights_desc: "§Y$MOD_STARBASE_SHIPYARD_BUILD_COST_MULT$§! снижена на §G10%§!, а §Y$MOD_STARBASE_SHIPYARD_BUILD_SPEED_MULT$§! увеличена на §G25%§!."
+ tr_supremacy_master_shipwrights_desc: "§Y$MOD_STARBASE_SHIPYARD_BUILD_SPEED_MULT$§! увеличена на §G25%§!."
  tr_supremacy_master_shipwrights_delayed: "Постоянно возрастающие масштабы наших судостроительных программ привели к формированию высококвалифицированной и эффективной рабочей силы на наших верфях. Методика непрерывно совершенствуется, и время, проходящее от сборки корпуса до получения полностью завершенного звездолета, теперь стало короче, чем когда бы то ни было."
  tr_supremacy_master_shipwrights_hive: "Органическая архитектура"
  tr_supremacy_master_shipwrights_hive_desc: "$tr_supremacy_master_shipwrights_desc$"
@@ -362,6 +361,8 @@
  MESSAGE_FAVOR_GAINED_TRADITION_TITLE: "Посол добился одолжения"
  MESSAGE_FAVOR_GAINED_TRADITION_DESC: "Благодаря умениям наших послов государство $WHO|Y$ теперь у нас в долгу."
  tr_diplomacy_finish: "Традиции дипломатии завершены"
+ tr_diplomacy_federation_xp_gain: "Ежемесячный прирост опыта федерации: §G+2§!\nДипломатический вес: §G+10§!\nДоступные послы: §G+1§!\nОткрыты бонусы за стремление: §G+1§!"
+ diplo_fed_xpboost: "$tr_diplomacy_finish$"
  ################################################################
  #ADAPTABILITY
  ################################################################
@@ -387,8 +388,7 @@
  tr_adaptability_appropriation_desc: "§Y$MOD_POP_RESETTLEMENT_COST_MULT$§! снижена на §G33%§!."
  tr_adaptability_appropriation_delayed: "Необрабатываемая земля бесполезна для нашего государства. Рабочих нужно эффективно перемещать на те планеты, где они нужнее всего."
  tr_adaptability_finish: "Традиции адаптации завершены"
- tr_adaptability_finish_desc: "Открывается решение §Y$decision_prospect$§!, которое позволяет нам один раз дополнительно разведывать залежь ресурсов на наших планетах."
- tr_adaptability_void_finish_desc: "Ресурсы от планетарных свойств орбитального поселения: §G+50%§!\nБонусы за стремление: §G+1§!"
+ tr_adaptability_finish_desc: "Увеличивает §Yбонусы от категорий колоний§! для обычных планет."
  decision_prospect_void: "Орбитальная разведка"
  decision_prospect_void_short: "Позволяет построить дополнительный §Yрайон§! случайного типа на орбитальном поселении."
  decision_prospect_void_desc: "Продолжительное изучение и разведка окрестностей орбитального поселения позволит нам выявить наличие природных ресурсов, которые иначе могли бы от нас ускользнуть."
@@ -409,7 +409,6 @@
  tr_versatility_spatial_optimization_desc: "£pops£ §Y$MOD_POP_HOUSING_USAGE_MULT$§! снижено на §G10%§!."
  tr_versatility_spatial_optimization_delayed: "Выдвижные антенны, разборные каркасы, складные места для хранения. Существует множество креативных решений, позволяющих максимально использовать ограниченное пространство."
  tr_versatility_operational_proxies: "Операционные полномочия"
- tr_versatility_operational_proxies_desc: "§Y$MOD_POP_RESETTLEMENT_COST_MULT$§! снижена на §G33%§!."
  tr_versatility_operational_proxies_delayed: "Передача дополнительных функций с низким приоритетом R-7 полуавтономным агентам освободит вычислительные мощности для более важных задач, таких как перемещение дронов."
  tr_versatility_material_analysis: "Вещественный анализ"
  tr_versatility_material_analysis_desc: "§YСтоимость содержания§! для всех видов £job£ §Yдеятельности в поселениях§! снижена на §G5%§!."
@@ -417,7 +416,6 @@
  tr_versatility_universal_compatibility: "Универсальная совместимость"
  tr_versatility_universal_compatibility_delayed: "Более глубокий анализ бесчисленных стимулов и психологических факторов, которые управляют поведением органиков и других разумных машин, поможет снизить дипломатические трения."
  tr_versatility_finish: "Традиции многогранности завершены"
- tr_versatility_finish_desc: "£job_maintenance_drone£ $job_maintenance_drone_plural$ производят §G+2§! $r_amenities$.\nОткрыты бонусы за стремление: §G+1§!"
  ################################################################
  #DISCOVERY
  ################################################################
@@ -890,7 +888,7 @@
  tr_enmity_consumate_contrarian_delayed: "Мешать планам оппозиции так же приятно, как претворять в жизнь собственные."
  tr_enmity_match: "Сравняйся"
  tr_enmity_match_delayed: "Для начала нужно уравнять возможности."
- tr_enmity_match_effect: "Если соперник превосходит в военном плане:\n$t$Стоимость строительства кораблей: §G-10%§!\n$t$Скорость строительства кораблей: §G+10%§!\nЕсли соперник превосходит в технологическом плане:\n$t$Содержание исследователя: §G-15%§!\n$t$Скорость строительства научных лабораторий: §G+100%§!\nЕсли соперник превосходит в экономическом плане:\n$t$[GetWorker], производство: §G+10%§!"
+ tr_enmity_match_effect: "Если соперник превосходит в военном плане:\n$t$Стоимость строительства кораблей: §G-5%§!\n$t$Скорость строительства кораблей: §G+10%§!\nЕсли соперник превосходит в технологическом плане:\n$t$Содержание исследователя: §G-15%§!\n$t$Скорость строительства научных лабораторий: §G+100%§!\nЕсли соперник превосходит в экономическом плане:\n$t$[GetWorker], производство: §G+10%§!"
  tr_enmity_outpace: "Превзойти"
  tr_enmity_outpace_delayed: "Во-вторых, нужно сделать ход, на который противник не готов пойти."
  tr_enmity_eclipse: "Затмить"
@@ -955,7 +953,7 @@
  synthetic_empire_biological_ascension: "$TRIGGER_FAIL$Государства синтетиков не способны следовать по пути биологического возвышения."
  synthetic_empire_psionic_ascension: "$TRIGGER_FAIL$Государства синтетиков не способны следовать по пути псионического возвышения."
  allow_gaia: "Позволяет нам превращать планеты в §Yидеальные миры§!."
- no_rev_engineering: "Направленные против нас операции §Y$operation_steal_technology$§! будут автоматически проваливаться, и другие государства не смогут изучать §Yобломки§! наших уничтоженных кораблей."
+ no_rev_engineering: "Направленные против нас операции §Y«$operation_steal_technology$»§! будут автоматически проваливаться.\nДругие государства не смогут изучать §Yобломки§! наших уничтоженных кораблей."
  allow_raiding: "Открывает такую тактику, как §Y$bombardment_raiding$§! бомбардировка что в свою очередь позволяет нам похищать жителей поселений на осажденных планетах и переселять их в наши миры."
  ap_defender_of_the_galaxy_effect_opinion: "Увеличивает £opinion£ §Yотношение§! со стороны государств, способных на обычную дипломатию, на §G+200§!"
  ap_defender_of_the_galaxy_modifier_desc: "Урон фракциям во время кризиса в конце игры: §G+50%§!"
@@ -1039,4 +1037,4 @@
  ap_organo_machine_interfacing_assimilator_desc: "Пределы и ограничения, налагаемые на нас нашими создателями, просто неприемлемы. Чтобы достичь полного потенциала, мы должны соединить органику и машину."
  ap_mechromancy: "Мехромантия"
  ap_mechromancy_desc: "Биологические формы жизни — просто еще один вид машин. Мы можем простимулировать соответствующие синапсы и воскресить этих существ в своих интересах."
- ap_mechromancy_tt: "Побежденные органические левиафаны временами могут быть воскрешены.\nПодвергнутые геноциду биологические и литоидные $pops_with_icon$ можно возродить в виде зомби-киборгов."
+ ap_mechromancy_tt: "Побежденных органических левиафанов иногда можно воскресить.\nПодвергнутые геноциду разумные биологические и литоидные $pops_with_icon$ можно с вероятностью 33% возродить в виде зомби-киборгов."

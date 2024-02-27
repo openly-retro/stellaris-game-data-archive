@@ -1649,3 +1649,9 @@
  trait_presapient_unintelligent: "Sin inteligencia"
  trait_presapient_unintelligent_desc: "§HEsta especie es incapaz de realizar las tareas más sencillas. Su única habilidad es la increíble velocidad a la que se reproducen.§!"
  rapid_desertification_species: "Desertoide"
+ #Closing Aperture
+ BREACHSEALER_CAT: "Detectada una brecha en el universo"
+ BREACHSEALER_CAT_DESC: "El tenue sistema Seddom alberga un desgarro en el tejido del universo. Y lo que es aún más insólito, el propio desgarro se está reduciendo gradualmente, como si algo o alguien estuviera trabajando para repararlo."
+ anomaly.7200.name: "Cierre de la apertura"
+ anomaly.7200.desc: "Seddom es un espectáculo espeluznante. Los planetas arremolinados están rodeados de oscuridad, y cerca hay una brecha en el tejido mismo de nuestro universo, unas fauces cósmicas que devoran el propio resplandor de la estrella del sistema.\n\nA pesar de la disposición aparentemente natural de los planetoides, un análisis más detallado ha revelado que están dispuestos con precisión matemática. Hace milenios, una poderosa fuerza ordenó los cuerpos orbitales de este sistema siguiendo un patrón especializado, que no solo ha mitigado los efectos del desgarro, sino que ha evitado que se extienda por toda la galaxia.\n\nLlegamos en el momento propicio: esta monumental obra se acerca a su fin. La restauración de este sistema es inminente."
+ anomaly.7200.a: "Gracias por arreglar nuestra galaxia."

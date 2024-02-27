@@ -244,12 +244,10 @@
  TRADE_PROTECTION_RANGE_DESC: "§E§H$PROTECTION_RANGE$§! — максимальное расстояние действия торговой защиты, снижающей пиратство в ближайших системах, для этой космической базы.§!"
  MESSAGE_FLEET_FORCED_TO_DECLOAK_MESSAGE_TYPE_TITLE: "Принудительный сброс маскировки"
  MESSAGE_FLEET_FORCED_TO_DECLOAK: "Флотилия $FLEET$ была обнаружена в системе $SYSTEM|H$ и оказалась вынуждена сбросить маскировку!"
- #Jira AUG-37831 Observation Missions - Missing Loc TODO_UI
  GO_TO_preFTL_PLANET: "Перейти к планете"
  GO_TO_preFTL_PLANET_tt: "Щелкните, чтобы посетить планету досветовой цивилизации."
  GO_TO_OBSERVATION_POST: "Перейти к наблюдательному форпосту"
  GO_TO_OBSERVATION_POST_tt: "Щелкните, чтобы посетить наблюдательный форпост на орбите планеты досветовой цивилизации."
- #Jira AUG-37832 Cloaking - Content - Missing Loc for tooltips TODO_UI
  CLOAKING_DETECTION_TITLE: "Обнаружение маскировки"
  CLOAKING_DETECTION_SENSOR_tt: "Эта система находится в зоне действия датчиков космической базы, оснащенной комплексом обнаружения. Она может обнаруживать замаскированные флоты с менее эффективной маскировкой."
  CLOAKING_DETECTION_DECLOAK_tt: "В этой системе ваш флот будет обнаружен и вынужден сбросить маскировку."

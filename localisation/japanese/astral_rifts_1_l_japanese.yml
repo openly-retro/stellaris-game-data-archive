@@ -522,6 +522,6 @@
  astral_rift.1955.desc: "我々は不穏な事態を発見した。\n\n[from.GetName]は、秘密裏に我々の人口の一部を$astral_rift_volcano$の天体の裂け目に送り込んでいたのだ。\n\n「均衡を回復するため」だと主張している。"
  astral_rift.1955.a: "[from.GetHimHer]を排除しろ。"
  astral_rift.1955.b: "[from.GetHimHer]に続けさせろ。"
- MESSAGE_RESTORING_THE_BALANCE_SACRIFICE_TITLE: "$restoring_the_balance$"
+ MESSAGE_RESTORING_THE_BALANCE_SACRIFICE_TITLE: "$restoring_the_balance_modifier$"
  MESSAGE_RESTORING_THE_BALANCE_SACRIFICE_DESC: "[event_target:sacrificed_pop_planet.GetName]の人口が$astral_rift_volcano$の天体の裂け目に送り込まれた。我々が乱した均衡を回復するためだ。"
  MESSAGE_RESTORING_THE_BALANCE_SACRIFICE_DESC_LEADER: "[event_target:sacrificed_pop_planet.GetName]の人口が$LEADER|Y$によって$astral_rift_volcano$の天体の裂け目に送り込まれた。均衡を回復するためだ。"

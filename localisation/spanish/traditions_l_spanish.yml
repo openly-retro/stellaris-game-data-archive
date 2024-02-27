@@ -97,7 +97,6 @@
  tradition_domination_machine_desc: "Nosotros buscamos el funcionamiento armonioso de toda la galaxia. Otras criaturas estelares se resisten a ello debido a antojos personales ineficaces. Eliminaremos el desorden como una pieza averiada."
  tradition_domination_hive_desc: "Todo el que no sea de los nuestros deberá servirnos, ya sea como criados o como alimento."
  tr_domination_adopt: "Tradiciones de dominación"
- tr_domination_adopt_void_desc: "Mantenimiento de £alloys£ aleaciones del §Yhábitat§!: §G-20%§!."
  tr_domination_colonial_viceroys: "Virreyes coloniales"
  #tr_domination_colonial_viceroys_desc: "§Y$MOD_LEADER_GOVERNOR_SKILL_LEVELS$§! increased by §Y2§!."
  tr_domination_colonial_viceroys_delayed: "Nuestro control sobre las colonias depende de que encontremos individuos capaces y leales en los que podamos confiar para imponer la voluntad del gobierno."
@@ -289,7 +288,7 @@
  #tr_supremacy_right_of_conquest_machine_delayed: "By seeding the atmosphere of newly-conquered worlds with a selection of gases, harmless to us but lethal to our enemies, their willingness to cede territory without further resource expenditure is enhanced."
  #tr_supremacy_right_of_conquest_hive_delayed: "The others have strange minds. They react more strongly to a single drone being publicly dissolved in the digestion vats than to thousands killed by orbital bombardment. This kind of selective terrorization is effective at cowing their resistance."
  tr_supremacy_master_shipwrights: "Armadores maestros"
- tr_supremacy_master_shipwrights_desc: "§Y$MOD_STARBASE_SHIPYARD_BUILD_COST_MULT$§! se reduce en §G10%§! y §Y$MOD_STARBASE_SHIPYARD_BUILD_SPEED_MULT$§! aumenta en §G+25%§!."
+ tr_supremacy_master_shipwrights_desc: "§Y$MOD_STARBASE_SHIPYARD_BUILD_SPEED_MULT$§! aumenta en un §G+25%§!."
  tr_supremacy_master_shipwrights_delayed: "El creciente alcance de nuestros programas de construcción de naves ha creado eficaces y hábiles fuerzas de trabajo en nuestros astilleros. Los métodos se han ido perfeccionando continuamente y el tiempo que se tarda en completar una nave es ahora más breve que nunca."
  tr_supremacy_master_shipwrights_hive: "Arquitectura orgánica"
  tr_supremacy_master_shipwrights_hive_desc: "$tr_supremacy_master_shipwrights_desc$"
@@ -362,6 +361,8 @@
  MESSAGE_FAVOR_GAINED_TRADITION_TITLE: "Favor ganado"
  MESSAGE_FAVOR_GAINED_TRADITION_DESC: "Gracias a la habilidad de nuestros enviados, hemos obtenido un favor de los $WHO|Y$."
  tr_diplomacy_finish: "Tradiciones de diplomacia finalizadas"
+ tr_diplomacy_federation_xp_gain: "Ganancia de experiencia mensual de la federación: §G+2§!\nPeso diplomático: §G+10§!\nEnviados disponibles: §G+1§!\nVentajas de ascenso desbloqueadas: §G+1§!"
+ diplo_fed_xpboost: "$tr_diplomacy_finish$"
  ################################################################
  #ADAPTABILITY
  ################################################################
@@ -387,8 +388,7 @@
  tr_adaptability_appropriation_desc: "§Y$MOD_POP_RESETTLEMENT_COST_MULT$§! se reduce en un §G33%§!."
  tr_adaptability_appropriation_delayed: "La tierra que no se trabaja en nada contribuye a nuestro imperio. Hay que reubicar a los obreros de manera eficiente en aquellos planetas donde más necesarios son."
  tr_adaptability_finish: "Tradiciones de adaptabilidad acabadas"
- tr_adaptability_finish_desc: "Desbloquea la decisión §Y$decision_prospect$§!, que nos permite prospectar un depósito de recursos adicionales una vez en nuestros planetas."
- tr_adaptability_void_finish_desc: "Recursos de características planetarias del hábitat: §G+50%§!\nVentajas de ascenso desbloqueadas: §G+1§!"
+ tr_adaptability_finish_desc: "Aumenta las §Ybonificaciones por designación de la colonia§! para los planetas normales."
  decision_prospect_void: "Estudio orbital"
  decision_prospect_void_short: "Permite construir un tipo de §Ydistrito§! al azar más en el hábitat."
  decision_prospect_void_desc: "Una prospección y un estudio extensivos en la órbita del hábitat nos permitirán descubrir la presencia de recursos naturales que de otro modo no habríamos visto."
@@ -409,7 +409,6 @@
  tr_versatility_spatial_optimization_desc: "El £pops£ §Y$MOD_POP_HOUSING_USAGE_MULT$§! se reduce en un §G10%§!."
  tr_versatility_spatial_optimization_delayed: "Antenas retráctiles, armazones de unidades desarmables, espacios de almacenamiento plegables. Hay muchas soluciones creativas para aprovechar al máximo un espacio limitado."
  tr_versatility_operational_proxies: "Proxies operativos"
- tr_versatility_operational_proxies_desc: "§Y$MOD_POP_RESETTLEMENT_COST_MULT$§! se reduce en un §G33%§!."
  tr_versatility_operational_proxies_delayed: "Delegar las funciones de baja prioridad de la categoría R-7 en los agentes semiautónomos liberará potencia de procesamiento para tareas más importantes, como las operaciones de reasignación de drones."
  tr_versatility_material_analysis: "Análisis de material"
  tr_versatility_material_analysis_desc: "El §Ymantenimiento§! de todos los £job£ §Ytrabajos de población§! se reduce un §G5%§!."
@@ -417,7 +416,6 @@
  tr_versatility_universal_compatibility: "Compatibilidad universal"
  tr_versatility_universal_compatibility_delayed: "Un análisis más detenido de la miríada de estímulos y factores psicológicos que rigen el comportamiento de los orgánicos y otras inteligencias artificiales disminuirá las fricciones diplomáticas."
  tr_versatility_finish: "Tradiciones de versatilidad acabadas"
- tr_versatility_finish_desc: "Los £job_maintenance_drone£ $job_maintenance_drone_plural$ producen §G+2§! $r_amenities$.\nVentajas de ascenso desbloqueadas: §G+1§!"
  ################################################################
  #DISCOVERY
  ################################################################
@@ -890,7 +888,7 @@
  tr_enmity_consumate_contrarian_delayed: "Bloquear los planes de la oposición puede ser tan satisfactorio como llevar a cabo los propios."
  tr_enmity_match: "Igualdad"
  tr_enmity_match_delayed: "Primero, hay que jugar en igualdad de condiciones."
- tr_enmity_match_effect: "Al ser más débil militarmente que un rival:\n$t$Coste de construcción de naves: §G-10%§!\n$t$Velocidad de construcción de naves: §G+10%§!\nAl ser más débil tecnológicamente que un rival:\n$t$Mantenimiento de investigadores: §G-15%§!\n$t$Velocidad de construcción de laboratorios de investigación: §G+100%§!\nAl ser más débil económicamente que un rival:\n$t$Rendimiento de [GetWorker]: §G+10%§!"
+ tr_enmity_match_effect: "Al ser más débil militarmente que un rival:\n$t$Coste de construcción de naves: §G-5%§!\n$t$Velocidad de construcción de naves: §G+10%§!\nAl ser más débil tecnológicamente que un rival:\n$t$Mantenimiento de investigadores: §G-15%§!\n$t$Velocidad de construcción de laboratorios de investigación: §G+100%§!\nAl ser más débil económicamente que un rival:\n$t$Rendimiento de [GetWorker]: §G+10%§!"
  tr_enmity_outpace: "Superación"
  tr_enmity_outpace_delayed: "Segundo, hay que dar el paso que no se atreve a dar el enemigo."
  tr_enmity_eclipse: "Eclipse"
@@ -955,7 +953,7 @@
  synthetic_empire_biological_ascension: "$TRIGGER_FAIL$Los imperios sintéticos no pueden seguir el camino de ascensión biológica."
  synthetic_empire_psionic_ascension: "$TRIGGER_FAIL$Los imperios sintéticos no pueden seguir el camino de ascensión psiónica."
  allow_gaia: "Nos permite terraformar mundos en §Yplanetas Gaia§!"
- no_rev_engineering: "Las operaciones §Y$operation_steal_technology$§! fracasarán automáticamente cuando se usen contra nosotros y los demás imperios no podrán estudiar los §Yrestos§! de nuestras naves destruidas."
+ no_rev_engineering: "Las operaciones de §Y$operation_steal_technology$§! fracasarán automáticamente cuando se usen contra nosotros.\nLos demás imperios no podrán estudiar los §Yrestos§! de nuestras naves destruidas."
  allow_raiding: "Desbloquea la implicación §Y$bombardment_raiding$§!, que nos permite abducir poblaciones de los planetas asediados y reasentarla en nuestros mundos."
  ap_defender_of_the_galaxy_effect_opinion: "Aumenta en §G200§! la £opinion£ §Yopinión§! de los imperios capaces de ejercer la diplomacia regular."
  ap_defender_of_the_galaxy_modifier_desc: "Daño a facciones en crisis de final de partida: §G+50%§!"
@@ -1039,4 +1037,4 @@
  ap_organo_machine_interfacing_assimilator_desc: "Los límites impuestos por nuestros hacedores son simplemente inaceptables. Debemos fusionar lo orgánico con la máquina para alcanzar todo nuestro potencial."
  ap_mechromancy: "Mecanomancia"
  ap_mechromancy_desc: "Los seres biológicos no son más que otro tipo de máquinas. Podemos estimular las sinapsis adecuadas y reanimar a esas criaturas para sacar provecho de ellas."
- ap_mechromancy_tt: "Los leviatanes orgánicos derrotados pueden resucitar a veces.\nLos seres biológicos o litoideos purgados $pops_with_icon$ pueden regresar como zombis cíborg."
+ ap_mechromancy_tt: "Los leviatanes orgánicos derrotados a veces pueden resucitar.\nLos seres biológicos inteligentes o litoideos purgados $pops_with_icon$ tienen una probabilidad del 33% de regresar como zombis cíborg."

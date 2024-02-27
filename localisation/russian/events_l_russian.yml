@@ -1542,6 +1542,7 @@
  preftl.180.b.tt.notregular: "§RМы не сможем приютить у себя отдельных представителей вида, иначе весь их народ попадет в рабство.§!"
  preftl.180.b: "Смехотворное требование от незрелой цивилизации."
  preftl.180.b.tooltip: "§Y$fleet_type_shipclass_starbase$ возле звезды [From.Capital.GetStarName]§! останется под нашим контролем.\n\n§Y$opinion_not_ceded_starbase$§!: §Y[From.GetName]§! будет §Rхуже§! §Hотноситься§! к §Y[Root.GetName&dat]§!"
+ preftl.180.c: "Очень жаль, но в вашей системе уже есть наша колония."
  ####################################
  #Observation Post Events
  ####################################

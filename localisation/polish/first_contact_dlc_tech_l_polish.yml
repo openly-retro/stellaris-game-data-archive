@@ -244,12 +244,10 @@
  TRADE_PROTECTION_RANGE_DESC: "§E§H$PROTECTION_RANGE$§! to maksymalny zasięg, w jakim ochrona handlu tej bazy gwiezdnej zmniejszy piractwo w okolicznych układach.§!"
  MESSAGE_FLEET_FORCED_TO_DECLOAK_MESSAGE_TYPE_TITLE: "Przymus ujawnienia się"
  MESSAGE_FLEET_FORCED_TO_DECLOAK: "Wykrycie w układzie $SYSTEM|H$ sprawia, że $FLEET$ musi się ujawnić!"
- #Jira AUG-37831 Observation Missions - Missing Loc TODO_UI
  GO_TO_preFTL_PLANET: "Przejdź do planety"
  GO_TO_preFTL_PLANET_tt: "Kliknij, żeby odwiedzić planetę bez napędu nadświetlnego"
  GO_TO_OBSERVATION_POST: "Przejdź do posterunku obserwacyjnego"
  GO_TO_OBSERVATION_POST_tt: "Kliknij, żeby odwiedzić posterunek obserwacyjny na planecie bez napędu nadświetlnego"
- #Jira AUG-37832 Cloaking - Content - Missing Loc for tooltips TODO_UI
  CLOAKING_DETECTION_TITLE: "Wykrywanie maskowania"
  CLOAKING_DETECTION_SENSOR_tt: "Ten układ znajduje się w zasięgu czujników bazy gwiezdnej wyposażonej w sieć czujników. Zamaskowane floty posiadające mniejszą siłę maskowania zostaną wykryte."
  CLOAKING_DETECTION_DECLOAK_tt: "Twoja flota zostanie wykryta i zmuszona do wyłączenia maskowania w tym układzie."

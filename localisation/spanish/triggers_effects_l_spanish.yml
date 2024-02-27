@@ -620,6 +620,8 @@
  IS_NOT_IMMORTAL_TRIGGER: "Es mortal"
  IS_HIDDEN_TRIGGER: "Está oculto"
  IS_NOT_HIDDEN_TRIGGER: "No está oculto"
+ IS_LEADER_CLASS: "Es $CLASS|H$"
+ IS_NOT_LEADER_CLASS: "No es $CLASS|H$"
  IS_JOB_OF_CATEGORY: "$JOB|Y$ es de la categoría $CAT|Y$"
  IS_NOT_JOB_OF_CATEGORY: "$JOB|Y$ NO es de la categoría $CAT|Y$"
  HAS_ACCESS_MILITARY: "Tiene acceso militar"

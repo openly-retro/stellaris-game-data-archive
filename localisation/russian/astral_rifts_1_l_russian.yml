@@ -522,6 +522,6 @@
  astral_rift.1955.desc: "Ситуация принимает неприятный оборот.\n\n[from.GetName] втайне переправляет наше население в $astral_rift_volcano$ через звездный разлом.\n\n[from.GetAXX:Он|||fem:Она] утверждает, что это нужно «для восстановления равновесия»."
  astral_rift.1955.a: "Избавиться от [from.GetAXX:него|||fem:нее]."
  astral_rift.1955.b: "Не препятствовать."
- MESSAGE_RESTORING_THE_BALANCE_SACRIFICE_TITLE: "$restoring_the_balance$"
+ MESSAGE_RESTORING_THE_BALANCE_SACRIFICE_TITLE: "$restoring_the_balance_modifier$"
  MESSAGE_RESTORING_THE_BALANCE_SACRIFICE_DESC: "Население планеты [event_target:sacrificed_pop_planet.GetName] отправлено в $astral_rift_volcano$ для восстановления нарушенного равновесия."
  MESSAGE_RESTORING_THE_BALANCE_SACRIFICE_DESC_LEADER: "$LEADER|Y$ отправляет население планеты [event_target:sacrificed_pop_planet.GetName] в $astral_rift_volcano$ для восстановления нарушенного равновесия."

@@ -670,7 +670,7 @@
  leader_trait_adventurous_spirit_desc: "이 지도자는 모험에 대한 열망이 있으며, 이사회식 정치를 노골적으로 혐오합니다."
  leader_trait_adventurous_spirit_effect: "[GetAdventurousSpiritEffect]"
  adventurous_spirit_not_on_council: "$t$§E평의회 소속이 아닌 경우에만 효과가 적용됩니다.§!"
- adventurous_spirit_on_council: "$t$§R이 특성은 지도자가 평의회 소속일 경우엔 효과가 없습니다.§!"
+ adventurous_spirit_on_council: "§R이 특성은 지도자가 평의회 소속일 경우엔 효과가 없습니다.§!"
  leader_trait_adventurous_spirit_1_tt: "$THIS_LEADER_TXT$:§L\n$t$$mod_leaders_upkeep_mult$: §V-10%§!§!\n$adventurous_spirit_on_council$"
  leader_trait_adventurous_spirit_2_tt: "$THIS_LEADER_TXT$:§L\n$t$$mod_leaders_upkeep_mult$: §V-25%§!\n$t$$MOD_LEADER_SPECIES_EXP_GAIN$:§V+5%§!§!\n$adventurous_spirit_on_council$"
  leader_trait_adventurous_spirit_3_tt: "$THIS_LEADER_TXT$:§L\n$t$$mod_leaders_upkeep_mult$: §V-25%§!\n$t$$MOD_LEADER_SPECIES_EXP_GAIN$: §V+10%§!§!\n$adventurous_spirit_on_council$"

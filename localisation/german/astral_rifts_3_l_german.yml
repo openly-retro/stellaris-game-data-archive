@@ -37,7 +37,7 @@
  astral_rift.3006.desc.default: "$astral_rift.3006.desc.common$\n\n$astral_rift.3005_3006.desc.common.default$"
  astral_rift.3006.a: "Wir sind Entdecker."
  astral_rift.3010.name: "Drohender Untergang"
- astral_rift.3010.desc.common.1: "Wir erklärten ihnen, dass uns ihre Spezies bekannt war: Die Boal in unserem Universum waren ein pazifistisches Schwarmbewusstsein sowie herausragende Gärtner und sie wurden"
+ astral_rift.3010.desc.common.1: "Wir erklärten ihnen, dass uns ihre Spezies bekannt war: Die Baol in unserem Universum waren ein pazifistisches Schwarmbewusstsein sowie herausragende Gärtner und sie wurden"
  astral_rift.3010.desc.common.2: "Die Baol waren alarmiert. Sie erklärten uns, die Grunur wären erst vor Kurzem aufgetaucht und hätten eine Militärblockade um diese Kolonie errichtet. Jedes Detail unseres Berichts stimmte mit ihren eigenen bisherigen Erfahrungen überein.\n\nSie haben uns formell um unsere Hilfe gebeten, damit sie die Bedrohung abwenden können, bevor es zu spät ist."
  astral_rift.3010.desc.baol_started: "$astral_rift.3010.desc.common.1$ von einer militaristischen Spezies, den \"Grunur\", angegriffen.\n\nSo wie die Dinge stehen, sieht es nicht gut aus. Es besteht die Gefahr, dass diese Kolonie bis auf die Wurzeln niedergebrannt wird.\n\n$astral_rift.3010.desc.common.2$"
  astral_rift.3010.desc.baol_completed: "$astral_rift.3010.desc.common.1$ von einem militaristischen Reich, den Grunur, angegriffen.\n\nJeder Planet und jede Kolonie der Baol wurde vernichtet. Nur ein einziger Baol-Knoten blieb übrig, der seit Jahrtausenden in einer verlassenen Forschungsstation gefangen war.\n\n$astral_rift.3010.desc.common.2$"

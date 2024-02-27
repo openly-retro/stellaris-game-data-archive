@@ -1542,6 +1542,7 @@
  preftl.180.b.tt.notregular: "§R우리 제국은 개별 독립체를 수용할 능력이 없습니다. 계속 진행할 경우 상대 국민이 전부 노예가 될 것입니다.§!"
  preftl.180.b: "미숙한 문명 주제에 가당치도 않는 요구를 하는군요."
  preftl.180.b.tooltip: "§Y[From.Capital.GetStarName] $fleet_type_shipclass_starbase$§!에 대한 통제권을 넘기지 않습니다.\n\n§Y$opinion_not_ceded_starbase$§!: §Y[From.GetName]§!의 §Y[Root.GetName]§!에 대한 §H우호도§!가 §R감소§!합니다."
+ preftl.180.c: "미안한데, 이미 그쪽 성계에 식민지를 세웠거든요."
  ####################################
  #Observation Post Events
  ####################################

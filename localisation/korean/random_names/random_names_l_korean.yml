@@ -127,6 +127,7 @@
  Yothmore_Shroud: "요스모어 장막"
  Zadanis_Nebula: "자다니스 성운"
  Zhakira_Patch: "자키라 소영역"
+ Gatekeepers_Embrace: "문지기의 품"
  #Stars/Star Systems (personalities)
  Aazrof: "아즈로프"
  Aytoun: "아이툰"
@@ -215,7 +216,7 @@
  Gutkow: "구트코우"
  Bas: "바스"
  Asjak: "아스자크"
- Hoda: "호다"
+ Hodaris: "호다리스"
  Clochasaigh: "클로카사이그"
  Wydra: "위드라"
  Aslund: "아슬룬드"
@@ -286,6 +287,17 @@
  Hakalax: "하칼락스"
  Marineb: "마리넵"
  Shcher-bak: "슈셔-바크"
+ Istalonis: "이스탈로니스"
+ Kahko: "캐코"
+ Maxdim: "막스딤"
+ Karyoshu: "카료슈"
+ Ledameth: "레다메스"
+ Uray: "우레이"
+ Lyzz-Dyura: "리즈-듀라"
+ Chvvash: "츠브바시"
+ Archmelie: "아치멜리"
+ Ishin'Can: "이신'칸"
+ Demivideau: "데미비데아우"
  #Stars/star systems (deities & mythology)
  Aesir: "아에시르" #Norse
  Anahita: "아나히타" #Persian

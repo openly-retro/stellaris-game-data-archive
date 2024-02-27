@@ -244,12 +244,10 @@
  TRADE_PROTECTION_RANGE_DESC: "§E§H$PROTECTION_RANGE$§! es el alcance máximo al cual la protección comercial de esta base estelar reducirá la piratería en los sistemas cercanos.§!"
  MESSAGE_FLEET_FORCED_TO_DECLOAK_MESSAGE_TYPE_TITLE: "Forzados a mostrarse"
  MESSAGE_FLEET_FORCED_TO_DECLOAK: "¡Una detección en el $SYSTEM|H$ ha desenmascarado a la $FLEET$!"
- #Jira AUG-37831 Observation Missions - Missing Loc TODO_UI
  GO_TO_preFTL_PLANET: "Ir al planeta"
  GO_TO_preFTL_PLANET_tt: "Clic para visitar el planeta pre-UL."
  GO_TO_OBSERVATION_POST: "Ir al puesto de observación"
  GO_TO_OBSERVATION_POST_tt: "Clic para visitar el puesto de observación que orbita el planeta pre-UL."
- #Jira AUG-37832 Cloaking - Content - Missing Loc for tooltips TODO_UI
  CLOAKING_DETECTION_TITLE: "Detección de camuflaje"
  CLOAKING_DETECTION_SENSOR_tt: "Este sistema está dentro del alcance de los sensores de una base estelar con matrices de detección. Las flotas camufladas con menor potencia de camuflaje serán detectadas."
  CLOAKING_DETECTION_DECLOAK_tt: "Tu flota será detectada y obligada a desactivar su camuflaje en este sistema."

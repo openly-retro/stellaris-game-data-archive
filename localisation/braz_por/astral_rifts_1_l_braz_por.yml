@@ -522,6 +522,6 @@
  astral_rift.1955.desc: "Fizemos uma descoberta perturbadora.\n\n[from.GetName] estava enviando em segredo membros da nossa população pela Fenda Astral do $astral_rift_volcano$.\n\nO motivo alegado para suas ações aparentemente era \"restaurar o equilíbrio\"."
  astral_rift.1955.a: "Livre-se d[from.GetHeShe]."
  astral_rift.1955.b: "Permita que [From.GetHeShe] continue."
- MESSAGE_RESTORING_THE_BALANCE_SACRIFICE_TITLE: "$restoring_the_balance$"
+ MESSAGE_RESTORING_THE_BALANCE_SACRIFICE_TITLE: "$restoring_the_balance_modifier$"
  MESSAGE_RESTORING_THE_BALANCE_SACRIFICE_DESC: "A população de [event_target:sacrificed_pop_planet.GetName] foi enviada de volta à Fenda Astral do $astral_rift_volcano$ em uma tentativa de restaurar o equilíbrio que perturbamos."
  MESSAGE_RESTORING_THE_BALANCE_SACRIFICE_DESC_LEADER: "$LEADER|Y$ enviou a população de [event_target:sacrificed_pop_planet.GetName] de volta à Fenda Astral do $astral_rift_volcano$ em uma tentativa de restaurar o equilíbrio."

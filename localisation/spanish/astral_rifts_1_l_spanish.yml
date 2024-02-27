@@ -522,6 +522,6 @@
  astral_rift.1955.desc: "Hemos descubierto un hecho inquietante.\n\n[from.GetName] ha estado enviando en secreto a miembros de nuestra población a través de la grieta astral de $astral_rift_volcano$.\n\nAfirma que lo ha hecho en un esfuerzo por \\\"restablecer el equilibrio\\\"."
  astral_rift.1955.a: "Eliminadlo/a."
  astral_rift.1955.b: "Permitid que continúe."
- MESSAGE_RESTORING_THE_BALANCE_SACRIFICE_TITLE: "$restoring_the_balance$"
+ MESSAGE_RESTORING_THE_BALANCE_SACRIFICE_TITLE: "$restoring_the_balance_modifier$"
  MESSAGE_RESTORING_THE_BALANCE_SACRIFICE_DESC: "Parte de la población de [event_target:sacrificed_pop_planet.GetName] ha sido enviada a través la grieta astral de $astral_rift_volcano$, en un esfuerzo por restaurar el equilibrio que hemos perturbado."
  MESSAGE_RESTORING_THE_BALANCE_SACRIFICE_DESC_LEADER: "$LEADER|Y$ ha enviado a parte de la población de [event_target:sacrificed_pop_planet.GetName] a través la grieta astral de $astral_rift_volcano$, en un esfuerzo por restaurar el equilibrio."

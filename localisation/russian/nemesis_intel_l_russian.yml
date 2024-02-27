@@ -1094,8 +1094,6 @@
  cara1_fleet_must_be_within_borders: "Флот караванщиков [caravaneer_fleet1_country.GetName] должен находиться в границах [Root.GetName&gen]."
  cara2_fleet_must_be_within_borders: "Флот караванщиков [caravaneer_fleet2_country.GetName] должен находиться в границах [Root.GetName&gen]."
  cara3_fleet_must_be_within_borders: "Флот караванщиков [caravaneer_fleet3_country.GetName] должен находиться в границах [Root.GetName&gen]."
- #todo: eliminate this
- CD_TODO_TOOLTIP: "§RTHIS CONTENT IS TODO_CD§!"
  #Triggers and Effects
  effect_random_first_contact: "Случайное место первого контакта"
  effect_every_first_contact: "Все места первого контакта"

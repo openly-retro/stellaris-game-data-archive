@@ -37,7 +37,7 @@
  astral_rift.3006.desc.default: "$astral_rift.3006.desc.common$\n\n$astral_rift.3005_3006.desc.common.default$"
  astral_rift.3006.a: "Jesteśmy badaczami."
  astral_rift.3010.name: "Nadciągająca zagłada"
- astral_rift.3010.desc.common.1: "Wyjaśniliśmy, że ich gatunek jest nam nieobcy - Boali w naszym wszechświecie tworzyli pacyfistyczny umysł zbiorowy. Byli niezrównanymi ogrodnikami, którzy zostali zaatakowani i wymordowani."
+ astral_rift.3010.desc.common.1: "Wyjaśniliśmy, że ich gatunek jest nam nieobcy - Baoli w naszym wszechświecie tworzyli pacyfistyczny umysł zbiorowy. Byli niezrównanymi ogrodnikami, którzy zostali zaatakowani i wymordowani."
  astral_rift.3010.desc.common.2: "Baoli zareagowali przerażeniem. Wyjaśnili, że Grunurowie pojawili sę dopiero niedawno i rozpoczęli militarną blokadę kolonii. Każdy szczegół naszego meldunku zgadzał się z tym, co dotąd przeżyli w związku z Grunurami.\n\nWystosowali do nas oficjalną prośbę o pomoc w odparciu wrogiego zagrożenia, zanim będzie za późno."
  astral_rift.3010.desc.baol_started: "$astral_rift.3010.desc.common.1$ militarystyczna rasa - Grunurowie.\n\nJeśli nic się nie zmieni, kolonii wkrótce zagrozi spalenie do gołej ziemi.\n\n$astral_rift.3010.desc.common.2$"
  astral_rift.3010.desc.baol_completed: "$astral_rift.3010.desc.common.1$ militarystyczne imperium - Grunurowie.\n\nWszystkie baolskie planety i kolonie zostały zniszczone. Pozostał tylko jeden węzeł, uwięziony przez tysiąclecia w porzuconej stacji badawczej.\n\n$astral_rift.3010.desc.common.2$"

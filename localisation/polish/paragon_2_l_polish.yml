@@ -670,7 +670,7 @@
  leader_trait_adventurous_spirit_desc: "Ten przywódca pragnie przygód i gardzi nudną polityką."
  leader_trait_adventurous_spirit_effect: "[GetAdventurousSpiritEffect]"
  adventurous_spirit_not_on_council: "$t$§EEfekty działają, gdy NIE jest w radzie.§!"
- adventurous_spirit_on_council: "$t$§RTa cecha nie działa, gdy przywódca jest w radzie.§!"
+ adventurous_spirit_on_council: "§RTa cecha nie działa, gdy przywódca jest w radzie.§!"
  leader_trait_adventurous_spirit_1_tt: "$THIS_LEADER_TXT$:§L\n$t$$mod_leaders_upkeep_mult$: §V-10%§!§!\n$adventurous_spirit_on_council$"
  leader_trait_adventurous_spirit_2_tt: "$THIS_LEADER_TXT$:§L\n$t$$mod_leaders_upkeep_mult$: §V-25%§!\n$t$$MOD_LEADER_SPECIES_EXP_GAIN$:§V+5%§!§!\n$adventurous_spirit_on_council$"
  leader_trait_adventurous_spirit_3_tt: "$THIS_LEADER_TXT$:§L\n$t$$mod_leaders_upkeep_mult$: §V-25%§!\n$t$$MOD_LEADER_SPECIES_EXP_GAIN$: §V+10%§!§!\n$adventurous_spirit_on_council$"

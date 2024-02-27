@@ -670,7 +670,7 @@
  leader_trait_adventurous_spirit_desc: "このリーダーは、 冒険への憧れをもち、 会議室での駆け引きをあからさまに嫌っている。"
  leader_trait_adventurous_spirit_effect: "[GetAdventurousSpiritEffect]"
  adventurous_spirit_not_on_council: "$t$§E評議会の一員ではない時に効果が適用される。§!"
- adventurous_spirit_on_council: "$t$§Rこの特性は、 リーダーが評議会の一員の場合は効果を発揮しない。§!"
+ adventurous_spirit_on_council: "§Rこの特性は、 リーダーが評議会の一員の場合は効果を発揮しない。§!"
  leader_trait_adventurous_spirit_1_tt: "$THIS_LEADER_TXT$：§L\n$t$$mod_leaders_upkeep_mult$：§V-10%§!§!\n$adventurous_spirit_on_council$"
  leader_trait_adventurous_spirit_2_tt: "$THIS_LEADER_TXT$：§L\n$t$$mod_leaders_upkeep_mult$：§V-25%§!\n$t$$MOD_LEADER_SPECIES_EXP_GAIN$：§V+5%§!§!\n$adventurous_spirit_on_council$"
  leader_trait_adventurous_spirit_3_tt: "$THIS_LEADER_TXT$：§L\n$t$$mod_leaders_upkeep_mult$：§V-25%§!\n$t$$MOD_LEADER_SPECIES_EXP_GAIN$：§V+10%§!§!\n$adventurous_spirit_on_council$"

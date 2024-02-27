@@ -97,7 +97,6 @@
  tradition_domination_machine_desc: "我々は全銀河における調和のとれた機能性を追求しているが、 他の存在は非効率な個人的気まぐれでこれに抵抗している。 我々はこの不調を、 故障した部品のごとく排除する。"
  tradition_domination_hive_desc: "我々以外のすべては、 しもべとして、 または食料として我々に奉仕しなければならない。"
  tr_domination_adopt: "支配の伝統"
- tr_domination_adopt_void_desc: "§Y軌道上居住地§!の £alloys£ 合金維持費：§G-20%§!。"
  tr_domination_colonial_viceroys: "植民地総督"
  #tr_domination_colonial_viceroys_desc: "§Y$MOD_LEADER_GOVERNOR_SKILL_LEVELS$§! increased by §Y2§!."
  tr_domination_colonial_viceroys_delayed: "植民地の支配は、 政府の意志を執行させるための有能かつ忠実な、 信頼に足る人物を見いだすことにかかっている。"
@@ -289,7 +288,7 @@
  #tr_supremacy_right_of_conquest_machine_delayed: "By seeding the atmosphere of newly-conquered worlds with a selection of gases, harmless to us but lethal to our enemies, their willingness to cede territory without further resource expenditure is enhanced."
  #tr_supremacy_right_of_conquest_hive_delayed: "The others have strange minds. They react more strongly to a single drone being publicly dissolved in the digestion vats than to thousands killed by orbital bombardment. This kind of selective terrorization is effective at cowing their resistance."
  tr_supremacy_master_shipwrights: "熟練造船工"
- tr_supremacy_master_shipwrights_desc: "§Y$MOD_STARBASE_SHIPYARD_BUILD_COST_MULT$§!が§G10%§!減少し、 §Y$MOD_STARBASE_SHIPYARD_BUILD_SPEED_MULT$§!が§G+25%§!増加する。"
+ tr_supremacy_master_shipwrights_desc: "§Y$MOD_STARBASE_SHIPYARD_BUILD_SPEED_MULT$§!が§G+25%§!増加。"
  tr_supremacy_master_shipwrights_delayed: "造船計画の規模の拡大にともない、 造船所では効率的かつ質の高い熟練労働者が育成されてきた。 日々進化を遂げる製造法によって、 船体の建造から完成までの時間はかつてないほど短縮されている。"
  tr_supremacy_master_shipwrights_hive: "有機的設計"
  tr_supremacy_master_shipwrights_hive_desc: "$tr_supremacy_master_shipwrights_desc$"
@@ -362,6 +361,8 @@
  MESSAGE_FAVOR_GAINED_TRADITION_TITLE: "好意を得た"
  MESSAGE_FAVOR_GAINED_TRADITION_DESC: "我々の使節の手腕により、 $WHO|Y$から好意を得ることに成功した。"
  tr_diplomacy_finish: "外交の伝統の完成"
+ tr_diplomacy_federation_xp_gain: "毎月の連邦経験値獲得：§G+2§!\n外交発言力：§G+10§!\n利用可能な使節：§G+1§!\nアンロックされるアセンションパーク：§G+1§!"
+ diplo_fed_xpboost: "$tr_diplomacy_finish$"
  ################################################################
  #ADAPTABILITY
  ################################################################
@@ -387,8 +388,7 @@
  tr_adaptability_appropriation_desc: "§Y$MOD_POP_RESETTLEMENT_COST_MULT$§!が§G33%§!減少する。"
  tr_adaptability_appropriation_delayed: "活用されていない土地は、 わが帝国にまったく貢献していない。 労働者たちは最も必要とされる惑星に、 効率的な方法で再配置されなくてはならない。"
  tr_adaptability_finish: "適応の伝統が完成"
- tr_adaptability_finish_desc: "§Y$decision_prospect$§!のディシジョンがアンロックされ、 惑星ごとに一度だけ資源産出の惑星特性を追加で得られるようになる。"
- tr_adaptability_void_finish_desc: "居住地の惑星特性からの資源：§G+50%§!\nアセンションパークをアンロック：§G+1§!"
+ tr_adaptability_finish_desc: "通常の惑星の§Y植民地開発構想ボーナス§!が増加する。"
  decision_prospect_void: "軌道上測量"
  decision_prospect_void_short: "軌道上居住地にランダムな§Y区域§!タイプを追加で建設することができる。"
  decision_prospect_void_desc: "軌道上での広範な測量と試掘により、 これまで知られていなかった天然資源の存在が明らかになるだろう。"
@@ -409,7 +409,6 @@
  tr_versatility_spatial_optimization_desc: "£pops£ §Y$MOD_POP_HOUSING_USAGE_MULT$§!が§G10%§!減少する。"
  tr_versatility_spatial_optimization_delayed: "格納式アンテナ、 組立式ユニットフレーム、 折りたたみ式収納スペース。 限られた空間を最大限に活用するために、 多くの工夫がなされている。"
  tr_versatility_operational_proxies: "代理運用"
- tr_versatility_operational_proxies_desc: "§Y$MOD_POP_RESETTLEMENT_COST_MULT$§!が§G33%§!減少する。"
  tr_versatility_operational_proxies_delayed: "半自律型エージェントに、 追加カテゴリR-7の低優先度機能を委任することで、 ドローンの再配置などのより重要なタスクに処理能力を割り当てることができる。"
  tr_versatility_material_analysis: "物質解析"
  tr_versatility_material_analysis_desc: "すべての£job£ §YPOP職§!の§Y維持費§!が§G5%§!減少。"
@@ -417,7 +416,6 @@
  tr_versatility_universal_compatibility: "普遍的互換性"
  tr_versatility_universal_compatibility_delayed: "有機生命体と機械知性の行動を支配する、 無数の刺激と心理的要因をより深く分析することで、 外交摩擦を減らせるだろう。"
  tr_versatility_finish: "多様性の伝統が完成"
- tr_versatility_finish_desc: "£job_maintenance_drone£ $job_maintenance_drone_plural$の$r_amenities$産出が§G+2§!増加する。\nアセンションパークをアンロック：§G+1§!"
  ################################################################
  #DISCOVERY
  ################################################################
@@ -890,7 +888,7 @@
  tr_enmity_consumate_contrarian_delayed: "反対者の計画を阻止することは、 自分の計画を実現するのと同じくらい満足のいくものだ。"
  tr_enmity_match: "対戦"
  tr_enmity_match_delayed: "まずは平等な競争条件を確立する。"
- tr_enmity_match_effect: "軍事的に宿敵より弱い場合：\n$t$造船コスト： §G-10%§!\n$t$造船速度： §G+10%§!\n技術的に宿敵に劣る場合：\n$t$研究者維持費： §G-15%§!\n$t$研究所建造速度： §G+100%§!\n経済的に宿敵より弱い場合：\n$t$[GetWorker] 産出量： §G+10%§!"
+ tr_enmity_match_effect: "軍事的に宿敵より弱い場合：\n$t$造船コスト： §G-5%§!\n$t$造船速度： §G+10%§!\n技術的に宿敵に劣る場合：\n$t$研究者維持費： §G-15%§!\n$t$研究所建造速度： §G+100%§!\n経済的に宿敵より弱い場合：\n$t$[GetWorker] 産出量： §G+10%§!"
  tr_enmity_outpace: "敵を凌ぐ"
  tr_enmity_outpace_delayed: "次に敵がやりたがらないことをする。"
  tr_enmity_eclipse: "エクリプス"
@@ -955,7 +953,7 @@
  synthetic_empire_biological_ascension: "$TRIGGER_FAIL$人工生命体帝国は生物学アセンションを始めることができない。"
  synthetic_empire_psionic_ascension: "$TRIGGER_FAIL$人工生命体帝国は超能力アセンションを始めることができない。"
  allow_gaia: "惑星を§Yガイア型惑星§!にテラフォーミングできる。"
- no_rev_engineering: "我々に対する§Y$operation_steal_technology$§!作戦は自動的に失敗する。 また、 我々の破壊された船の§Yデブリ§!を他国は研究できない。"
+ no_rev_engineering: "我々に対する§Y$operation_steal_technology$§!作戦は自動的に失敗する。\n我々の破壊された船の§Yデブリ§!を他国は研究できない。"
  allow_raiding: "§Y$bombardment_raiding$§!の軌道爆撃方針をアンロックする。 これは包囲された惑星からPOPを拉致して、 我々の惑星に強制移住させられる。"
  ap_defender_of_the_galaxy_effect_opinion: "通常の外交が可能な帝国の£opinion£ §Y態度§!が§G200§!増加する"
  ap_defender_of_the_galaxy_modifier_desc: "ゲーム終盤の危機勢力に対するダメージ：§G+50%§!"
@@ -1039,4 +1037,4 @@
  ap_organo_machine_interfacing_assimilator_desc: "我々の創造主によって課せられた限界と制約は、 到底受け入れられるものではない。 潜在能力を最大限に発揮するため、 有機体と機械との融合を果たさねばならない。"
  ap_mechromancy: "メクロマンシー"
  ap_mechromancy_desc: "生物もある種の機械にすぎない。 適切なシナプスを刺激すれば、生物を自らの利益のために生き返らせることができる。"
- ap_mechromancy_tt: "倒れた有機生命体リヴァイアサンがときどき蘇生することがある。\n浄化された生物または岩石種族$pops_with_icon$をサイボーグゾンビとして修復可能。"
+ ap_mechromancy_tt: "倒れた有機生命体リヴァイアサンがときどき蘇生することがある。\n浄化された知的生物または岩石種族$pops_with_icon$を33%の確率でサイボーグゾンビとして修復可能。"

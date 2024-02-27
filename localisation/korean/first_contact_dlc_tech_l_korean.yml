@@ -244,12 +244,10 @@
  TRADE_PROTECTION_RANGE_DESC: "§E§H$PROTECTION_RANGE$§!는 이 항성 기지의 무역 보호로 감소하는 인근 성계 내 해적 활동의 최대 범위를 나타냅니다.§!"
  MESSAGE_FLEET_FORCED_TO_DECLOAK_MESSAGE_TYPE_TITLE: "강제 은폐 해제"
  MESSAGE_FLEET_FORCED_TO_DECLOAK: "$SYSTEM|H$에서 은폐가 감지되어, $FLEET$의 은폐가 강제 해제됩니다!"
- #Jira AUG-37831 Observation Missions - Missing Loc TODO_UI
  GO_TO_preFTL_PLANET: "행성으로 이동"
  GO_TO_preFTL_PLANET_tt: "클릭해서 초광속 이전 행성으로 이동합니다."
  GO_TO_OBSERVATION_POST: "관측소로 이동"
  GO_TO_OBSERVATION_POST_tt: "클릭해서 초광속 이전 행성 궤도상의 관측소로 이동합니다."
- #Jira AUG-37832 Cloaking - Content - Missing Loc for tooltips TODO_UI
  CLOAKING_DETECTION_TITLE: "은폐 탐지"
  CLOAKING_DETECTION_SENSOR_tt: "이 성계는 탐지 배열체가 탑재된 항성 기지의 감지 범위 안에 있습니다. 은폐 강도가 낮은 은폐 함대는 항성 기지에 탐지됩니다."
  CLOAKING_DETECTION_DECLOAK_tt: "우리 함대가 이 성계에 진입할 경우, 감지기에 탐지되어 은폐가 강제로 해제될 것입니다."

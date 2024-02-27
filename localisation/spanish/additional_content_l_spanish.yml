@@ -9,6 +9,11 @@
  ADDITIONAL_CONTENT_PORTRAITS: "Retratos"
  ADDITIONAL_CONTENT_SCREENSHOTS: "Capturas de pantalla"
  ADDITIONAL_CONTENT_HIDE_ALL_OWNED: "Ocultar todos los contenidos en propiedad"
+ #Subscription
+ ACB_SUBSCRIPTION_DLC_LIST_TITLE: "Si te suscribes ahora, tendrás acceso a los siguientes contenidos:"
+ ACB_SUBSCRIPTION_CLICK_DESC: "Clic para abrir en la tienda"
+ ACB_SUBSCRIPTION_INCLUDED_CONTENT_TITLE: "Contenido incluido"
+ ACB_SUBSCRIPTION_INCLUDED_SUBSCRIPTION_PLANS_TITLE: "Planes de suscripción"
  #Store button texts
  ADDITIONAL_CONTENT_BUY_IN_STEAM: "Comprar en Steam"
  ADDITIONAL_CONTENT_BUY_IN_MICROSOFT_STORE: "Comprar en Microsoft Store"

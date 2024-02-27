@@ -670,7 +670,7 @@
  leader_trait_adventurous_spirit_desc: "Dieser Anführer sehnt sich nach Abenteuern und hat eine offenkundige Abneigung gegenüber Sitzungspolitik."
  leader_trait_adventurous_spirit_effect: "[GetAdventurousSpiritEffect]"
  adventurous_spirit_not_on_council: "$t$§EEffekte haben nur außerhalb des Rats Auswirkungen.§!"
- adventurous_spirit_on_council: "$t$§RDiese Eigenschaft hat keine Wirkung, wenn der Anführer im Rat ist.§!"
+ adventurous_spirit_on_council: "§RDiese Eigenschaft hat keine Wirkung, wenn der Anführer im Rat ist.§!"
  leader_trait_adventurous_spirit_1_tt: "$THIS_LEADER_TXT$:§L\n$t$$mod_leaders_upkeep_mult$: §V-10%§!§!\n$adventurous_spirit_on_council$"
  leader_trait_adventurous_spirit_2_tt: "$THIS_LEADER_TXT$:§L\n$t$$mod_leaders_upkeep_mult$: §V-25%§!\n$t$$MOD_LEADER_SPECIES_EXP_GAIN$:§V+5%§!§!\n$adventurous_spirit_on_council$"
  leader_trait_adventurous_spirit_3_tt: "$THIS_LEADER_TXT$:§L\n$t$$mod_leaders_upkeep_mult$: §V-25%§!\n$t$$MOD_LEADER_SPECIES_EXP_GAIN$: §V+10%§!§!\n$adventurous_spirit_on_council$"

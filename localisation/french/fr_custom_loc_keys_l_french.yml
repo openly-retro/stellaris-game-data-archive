@@ -68,7 +68,6 @@
  COLONY_AUTOMATIC_DEVELOPMENT_SELECTED:0 "§HAutomatisation activée§!\nCette colonie est développée de manière automatisée, en accord avec sa §Hdésignation§!.\n\n§GClic droit pour ouvrir les paramètres.§!"
  COLONY_MANUAL_DEVELOPMENT_SELECTED:0 "§HAutomatisation désactivée§!\nCette colonie est développée de manière manuelle.\n\n§GClic droit pour ouvrir les paramètres.§!"
  anomaly.140.b.tooltip:0 "Lancez la chaîne d'événements Divinités anciennes."
- anomaly.144.desc:0 "Peu après son entrée dans le système [Root.GetStarName], l'équipage du [Root.GetName] a signalé la présence d'un objet céleste semblable à l'autel dédié à l'Indicible sur l'orbite de l'étoile."
  anomaly.168.b.tooltip:0 "Les corporations religieuses les plus riches ont eu vent de cette affaire, et sont très intéressées."
  anomaly.168.c.tooltip:0 "Quelle que soit la véracité ou la validité des textes sacrés, le fait est que nous partageons des concepts religieux avec une race de voyageurs spatiaux inconnue et très ancienne."
  anomaly.169.name:0 "Accepter le mandat divin"

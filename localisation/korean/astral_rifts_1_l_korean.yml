@@ -522,6 +522,6 @@
  astral_rift.1955.desc: "매우 우려스러운 사태가 발생했습니다.\n\n[from.GetName](이)가 우리 주민들을 잡아, 비밀리에 $astral_rift_volcano$의 아스트랄 균열로 보내고 있었습니다.\n\n'균형을 수복'하려 했다는 것이 [from.GetName]의 주장입니다."
  astral_rift.1955.a: "이 자를 처분하세요."
  astral_rift.1955.b: "계속 진행하라고 하세요."
- MESSAGE_RESTORING_THE_BALANCE_SACRIFICE_TITLE: "$restoring_the_balance$"
+ MESSAGE_RESTORING_THE_BALANCE_SACRIFICE_TITLE: "$restoring_the_balance_modifier$"
  MESSAGE_RESTORING_THE_BALANCE_SACRIFICE_DESC: "우리가 어지럽힌 균형을 회복하기 위한 노력의 일환으로 [event_target:sacrificed_pop_planet.GetName] 주민을 $astral_rift_volcano$의 아스트랄 균열 너머로 보냈습니다."
  MESSAGE_RESTORING_THE_BALANCE_SACRIFICE_DESC_LEADER: "균형을 회복하기 위한 노력의 일환으로, $LEADER|Y$(이)가 [event_target:sacrificed_pop_planet.GetName] 주민을 $astral_rift_volcano$의 아스트랄 균열 너머로 보냈습니다."

@@ -244,12 +244,10 @@
  TRADE_PROTECTION_RANGE_DESC: "§E§H$PROTECTION_RANGE$§!は、 この星系基地による交易保護 (付近の星系における海賊行為を減少させる) の最大有効範囲である。§!"
  MESSAGE_FLEET_FORCED_TO_DECLOAK_MESSAGE_TYPE_TITLE: "クローク強制解除"
  MESSAGE_FLEET_FORCED_TO_DECLOAK: "$SYSTEM|H$内での検知により$FLEET$のクロークが強制解除される！"
- #Jira AUG-37831 Observation Missions - Missing Loc TODO_UI
  GO_TO_preFTL_PLANET: "惑星に移動する"
  GO_TO_preFTL_PLANET_tt: "クリックでこの前FTL惑星に移動する。"
  GO_TO_OBSERVATION_POST: "観測拠点に移動する"
  GO_TO_OBSERVATION_POST_tt: "クリックでこの前FTL惑星の観測拠点に移動する。"
- #Jira AUG-37832 Cloaking - Content - Missing Loc for tooltips TODO_UI
  CLOAKING_DETECTION_TITLE: "クローク探知"
  CLOAKING_DETECTION_SENSOR_tt: "この星系は、 探知アレイを備えた星系基地のセンサー範囲内にある。 クローク強度の低いクローク中艦隊は検知される。"
  CLOAKING_DETECTION_DECLOAK_tt: "我々の艦隊はこの星系で探知され、 強制クローク解除される。"

@@ -127,6 +127,7 @@
  Yothmore_Shroud: "Woal Yothmore"
  Zadanis_Nebula: "Mgławica Zadanis"
  Zhakira_Patch: "Terytorium Zhakira"
+ Gatekeepers_Embrace: "W objęciach strażnika wrót"
  #Stars/Star Systems (personalities)
  Aazrof: "Aazrof"
  Aytoun: "Aytoun"
@@ -215,7 +216,7 @@
  Gutkow: "Gutkow"
  Bas: "Bas"
  Asjak: "Asjak"
- Hoda: "Hoda"
+ Hodaris: "Hodaris"
  Clochasaigh: "Clochasaigh"
  Wydra: "Wydra"
  Aslund: "Aslund"
@@ -286,6 +287,17 @@
  Hakalax: "Hakalax"
  Marineb: "Marineb"
  Shcher-bak: "Shcher-bak"
+ Istalonis: "Istalonis"
+ Kahko: "Kähkö"
+ Maxdim: "Maxdim"
+ Karyoshu: "Karyoshu"
+ Ledameth: "Ledameth"
+ Uray: "Uray"
+ Lyzz-Dyura: "Lyzz-Dyura"
+ Chvvash: "Chvvash"
+ Archmelie: "Archmelie"
+ Ishin'Can: "Ishin'Can"
+ Demivideau: "Demivideau"
  #Stars/star systems (deities & mythology)
  Aesir: "Aesir" #Norse
  Anahita: "Anahita" #Persian

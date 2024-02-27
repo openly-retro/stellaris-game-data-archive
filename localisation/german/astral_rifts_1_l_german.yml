@@ -522,6 +522,6 @@
  astral_rift.1955.desc: "Uns ist eine verstörende Entwicklung aufgefallen.\n\n[from.GetName] schickt insgeheim Mitglieder unserer Bevölkerung durch den $astral_rift_volcano$n-Astralriss.\n\nAngeblich um \"das Gleichgewicht wiederherzustellen\"."
  astral_rift.1955.a: "Beseitigt [from.GetName]."
  astral_rift.1955.b: "Lasst [from.GetName] weiter gewähren."
- MESSAGE_RESTORING_THE_BALANCE_SACRIFICE_TITLE: "$restoring_the_balance$"
+ MESSAGE_RESTORING_THE_BALANCE_SACRIFICE_TITLE: "$restoring_the_balance_modifier$"
  MESSAGE_RESTORING_THE_BALANCE_SACRIFICE_DESC: "Die Bevölkerung von [event_target:sacrificed_pop_planet.GetName] wird durch den $astral_rift_volcano$n-Astralriss geschickt, um jenes Gleichgewicht wiederherzustellen, das wir gestört haben."
  MESSAGE_RESTORING_THE_BALANCE_SACRIFICE_DESC_LEADER: "Die Bevölkerung von [event_target:sacrificed_pop_planet.GetName] wird von $LEADER|Y$ durch den $astral_rift_volcano$n-Astralriss geschickt, um das Gleichgewicht wiederherzustellen."

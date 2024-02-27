@@ -1542,6 +1542,7 @@
  preftl.180.b.tt.notregular: "§RNo tenemos la capacidad de dar alojamiento a individuos. Si hacemos esto, toda su gente será esclavizada.§!"
  preftl.180.b: "Una exigencia risible de una civilización inmadura."
  preftl.180.b.tooltip: "Mantén el control de la §Y$fleet_type_shipclass_starbase$§! de §Y[From.Capital.GetStarName]§!\n\n§Y$opinion_not_ceded_starbase$§!:  la §Hopinión§! de §Y[From.GetName]§! sobre §Y[Root.GetName]§! §Rempeorará§!."
+ preftl.180.c: "Lo sentimos, pero ya tenemos una colonia en vuestro sistema."
  ####################################
  #Observation Post Events
  ####################################

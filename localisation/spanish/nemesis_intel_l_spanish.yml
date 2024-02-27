@@ -1094,8 +1094,6 @@
  cara1_fleet_must_be_within_borders: "Los [caravaneer_fleet1_country.GetName] deben tener una flota dentro de [Root.GetName]."
  cara2_fleet_must_be_within_borders: "Los [caravaneer_fleet2_country.GetName] deben tener una flota dentro de [Root.GetName]."
  cara3_fleet_must_be_within_borders: "Los [caravaneer_fleet3_country.GetName] deben tener una flota dentro de [Root.GetName]."
- #todo: eliminate this
- CD_TODO_TOOLTIP: "§RTHIS CONTENT IS TODO_CD§!"
  #Triggers and Effects
  effect_random_first_contact: "Lugar de primer contacto al azar"
  effect_every_first_contact: "Cada lugar de primer contacto"

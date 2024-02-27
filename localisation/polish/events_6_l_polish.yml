@@ -395,7 +395,7 @@
  colony.9975.name: "Nieudane poszerzenie kominów"
  colony.9975.desc: "Wskutek błędnych wyliczeń nieoptymalne rozmieszczenie ładunków wybuchowych spowodowało pękniecie kilku kominów, które następnie runęły, powodując znaczne uszkodzenia naszych obiektów. Choć niektóre rafinerie wytwarzają teraz więcej gazu, ogólna produkcja tego surowca spadła. Pocieszeniem w tej sytuacji jest fakt, iż zawalone kominy odsłoniły niespodziewane źródła minerałów.\n\nWydarzenia te będą stanowić ostrzeżenie, że gdzie międzygalaktyczne cywilizacje budują, tam kominy lecą."
  nemma_world_chain_title: "Świat Nemma"
- nemma_world_chain_desc: "Ogromne Nemma zamieszkują jeden z naszych światów, a my już zbudowaliśmy na ich grzbietach fundamenty kolonii. Musimy postanowić, co z nimi zrobić."
+ nemma_world_chain_desc: "Ogromne nemma zamieszkują jeden z naszych światów, a my już zbudowaliśmy na ich grzbietach fundamenty kolonii. Musimy postanowić, co z nimi zrobić."
  job_stratovent_researcher: "Badacz kominów"
  job_stratovent_researcher_plural: "Badacze kominów"
  job_stratovent_researcher_desc: "Badacze specjalizujący się w studiowaniu zamieszkującej próżnię fauny i prezentowaniu jej przyjezdnym."
@@ -1649,3 +1649,9 @@
  trait_presapient_unintelligent: "Bez inteligencji"
  trait_presapient_unintelligent_desc: "§HTen gatunek nie potrafi wykonywać nawet najprostszych działań. Jego jedyna umiejętność to błyskawiczne rozmnażanie się.§!"
  rapid_desertification_species: "Pustynniak"
+ #Closing Aperture
+ BREACHSEALER_CAT: "Wykryto wyłom we wszechświecie"
+ BREACHSEALER_CAT_DESC: "W ponurym układzie Seddom znajduje się rozdarcie osnowy wszechświata. Co bardziej niezwykłe, rozdarcie to kurczy się stopniowo, jakby coś lub ktoś próbował naprawić osnowę."
+ anomaly.7200.name: "Zamknięcie szczeliny"
+ anomaly.7200.desc: "Seddom to dziwny spektakl. Wirujące planety spowite ciemnością, a w pobliżu znajduje się wyłom w osnowie wszechświata, kosmiczna paszcza pochłaniająca światło gwiazdy tego układu.\n\nMimo pozornie naturalnego ułożenia planetoid, głębsza analiza wykazała, że zostały one ustawione z matematyczną precyzją. Tysiące lat temu jakaś niewiarygodna siła utworzyła specjalny wzór z ciał orbitujących w tym układzie, pozwalający nie tylko niwelować działanie rozdarcia, ale także uniemożliwiający rozszerzenie się go na inne rejony galaktyki.\n\nZjawiliśmy się tu w samą porę, monumentalna paca dobiega końca. Niebawem ten układ zostanie odnowiony."
+ anomaly.7200.a: "Dziękujemy za naprawienie galaktyki."

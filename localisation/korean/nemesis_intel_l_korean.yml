@@ -1094,8 +1094,6 @@
  cara1_fleet_must_be_within_borders: "[caravaneer_fleet1_country.GetName] 함대가 [Root.GetName] 국경 안에 있어야 합니다."
  cara2_fleet_must_be_within_borders: "[caravaneer_fleet2_country.GetName] 함대가 [Root.GetName] 국경 안에 있어야 합니다."
  cara3_fleet_must_be_within_borders: "[caravaneer_fleet3_country.GetName] 함대가 [Root.GetName] 국경 안에 있어야 합니다."
- #todo: eliminate this
- CD_TODO_TOOLTIP: "§RTHIS CONTENT IS TODO_CD§!"
  #Triggers and Effects
  effect_random_first_contact: "무작위 첫 조우 위치"
  effect_every_first_contact: "모든 첫 조우 위치"

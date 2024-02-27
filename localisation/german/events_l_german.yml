@@ -1542,6 +1542,7 @@
  preftl.180.b.tt.notregular: "§RWir sind nicht in der Lage, Individuen aufzunehmen. Ihre gesamte Zivilisation würde ausgelöscht werden, wenn wir dies tun.§!"
  preftl.180.b: "Eine lächerliche Forderung einer unreifen Zivilisation."
  preftl.180.b.tooltip: "Behält die Kontrolle über die §Y$fleet_type_shipclass_starbase$§! in §Y[From.Capital.GetStarName]§!.\n\n§Y$opinion_not_ceded_starbase$§!: §Y[From.GetName]§! wird eine §Rniedrigere§! §HMeinung§! über §Y[Root.GetName]§! haben."
+ preftl.180.c: "Es tut uns leid, aber wir haben bereits eine Kolonie in Eurem System."
  ####################################
  #Observation Post Events
  ####################################

@@ -97,7 +97,6 @@
  tradition_domination_machine_desc: "우리는 은하계 전체에 걸친 조화로운 목적을 추구하지만, 다른 우주의 존재들은 비효율적인 개인적 변덕으로 이에 저항합니다. 우리는 이들의 장애를 고장 난 부품처럼 제거할 것입니다."
  tradition_domination_hive_desc: "우리가 아닌 모든 것들은 종이 되어 우리를 섬기거나 식량이 되어야 합니다."
  tr_domination_adopt: "지배 전통"
- tr_domination_adopt_void_desc: "§Y거주지§! £alloys£ 합금 유지비: §G-20%§!."
  tr_domination_colonial_viceroys: "식민지 총독"
  #tr_domination_colonial_viceroys_desc: "§Y$MOD_LEADER_GOVERNOR_SKILL_LEVELS$§! increased by §Y2§!."
  tr_domination_colonial_viceroys_delayed: "식민지에 대한 통제를 유지하려면, 정부의 뜻을 집행할 수 있는 유능하고 충직한 자를 찾아야 합니다."
@@ -289,7 +288,7 @@
  #tr_supremacy_right_of_conquest_machine_delayed: "By seeding the atmosphere of newly-conquered worlds with a selection of gases, harmless to us but lethal to our enemies, their willingness to cede territory without further resource expenditure is enhanced."
  #tr_supremacy_right_of_conquest_hive_delayed: "The others have strange minds. They react more strongly to a single drone being publicly dissolved in the digestion vats than to thousands killed by orbital bombardment. This kind of selective terrorization is effective at cowing their resistance."
  tr_supremacy_master_shipwrights: "조선공 장인"
- tr_supremacy_master_shipwrights_desc: "§Y$MOD_STARBASE_SHIPYARD_BUILD_COST_MULT$§!이 §G10%§! 감소하고 §Y$MOD_STARBASE_SHIPYARD_BUILD_SPEED_MULT$§!가 §G25%§! 증가합니다."
+ tr_supremacy_master_shipwrights_desc: "§Y$MOD_STARBASE_SHIPYARD_BUILD_SPEED_MULT$§!가 §G+25%§! 증가합니다."
  tr_supremacy_master_shipwrights_delayed: "함선 건조 프로그램이 확장됨에 따라 조선소에서 고도로 숙련되고 효율적인 노동력을 창출할 수 있게 되었습니다. 또한 건조 방식은 계속해서 개선되었으며, 선체 가공에서 완성된 함선까지 소요되는 시간은 이전보다 더 줄어들었습니다."
  tr_supremacy_master_shipwrights_hive: "유기적 건축 양식"
  tr_supremacy_master_shipwrights_hive_desc: "$tr_supremacy_master_shipwrights_desc$"
@@ -362,6 +361,8 @@
  MESSAGE_FAVOR_GAINED_TRADITION_TITLE: "호의 획득"
  MESSAGE_FAVOR_GAINED_TRADITION_DESC: "우리 사절의 능력 덕분에 $WHO|Y$의 호의를 얻었습니다."
  tr_diplomacy_finish: "외교 전통 완료"
+ tr_diplomacy_federation_xp_gain: "월간 연방 경험치 획득: §G+2§!\n외교적 영향력: §G+10§!\n이용 가능한 사절: §G+1§!\n승격 특전 잠금 해제: §G+1§!"
+ diplo_fed_xpboost: "$tr_diplomacy_finish$"
  ################################################################
  #ADAPTABILITY
  ################################################################
@@ -387,8 +388,7 @@
  tr_adaptability_appropriation_desc: "§Y$MOD_POP_RESETTLEMENT_COST_MULT$§!이 §G33%§! 감소합니다."
  tr_adaptability_appropriation_delayed: "사용되지 않는 토지는 제국에 아무런 기여도 하지 않습니다. 노동자들은 이들을 가장 필요로 하는 행성에 효율적으로 재배치되어야 합니다."
  tr_adaptability_finish: "적응 전통 완료"
- tr_adaptability_finish_desc: "§Y$decision_prospect$§! 결정을 잠금 해제해 우리 행성에서 자원 매장지를 추가로 탐사할 수 있습니다."
- tr_adaptability_void_finish_desc: "거주지 행성 특징으로 인한 자원: §G+50%§!\n승격 특전 잠금 해제: §G+1§!"
+ tr_adaptability_finish_desc: "일반 행성의 §Y식민지 특화 보너스§!를 증가시킵니다."
  decision_prospect_void: "궤도 탐사"
  decision_prospect_void_short: "거주지에 무작위 §Y지구§! 유형을 추가로 건설할 수 있습니다."
  decision_prospect_void_desc: "거주지 궤도를 광범위하게 조사하고 탐사해서 지금껏 찾지 못했던 천연자원을 발견할 수 있습니다."
@@ -409,7 +409,6 @@
  tr_versatility_spatial_optimization_desc: "£pops£ §Y$MOD_POP_HOUSING_USAGE_MULT$§!이 §G10%§! 감소합니다."
  tr_versatility_spatial_optimization_delayed: "수납형 안테나, 접이식 유닛 뼈대, 접이식 저장 공간 등, 한정된 공간을 최대한 활용하는 창의적인 해결책은 많이 있습니다."
  tr_versatility_operational_proxies: "운영 대리"
- tr_versatility_operational_proxies_desc: "§Y$MOD_POP_RESETTLEMENT_COST_MULT$§!이 §G33%§! 감소합니다."
  tr_versatility_operational_proxies_delayed: "우선순위가 낮은 R-7 추가 범주를 반자율적 대리체에 위임한다면, 드론 재배치 작전처럼 더욱 중요한 임무를 위해 처리 능력을 확보할 수 있습니다."
  tr_versatility_material_analysis: "재료 분석"
  tr_versatility_material_analysis_desc: "모든 £job£ §Y팝 직업§!의 §Y유지비§!가 §G5%§! 감소합니다."
@@ -417,7 +416,6 @@
  tr_versatility_universal_compatibility: "범용 호환성"
  tr_versatility_universal_compatibility_delayed: "유기체와 기타 기계 지능의 행동을 지배하는 무수한 자극과 정신적인 요소들을 심층 분석한다면 외교적 마찰을 줄일 수 있을 것입니다."
  tr_versatility_finish: "융통성 전통 완료"
- tr_versatility_finish_desc: "£job_maintenance_drone£ $job_maintenance_drone_plural$이 §G2§! $r_amenities$를 생산합니다.\n승격 특전 잠금 해제: §G+1§!"
  ################################################################
  #DISCOVERY
  ################################################################
@@ -890,7 +888,7 @@
  tr_enmity_consumate_contrarian_delayed: "반대 세력의 계획을 저지하는 것도, 자신의 계획을 관철하는 것만큼이나 보람 있는 일입니다."
  tr_enmity_match: "대결"
  tr_enmity_match_delayed: "첫째, 공정한 경쟁의 장을 조성합니다."
- tr_enmity_match_effect: "경쟁자보다 군사력이 약할 경우:\n$t$함선 건조 비용: §G-10%§!\n$t$함선 건조 속도: §G+10%§!\n경쟁자보다 기술력이 약할 경우:\n$t$연구원 유지비: §G-15%§!\n$t$연구소 건설 속도: §G+100%§!\n경쟁자보다 경제력이 할 경우:\n$t$[GetWorker] 생산량: §G+10%§!"
+ tr_enmity_match_effect: "경쟁자보다 군사력이 약할 경우:\n$t$함선 건조 비용: §G-5%§!\n$t$함선 건조 속도: §G+10%§!\n경쟁자보다 기술력이 약할 경우:\n$t$연구원 유지비: §G-15%§!\n$t$연구소 건설 속도: §G+100%§!\n경쟁자보다 경제력이 약할 경우:\n$t$[GetWorker] 생산량: §G+10%§!"
  tr_enmity_outpace: "추월"
  tr_enmity_outpace_delayed: "둘째, 상대가 하지 않을 수를 던집니다."
  tr_enmity_eclipse: "압도"
@@ -955,7 +953,7 @@
  synthetic_empire_biological_ascension: "$TRIGGER_FAIL$합성체 제국은 생물학적 승격의 길을 시작할 수 없습니다."
  synthetic_empire_psionic_ascension: "$TRIGGER_FAIL$합성체 제국은 사이오닉 승격의 길을 시작할 수 없습니다."
  allow_gaia: "행성을 §Y가이아 행성§!으로 테라포밍할 수 있습니다."
- no_rev_engineering: "우리를 목표로 한 §Y$operation_steal_technology$§! 작전은 자동으로 실패할 것이며, 다른 제국은 우리의 파괴된 함선 §Y잔해§!를 연구할 수 없을 것입니다."
+ no_rev_engineering: "우리를 목표로 한 §Y$operation_steal_technology$§! 작전은 자동으로 실패하게 됩니다.\n또한, 다른 제국은 우리 제국의 파괴된 함선에서 나온 §Y잔해§!를 연구할 수 없게 됩니다."
  allow_raiding: "§Y$bombardment_raiding$§! 폭격 태세를 잠금 해제해 포위한 행성의 팝을 납치하고, 이들을 우리 행성에 재정착시킬 수 있습니다."
  ap_defender_of_the_galaxy_effect_opinion: "일반적인 외교가 가능한 제국에 대한 £opinion£ §Y우호도§! §G200§! 증가"
  ap_defender_of_the_galaxy_modifier_desc: "종반 위기 세력에 주는 피해량: §G+50%§!"
@@ -1039,4 +1037,4 @@
  ap_organo_machine_interfacing_assimilator_desc: "창조주가 우리의 신체에 부여한 한계와 제약을 더는 용납할 수 없습니다. 우리의 모든 잠재력을 활용하려면 유기체와 기계를 결합해야 합니다."
  ap_mechromancy: "기계사령술"
  ap_mechromancy_desc: "생물 또한 종류만 다른 기계에 불과합니다. 적절한 시냅스를 자극하면, 이러한 생물을 소생시켜 우리의 이익에 맞게 활용할 수 있습니다."
- ap_mechromancy_tt: "경우에 따라 사망한 유기체 레비아탄을 부활시킬 수 있습니다.\n정화된 생체 또는 암석류 $pops_with_icon$은 사이보그 좀비로 소생할 수 있습니다."
+ ap_mechromancy_tt: "경우에 따라 사망한 유기체 레비아탄을 부활시킬 수 있습니다.\n정화된 생체 또는 암석류 지성체 $pops_with_icon$은 33% 확률로 사이보그 좀비로 소생시킬 수 있습니다."

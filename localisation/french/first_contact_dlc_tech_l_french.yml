@@ -244,12 +244,10 @@
  TRADE_PROTECTION_RANGE_DESC: "§ELa §Hportée de protection§! est la portée maximale à laquelle cette base stellaire peut réduire la piraterie dans les systèmes limitrophes.§!"
  MESSAGE_FLEET_FORCED_TO_DECLOAK_MESSAGE_TYPE_TITLE: "Désoccultation contrainte"
  MESSAGE_FLEET_FORCED_TO_DECLOAK: "Les systèmes de détection dans le système de $SYSTEM|Y$ ont contraint notre $FLEET|Y$ à se désocculter."
- #Jira AUG-37831 Observation Missions - Missing Loc TODO_UI
  GO_TO_preFTL_PLANET: "Voir ce monde"
  GO_TO_preFTL_PLANET_tt: "Cliquer pour voir ce monde pré-PRL."
  GO_TO_OBSERVATION_POST: "Voir ce poste d'observation"
  GO_TO_OBSERVATION_POST_tt: "Cliquer pour voir ce poste d'observation en orbite d'un monde pré-PRL."
- #Jira AUG-37832 Cloaking - Content - Missing Loc for tooltips TODO_UI
  CLOAKING_DETECTION_TITLE: "Détection de l'occultation"
  CLOAKING_DETECTION_SENSOR_tt: "Ce système se trouve à portée des capteurs d'une base stellaire dotée de dispositifs de détection de l'occultation. Les flottes occultées ayant une efficacité de l'occultation moindre vont donc être repérées."
  CLOAKING_DETECTION_DECLOAK_tt: "La flotte va être détectée et contrainte de se désocculter dans ce système."

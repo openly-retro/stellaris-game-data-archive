@@ -1542,6 +1542,7 @@
  preftl.180.b.tt.notregular: "§Rわが国には個体を収容する能力がない。 これを選べば彼らの人口はすべて奴隷となるだろう。§!"
  preftl.180.b: "未熟な文明からの馬鹿げた要求だ。"
  preftl.180.b.tooltip: "§Y[From.Capital.GetStarName]の$fleet_type_shipclass_starbase$の支配権を維持する。§!\n\n§Y$opinion_not_ceded_starbase$§!：§Y[From.GetName]§!の§Y[Root.GetName]§!に対する§H態度§!が§R悪化§!する。"
+ preftl.180.c: "すまないが、すでにそちらの星系には植民地がある。"
  ####################################
  #Observation Post Events
  ####################################

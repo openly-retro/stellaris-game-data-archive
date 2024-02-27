@@ -620,6 +620,8 @@
  IS_NOT_IMMORTAL_TRIGGER: "Смертность"
  IS_HIDDEN_TRIGGER: "Скрыто"
  IS_NOT_HIDDEN_TRIGGER: "Не скрыто"
+ IS_LEADER_CLASS: "Является: $CLASS|H$"
+ IS_NOT_LEADER_CLASS: "НЕ является: $CLASS|H$"
  IS_JOB_OF_CATEGORY: "$JOB|Y$ принадлежит к категории $CAT|Y$"
  IS_NOT_JOB_OF_CATEGORY: "$JOB|Y$ НЕ принадлежит к категории $CAT|Y$"
  HAS_ACCESS_MILITARY: "Есть право военного прохода"

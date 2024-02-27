@@ -37,7 +37,7 @@
  astral_rift.3006.desc.default: "$astral_rift.3006.desc.common$\n\n$astral_rift.3005_3006.desc.common.default$"
  astral_rift.3006.a: "我々は探索者だ。"
  astral_rift.3010.name: "迫り来る破滅"
- astral_rift.3010.desc.common.1: "我々はバオルが我々の宇宙で平和主義的な集合意識として知られていたことを説明した。 そして比類なき技術を持つ園芸家であったバオル族は、ついには絶滅させられたと伝えた。"
+ astral_rift.3010.desc.common.1: "我々はバオルが我々の宇宙で平和主義的な集合意識として知られていたことを説明した。そして比類なき技術を持つ園芸家であったバオル族はついには絶滅させられたと伝えた。"
  astral_rift.3010.desc.common.2: "バオルは驚愕した。 そしてグルナーはつい最近現れたばかりで、 このコロニーを軍事封鎖したと説明した。 我々のグルナーに関する報告は細部に至るまで、 バオルの経験と一致していた。\n\n彼らは手遅れになる前に異星人の脅威を撃退するため、 我々の援助を正式に要請してきた。"
  astral_rift.3010.desc.baol_started: "$astral_rift.3010.desc.common.1$襲撃者はグルナーと呼ばれる軍国主義種族だ。\n\nこのままにしておけば、 このコロニーは焼き払われてしまう危険がある。\n\n$astral_rift.3010.desc.common.2$"
  astral_rift.3010.desc.baol_completed: "$astral_rift.3010.desc.common.1$襲撃したのは軍国主義帝国グルナーだ。\n\nバオルの惑星とコロニーはすべて破壊された。 最終的にはバオルノードが1つだけ残り、 放棄された研究ステーションの中に何千年も閉じ込められることになった。\n\n$astral_rift.3010.desc.common.2$"

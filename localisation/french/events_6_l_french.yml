@@ -404,7 +404,7 @@
  job_stratovent_refiner_desc: "Des spécialistes de la collecte et du raffinage des précieux gaz exotiques produits par les cheminées stratosphériques."
  job_stratovent_refiner_upg: "$job_stratovent_refiner_upg_plural$"
  job_stratovent_refiner_upg_plural: "Raffineurs des stratocheminées élargies"
- job_stratovent_refiner_upg_desc: "$job_stratovent_refiner_desc$"
+ job_stratovent_refiner_upg_desc: "Des chercheurs spécialisés dans l'étude de la faune spatiale, qui éduquent aussi les touristes sur leur comportement."
  job_stratovent_refiner_minerals: "$job_stratovent_refiner_minerals_plural$"
  job_stratovent_refiner_minerals_plural: "Raffineurs des stratocheminées effondrées"
  job_stratovent_refiner_minerals_desc: "Des spécialistes de la collecte et du raffinage des précieux gaz exotiques produits par les cheminées stratosphériques et des minéraux révélés par celles qui se sont effondrées."
@@ -1649,3 +1649,9 @@
  trait_presapient_unintelligent: "Bébête"
  trait_presapient_unintelligent_desc: "§LCette espèce est incapable de mener à bien la tâche la plus simple. Son seul talent est la vitesse incroyable à laquelle elle se reproduit.§!"
  rapid_desertification_species: "Déserteaux"
+ #Closing Aperture
+ BREACHSEALER_CAT: "Détection d'une brèche dans l'univers"
+ BREACHSEALER_CAT_DESC: "Le sombre système de Seddom abrite une déchirure dans la trame de l'univers. Fait encore plus inhabituel, la déchirure rétrécit petit à petit, comme si quelque chose ou quelqu'un la réparait."
+ anomaly.7200.name: "Fermeture de la brèche"
+ anomaly.7200.desc: "Seddom est le théâtre d'un sinistre spectacle. Les planètes tourbillonnantes sont enveloppées de ténèbres : à proximité se trouve une brèche dans la trame même de notre univers, une gueule cosmique qui dévore l'éclat de l'étoile du système.\n\nMalgré la disposition apparemment naturelle des planétoïdes, une analyse plus poussée a révélé qu'ils sont agencés de manière mathématiquement précise. Il y a des millénaires, une force inouïe a orchestré les corps orbitaux de ce système selon un plan bien précis, qui a non seulement atténué les effets de la déchirure, mais l'a en plus empêchée de se propager dans la galaxie.\n\nNous arrivons à un moment propice : un travail monumental est sur le point de s'achever. La restauration de ce système est imminente."
+ anomaly.7200.a: "Nous vous remercions d'avoir réparé notre galaxie"

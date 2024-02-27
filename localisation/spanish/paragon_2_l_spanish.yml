@@ -670,7 +670,7 @@
  leader_trait_adventurous_spirit_desc: "Este líder tiene ansias de aventura y una aversión clara hacia las políticas de la sala de juntas."
  leader_trait_adventurous_spirit_effect: "[GetAdventurousSpiritEffect]"
  adventurous_spirit_not_on_council: "$t$§ELos efectos se aplican mientras no esté en el Consejo.§!"
- adventurous_spirit_on_council: "$t$§REste rasgo no tiene efecto mientras el líder esté en el Consejo.§!"
+ adventurous_spirit_on_council: "§REste rasgo no tiene efecto mientras el líder está en el Consejo.§!"
  leader_trait_adventurous_spirit_1_tt: "$THIS_LEADER_TXT$:§L\n$t$$mod_leaders_upkeep_mult$: §V-10%§!§!\n$adventurous_spirit_on_council$"
  leader_trait_adventurous_spirit_2_tt: "$THIS_LEADER_TXT$:§L\n$t$$mod_leaders_upkeep_mult$: §V-25%§!\n$t$$MOD_LEADER_SPECIES_EXP_GAIN$:§V+5%§!§!\n$adventurous_spirit_on_council$"
  leader_trait_adventurous_spirit_3_tt: "$THIS_LEADER_TXT$:§L\n$t$$mod_leaders_upkeep_mult$: §V-25%§!\n$t$$MOD_LEADER_SPECIES_EXP_GAIN$: §V+10%§!§!\n$adventurous_spirit_on_council$"

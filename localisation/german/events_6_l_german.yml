@@ -1649,3 +1649,9 @@
  trait_presapient_unintelligent: "Unintelligent"
  trait_presapient_unintelligent_desc: "§HDiese Spezies ist nicht in der Lage, auch nur die einfachsten Aufgaben zu erledigen. Ihre einzige Fähigkeit ist die unglaubliche Geschwindigkeit, mit der sie sich fortpflanzt.§!"
  rapid_desertification_species: "Wüstling"
+ #Closing Aperture
+ BREACHSEALER_CAT: "Riss im Universum entdeckt"
+ BREACHSEALER_CAT_DESC: "Im dunklen Seddom-System gibt es einen Riss, der tief ins Gewebe des Universums reicht. Noch ungewöhnlicher jedoch ist, dass der Riss allmählich schrumpft, als ob etwas oder jemand daran arbeitet, ihn zu schließen."
+ anomaly.7200.name: "Schließmechanismus"
+ anomaly.7200.desc: "Im Seddom-System spielt sich ein unheimliches Spektakel ab. Die wirbelnden Planeten sind in Dunkelheit gehüllt und ein Riss im Gefüge des Universums selbst, ein kosmischer Schlund, verschlingt das Licht des örtlichen Sterns.\n\nTrotz der scheinbar natürlichen Anordnung der Planetoiden ergab eine nähere Analyse, dass sie mit mathematischer Präzision angeordnet sind. Vor Jahrtausenden muss eine unglaubliche Kraft die Orbitalkörper dieses Systems in einem speziellen Muster angeordnet haben, das nicht nur die Auswirkungen des Risses abfederte, sondern auch verhinderte, dass er sich auf die gesamte Galaxie ausbreitete.\n\nWir kommen zu einem günstigen Zeitpunkt hierher, denn dieses monumentale Werk nähert sich der Vollendung. Die Wiederherstellung dieses Systems steht unmittelbar bevor."
+ anomaly.7200.a: "Danke, dass Ihr unsere Galaxie instand gesetzt habt."

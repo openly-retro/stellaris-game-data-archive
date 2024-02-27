@@ -9,6 +9,11 @@
  ADDITIONAL_CONTENT_PORTRAITS: "Портреты"
  ADDITIONAL_CONTENT_SCREENSHOTS: "Скриншоты"
  ADDITIONAL_CONTENT_HIDE_ALL_OWNED: "Скрыть все имеющиеся"
+ #Subscription
+ ACB_SUBSCRIPTION_DLC_LIST_TITLE: "Подписка обеспечит доступ к следующим материалам:"
+ ACB_SUBSCRIPTION_CLICK_DESC: "Щелкните, чтобы открыть в магазине"
+ ACB_SUBSCRIPTION_INCLUDED_CONTENT_TITLE: "Входящие сюда материалы"
+ ACB_SUBSCRIPTION_INCLUDED_SUBSCRIPTION_PLANS_TITLE: "Планы подписки"
  #Store button texts
  ADDITIONAL_CONTENT_BUY_IN_STEAM: "Купить в Steam"
  ADDITIONAL_CONTENT_BUY_IN_MICROSOFT_STORE: "Купить в Microsoft Store"

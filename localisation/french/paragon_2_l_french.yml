@@ -670,7 +670,7 @@
  leader_trait_adventurous_spirit_desc: "Cette personnalité aspire à l'aventure et déteste la politique politicienne."
  leader_trait_adventurous_spirit_effect: "[GetAdventurousSpiritEffect]"
  adventurous_spirit_not_on_council: "$tt$§E(Appliqué si la personnalité n'est PAS au £council£Conseil)§!"
- adventurous_spirit_on_council: "$t$§R(Aucun effet si la personnalité est membre du £council£Conseil)§!"
+ adventurous_spirit_on_council: "§R(Aucun effet si la personnalité est membre du £council£Conseil)§!"
  leader_trait_adventurous_spirit_1_tt: "$THIS_LEADER_TXT$:§L\n$t$Entretien de la personnalité : §V-10%§!§!\n$adventurous_spirit_on_council$"
  leader_trait_adventurous_spirit_2_tt: "$THIS_LEADER_TXT$:§L\n$t$Entretien de la personnalité : §V-25%§!\n$t$Gain d'expérience de la personnalité : §V+5%§!§!\n$adventurous_spirit_on_council$"
  leader_trait_adventurous_spirit_3_tt: "$THIS_LEADER_TXT$:§L\n$t$Entretien de la personnalité : §V-25%§!\n$t$Gain d'expérience de la personnalité : §V+10%§!§!\n$adventurous_spirit_on_council$"

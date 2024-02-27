@@ -1542,6 +1542,7 @@
  preftl.180.b.tt.notregular: "§RNie jesteśmy w stanie przyjąć pojedynczych istot, gdybyśmy to zrobili, wszyscy oni zostaliby niewolnikami.§!"
  preftl.180.b: "To śmiechu warte żądane niedojrzałej cywilizacji."
  preftl.180.b.tooltip: "Zachowanie kontroli nad układem §Y[From.Capital.GetStarName] $fleet_type_shipclass_starbase$§!\n\n§Y$opinion_not_ceded_starbase$§!: §Y[From.GetName]§! będzie mieć §Rgorszą§! §Hopinię§! o imperium §Y[Root.GetName]§!"
+ preftl.180.c: "Przykro nam, ale już mamy kolonię w waszym układzie."
  ####################################
  #Observation Post Events
  ####################################

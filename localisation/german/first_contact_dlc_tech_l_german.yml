@@ -244,12 +244,10 @@
  TRADE_PROTECTION_RANGE_DESC: "§EDie §H$PROTECTION_RANGE$§! stellt die maximale Reichweite dar, innerhalb derer diese Sternenbasis Handelsschutz betreiben kann, um die Piraterie zu senken.§!"
  MESSAGE_FLEET_FORCED_TO_DECLOAK_MESSAGE_TYPE_TITLE: "Flotte enttarnt"
  MESSAGE_FLEET_FORCED_TO_DECLOAK: "$FLEET$ wurde im $SYSTEM|H$-System entdeckt und enttarnt!"
- #Jira AUG-37831 Observation Missions - Missing Loc TODO_UI
  GO_TO_preFTL_PLANET: "Planeten zentrieren"
  GO_TO_preFTL_PLANET_tt: "Klicken, um den Planeten dieser Zivilisation ohne ÜL-Technologie zu zentrieren."
  GO_TO_OBSERVATION_POST: "Beobachtungsposten zentrieren"
  GO_TO_OBSERVATION_POST_tt: "Klicken, um den Beobachtungsposten im Orbit dieser Zivilisation ohne ÜL-Technologie zu zentrieren."
- #Jira AUG-37832 Cloaking - Content - Missing Loc for tooltips TODO_UI
  CLOAKING_DETECTION_TITLE: "Ortung von Tarnvorrichtungen"
  CLOAKING_DETECTION_SENSOR_tt: "Dieses System befindet sich in Sensorreichweite einer Sternenbasis mit Ortungsarrays. Getarnte Flotten mit geringerer Tarnstärke werden enttarnt!"
  CLOAKING_DETECTION_DECLOAK_tt: "Eure Flotte wird in diesem System zur Enttarnung gezwungen werden."

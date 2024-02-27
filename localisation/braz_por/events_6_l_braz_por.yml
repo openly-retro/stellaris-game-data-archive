@@ -395,7 +395,7 @@
  colony.9975.name: "Fracasso na Expansão da Fenda"
  colony.9975.desc: "Erros de cálculo na detonação dos explosivos fizeram com que várias fendas rachassem e acabassem desabando. O dano às nossas instalações foi considerável. Embora algumas refinarias estejam produzindo mais gás que antes, a produção total diminuiu. O ponto positivo é que as estruturas que desabaram revelaram depósitos de minerais inesperados.\n\nEsses eventos agem como um lembrete de que civilizações galácticas não são formadas sem antes se quebrar algumas fendas."
  nemma_world_chain_title: "Mundo Nemma"
- nemma_world_chain_desc: "A titânicas Nemmas habitam um dos nossos mundos, e nós já construímos a base de uma colônia nas costas delas. Temos que decidir o que fazer com essas criaturas."
+ nemma_world_chain_desc: "As titânicas Nemmas habitam um dos nossos mundos, e nós já construímos a base de uma colônia nas costas delas. Temos que decidir o que fazer com essas criaturas."
  job_stratovent_researcher: "Pesquisador de Fendas"
  job_stratovent_researcher_plural: "Pesquisadores de Fendas"
  job_stratovent_researcher_desc: "Pesquisadores especializados em estudar a fauna espacial e guiar viajantes para vê-la."
@@ -1649,3 +1649,9 @@
  trait_presapient_unintelligent: "Pouco Inteligente"
  trait_presapient_unintelligent_desc: "§HEsta espécie é incapaz de realizar até mesmo as tarefas mais simples. Sua única habilidade é a velocidade incrível com a qual se reproduz.§!"
  rapid_desertification_species: "Desertoide"
+ #Closing Aperture
+ BREACHSEALER_CAT: "Rompimento do Universo Detectado"
+ BREACHSEALER_CAT_DESC: "O obscuro sistema Seddom abriga um rasgo no tecido do universo. Curiosamente, esse rasgo está diminuindo gradualmente, como se algo, ou alguém, tentasse consertá-lo."
+ anomaly.7200.name: "Fechamento da Abertura"
+ anomaly.7200.desc: "Seddom é um espetáculo misterioso, com seus planetas girando envoltos em escuridão. Não muito distante, há um rasgo no tecido do nosso universo; uma bocarra cósmica que devora o próprio brilho da estrela do sistema.\n\nApesar da aparente organização natural dos planetoides, as análises revelaram que eles foram arranjados com uma precisão matemática. Há milênios, alguma força tremenda manipulou os corpos orbitais deste sistema para formar um padrão especializado que não só diminuiu os efeitos do rasgo, mas também preveniu que ele se espalhasse pela galáxia.\n\nChegamos aqui em um momento favorável: um trabalho monumental está prestes a ser concluído. A restauração deste sistema está próxima."
+ anomaly.7200.a: "Agradecemos por repararem nossa galáxia."

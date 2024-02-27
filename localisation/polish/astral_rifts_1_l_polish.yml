@@ -522,6 +522,6 @@
  astral_rift.1955.desc: "Odkryliśmy coś niepokojącego.\n\n[from.GetName] potajemnie przesyła dane o liczebności naszej populacji na drugą stronę gwiezdnej szczeliny $astral_rift_volcano$.\n\nTwierdzi, że robi to, żeby \"przywrócić równowagę\"."
  astral_rift.1955.a: "Pozbyć się tej osoby."
  astral_rift.1955.b: "Niech działa dalej."
- MESSAGE_RESTORING_THE_BALANCE_SACRIFICE_TITLE: "$restoring_the_balance$"
+ MESSAGE_RESTORING_THE_BALANCE_SACRIFICE_TITLE: "$restoring_the_balance_modifier$"
  MESSAGE_RESTORING_THE_BALANCE_SACRIFICE_DESC: "[event_target:sacrificed_pop_planet.GetName]: populacja zostanie odesłana z powrotem do gwiezdnej szczeliny $astral_rift_volcano$. Być może w ten sposób przywrócimy równowagę, którą zakłóciliśmy."
  MESSAGE_RESTORING_THE_BALANCE_SACRIFICE_DESC_LEADER: "[event_target:sacrificed_pop_planet.GetName]: populacja zostanie odesłana z powrotem do gwiezdnej szczeliny $astral_rift_volcano$. W ten sposób $LEADER|Y$ stara się przywrócić równowagę."

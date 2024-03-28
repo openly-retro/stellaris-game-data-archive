@@ -361,7 +361,7 @@
  MESSAGE_FAVOR_GAINED_TRADITION_TITLE: "호의 획득"
  MESSAGE_FAVOR_GAINED_TRADITION_DESC: "우리 사절의 능력 덕분에 $WHO|Y$의 호의를 얻었습니다."
  tr_diplomacy_finish: "외교 전통 완료"
- tr_diplomacy_federation_xp_gain: "월간 연방 경험치 획득: §G+2§!\n외교적 영향력: §G+10§!\n이용 가능한 사절: §G+1§!\n승격 특전 잠금 해제: §G+1§!"
+ tr_diplomacy_federation_xp_gain: "월간 연방 경험치 획득: §G+2§!\n외교적 영향력: §G+10%§!\n이용 가능한 사절: §G+1§!\n승격 특전 잠금 해제: §G+1§!"
  diplo_fed_xpboost: "$tr_diplomacy_finish$"
  ################################################################
  #ADAPTABILITY
@@ -373,7 +373,7 @@
  tr_adaptability_dietary_enrichment_desc: "£food£ §Y$mod_country_food_produces_mult$§! 생산량이 §G10%§! 증가합니다."
  tr_adaptability_dietary_enrichment_delayed: "다양한 강화 기술로 인구를 위해 수확하는 양분의 영양가를 높일 수 있으며, 이를 통해 더 적은 식량으로 더 많은 인구를 부양할 수 있을 것입니다."
  tr_adaptability_recycling: "재활용 향상"
- tr_adaptability_recycling_desc: "§Y건물§! 및 §Y지구§!의 $r_strategic$ §Y비용§!과 §Y유지비§!가 §G10%§! 감소합니다."
+ tr_adaptability_recycling_desc: "§Y건물§! 및 §Y지구§!의 $r_strategic$ §Y비용§!과 §Y유지비§!가 §G15%§! 감소합니다."
  tr_adaptability_recycling_delayed: "쓸모없는 것을 재활용한다면 미래에 더 많은 것을 건설할 수 있을 것입니다."
  tr_adaptability_survival_fittest: "적자 생존"
  tr_adaptability_survival_fittest_desc: "§Y$MOD_PLANET_ORBITAL_BOMBARDMENT_DAMAGE$§!이 §G25%§! 감소하고 §Y$MOD_ARMY_DEFENSE_DAMAGE_MULT$§!이 §G25%§! 증가합니다."

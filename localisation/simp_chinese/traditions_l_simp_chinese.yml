@@ -361,7 +361,7 @@
  MESSAGE_FAVOR_GAINED_TRADITION_TITLE: "获取外交支持"
  MESSAGE_FAVOR_GAINED_TRADITION_DESC: "多亏了我们特使的技巧，我们已经成功获取来自$WHO|Y$的外交支持。"
  tr_diplomacy_finish: "外交传统完成"
- tr_diplomacy_federation_xp_gain: "每月联邦经验获得：§G+2§!\n外交权重：§G+10§!\n可用特使：§G+1§!\n解锁飞升天赋槽：§G+1§!"
+ tr_diplomacy_federation_xp_gain: "每月联邦经验获得：§G+2§!\n外交权重：§G+10%§!\n可用特使：§G+1§!\n解锁飞升天赋槽：§G+1§!"
  diplo_fed_xpboost: "$tr_diplomacy_finish$"
  ################################################################
  #ADAPTABILITY
@@ -373,7 +373,7 @@
  tr_adaptability_dietary_enrichment_desc: "£food£§Y$mod_country_food_produces_mult$§!产出增加§G+10%§!。"
  tr_adaptability_dietary_enrichment_delayed: "我们可以利用全新的改进技术提升我们农产品的营养价值，这样一来我们就可以用更少的食物满足更多的需求。"
  tr_adaptability_recycling: "强化回收"
- tr_adaptability_recycling_desc: "§Y建筑§!和§Y区划§!涉及$r_strategic$的§Y花费§!和§Y维护费§!减少§G-10%§!。"
+ tr_adaptability_recycling_desc: "§Y建筑§!和§Y区划§!涉及$r_strategic$的§Y花费§!和§Y维护费§!减少§G-15%§!。"
  tr_adaptability_recycling_delayed: "回收过时的物品，充实未来的资源。"
  tr_adaptability_survival_fittest: "适者生存"
  tr_adaptability_survival_fittest_desc: "§Y$MOD_PLANET_ORBITAL_BOMBARDMENT_DAMAGE$§!减少§G25%§!，并且§Y$MOD_ARMY_DEFENSE_DAMAGE_MULT$§!增加§G+25%§!。"

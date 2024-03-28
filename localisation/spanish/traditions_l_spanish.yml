@@ -361,7 +361,7 @@
  MESSAGE_FAVOR_GAINED_TRADITION_TITLE: "Favor ganado"
  MESSAGE_FAVOR_GAINED_TRADITION_DESC: "Gracias a la habilidad de nuestros enviados, hemos obtenido un favor de los $WHO|Y$."
  tr_diplomacy_finish: "Tradiciones de diplomacia finalizadas"
- tr_diplomacy_federation_xp_gain: "Ganancia de experiencia mensual de la federación: §G+2§!\nPeso diplomático: §G+10§!\nEnviados disponibles: §G+1§!\nVentajas de ascenso desbloqueadas: §G+1§!"
+ tr_diplomacy_federation_xp_gain: "Ganancia de experiencia mensual de la federación: §G+2§!\nPeso diplomático: §G+10%§!\nEnviados disponibles: §G+1§!\nVentajas de ascenso desbloqueadas: §G+1§!"
  diplo_fed_xpboost: "$tr_diplomacy_finish$"
  ################################################################
  #ADAPTABILITY
@@ -373,7 +373,7 @@
  tr_adaptability_dietary_enrichment_desc: "La producción de £food£ §Y$mod_country_food_produces_mult$§! aumenta en un §G+10%§!."
  tr_adaptability_dietary_enrichment_delayed: "El valor nutricional de los alimentos que recolectamos para nuestros drones se puede mejorar mediante diversas técnicas de enriquecimiento, lo cual nos permite alimentar a más drones con menos comida."
  tr_adaptability_recycling: "Reciclaje mejorado"
- tr_adaptability_recycling_desc: "El $r_strategic$ §Ycoste§! y §Ymantenimiento§! de las §Yconstrucciones§! y §Ydistritos§! se reducen en un §G-10%§!."
+ tr_adaptability_recycling_desc: "El $r_strategic$ §Ycoste§! y §Ymantenimiento§! de las §Yconstrucciones§! y §Ydistritos§! se reducen en un §G-15%§!."
  tr_adaptability_recycling_delayed: "Reutilizar lo que ha quedado obsoleto nos permite seguir construyendo más adelante."
  tr_adaptability_survival_fittest: "Supervivencia del más fuerte"
  tr_adaptability_survival_fittest_desc: "§Y$MOD_PLANET_ORBITAL_BOMBARDMENT_DAMAGE$§! se reduce en §G25%§! y §Y$MOD_ARMY_DEFENSE_DAMAGE_MULT$§! aumenta en §G+25%§!."

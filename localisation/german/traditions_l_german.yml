@@ -361,7 +361,7 @@
  MESSAGE_FAVOR_GAINED_TRADITION_TITLE: "Gefallen erhalten"
  MESSAGE_FAVOR_GAINED_TRADITION_DESC: "Dank des Geschicks unserer Gesandten ist es uns gelungen, einen Gefallen bei $WHO|Y$ zu erlangen."
  tr_diplomacy_finish: "Diplomatietraditionen abgeschlossen"
- tr_diplomacy_federation_xp_gain: "Monatlicher Föderationserfahrungszuwachs: §G+2§!\nDiplomatische Bedeutung: §G+10§!\nVerfügbare Gesandte: §G+1§!\nAufstiegsvorteile: §G+1§!"
+ tr_diplomacy_federation_xp_gain: "Monatlicher Föderationserfahrungszuwachs: §G+2§!\nDiplomatische Bedeutung: §G+10%§!\nVerfügbare Gesandte: §G+1§!\nAufstiegsvorteile: §G+1§!"
  diplo_fed_xpboost: "$tr_diplomacy_finish$"
  ################################################################
  #ADAPTABILITY
@@ -373,7 +373,7 @@
  tr_adaptability_dietary_enrichment_desc: "£food£ §Y$mod_country_food_produces_mult$§! Produktion um §G+10%§! erhöht."
  tr_adaptability_dietary_enrichment_delayed: "Der Nährwert von Nahrung, den wir für unsere Bevölkerung ernten, kann durch verschiedene Anreicherungstechniken erhöht werden, so dass wir mehr Münder mit weniger Nahrung ernähren können."
  tr_adaptability_recycling: "Verbessertes Recycling"
- tr_adaptability_recycling_desc: "Reduziert die §YKosten§! und den §YUnterhalt§! an £rare_crystals£ £exotic_gases£ £volatile_motes£ §YStrategischen Ressourcen§! für §YGebäude§! und §YDistrikte§! um §G-10%§!."
+ tr_adaptability_recycling_desc: "Reduziert die §YKosten§! und den §YUnterhalt§! an £rare_crystals£ £exotic_gases£ £volatile_motes£ §YStrategischen Ressourcen§! für §YGebäude§! und §YDistrikte§! um §G-15%§!."
  tr_adaptability_recycling_delayed: "Das wiederzuverwerten, das veraltet ist, wird uns dabei helfen in Zukunft mehr daraus machen."
  tr_adaptability_survival_fittest: "Überleben der Stärksten"
  tr_adaptability_survival_fittest_desc: "§Y$MOD_PLANET_ORBITAL_BOMBARDMENT_DAMAGE$§! um §G25%§! reduziert und §Y$MOD_ARMY_DEFENSE_DAMAGE_MULT$§! um §G25%§! erhöht."

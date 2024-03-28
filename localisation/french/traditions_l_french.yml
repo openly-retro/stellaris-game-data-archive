@@ -361,7 +361,7 @@
  MESSAGE_FAVOR_GAINED_TRADITION_TITLE: "Faveur obtenue"
  MESSAGE_FAVOR_GAINED_TRADITION_DESC: "Grâce aux talents de nos émissaires, nous avons gagné une £favor£faveur de la $WHO|Y$."
  tr_diplomacy_finish: "Traditions diplomatiques toutes adoptées"
- tr_diplomacy_federation_xp_gain: "Gain mensuel d'expérience fédérale : §G+2§!\nPoids diplomatique : §G+10§!\nÉmissaires disponibles : §G+1§!\nDébloque §G1§! atout de l'ascension."
+ tr_diplomacy_federation_xp_gain: "Gain mensuel d'expérience fédérale : §G+2§!\nPoids diplomatique : §G+10%§!\nÉmissaires disponibles : §G+1§!\nDébloque §G1§! atout de l'ascension."
  diplo_fed_xpboost: "$tr_diplomacy_finish$"
  ################################################################
  #ADAPTABILITY
@@ -373,7 +373,7 @@
  tr_adaptability_dietary_enrichment_desc: "Production de §Y$mod_country_food_produces_mult$§! : §G+10%§!"
  tr_adaptability_dietary_enrichment_delayed: "La valeur nutritionnelle des denrées que nous récoltons pour notre population pourrait être accrue par diverses techniques d'enrichissement, qui nous permettraient de nourrir plus de bouches avec moins de nourriture."
  tr_adaptability_recycling: "Recyclage amélioré"
- tr_adaptability_recycling_desc: "Coût et entretien des £building£§Ybâtiments§! et £district£§Ydistricts§! en $r_strategic_plural_lower$ : §G-10%§!"
+ tr_adaptability_recycling_desc: "Coût et entretien des £building£§Ybâtiments§! et £district£§Ydistricts§! en $r_strategic_plural_lower$ : §G-15%§!"
  tr_adaptability_recycling_delayed: "Réutiliser ce qui est dépassé permet de disposer de davantage de matériaux sur lesquels construire l'avenir."
  tr_adaptability_survival_fittest: "Sélection naturelle"
  tr_adaptability_survival_fittest_desc: "$MOD_PLANET_ORBITAL_BOMBARDMENT_DAMAGE$ : §G-25%§!\n$MOD_ARMY_DEFENSE_DAMAGE_MULT$ : §G+25%§!"

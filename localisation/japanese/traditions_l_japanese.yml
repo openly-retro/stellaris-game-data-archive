@@ -361,7 +361,7 @@
  MESSAGE_FAVOR_GAINED_TRADITION_TITLE: "好意を得た"
  MESSAGE_FAVOR_GAINED_TRADITION_DESC: "我々の使節の手腕により、 $WHO|Y$から好意を得ることに成功した。"
  tr_diplomacy_finish: "外交の伝統の完成"
- tr_diplomacy_federation_xp_gain: "毎月の連邦経験値獲得：§G+2§!\n外交発言力：§G+10§!\n利用可能な使節：§G+1§!\nアンロックされるアセンションパーク：§G+1§!"
+ tr_diplomacy_federation_xp_gain: "毎月の連邦経験値獲得：§G+2§!\n外交発言力：§G+10%§!\n利用可能な使節：§G+1§!\nアンロックされるアセンションパーク：§G+1§!"
  diplo_fed_xpboost: "$tr_diplomacy_finish$"
  ################################################################
  #ADAPTABILITY
@@ -373,7 +373,7 @@
  tr_adaptability_dietary_enrichment_desc: "£food£ §Y$mod_country_food_produces_mult$§!出力が§G+10%§!増加する。"
  tr_adaptability_dietary_enrichment_delayed: "国民に提供する食料の栄養価は、 さまざまな濃縮技術によって高めることができ、 より少ない食物でより多くの人口を養えるようになる。"
  tr_adaptability_recycling: "再利用強化"
- tr_adaptability_recycling_desc: "§Y建造物§!と§Y区域§!の、 $r_strategic$§Yコスト§!と§Y維持費§!が§G-10%§!減少する。"
+ tr_adaptability_recycling_desc: "§Y建造物§!と§Y区域§!の、 $r_strategic$§Yコスト§!と§Y維持費§!が§G-15%§!減少する。"
  tr_adaptability_recycling_delayed: "古いものを再利用することで、 将来的にはより多くのものを築き上げられる。"
  tr_adaptability_survival_fittest: "適者生存"
  tr_adaptability_survival_fittest_desc: "§Y$MOD_PLANET_ORBITAL_BOMBARDMENT_DAMAGE$§!が§G25%§!減少し、 §Y$MOD_ARMY_DEFENSE_DAMAGE_MULT$§!が§G+25%§!増加する。"

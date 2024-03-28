@@ -361,7 +361,7 @@
  MESSAGE_FAVOR_GAINED_TRADITION_TITLE: "Посол добился одолжения"
  MESSAGE_FAVOR_GAINED_TRADITION_DESC: "Благодаря умениям наших послов государство $WHO|Y$ теперь у нас в долгу."
  tr_diplomacy_finish: "Традиции дипломатии завершены"
- tr_diplomacy_federation_xp_gain: "Ежемесячный прирост опыта федерации: §G+2§!\nДипломатический вес: §G+10§!\nДоступные послы: §G+1§!\nОткрыты бонусы за стремление: §G+1§!"
+ tr_diplomacy_federation_xp_gain: "Ежемесячный прирост опыта федерации: §G+2§!\nДипломатический вес: §G+10%§!\nДоступные послы: §G+1§!\nОткрыты бонусы за стремление: §G+1§!"
  diplo_fed_xpboost: "$tr_diplomacy_finish$"
  ################################################################
  #ADAPTABILITY
@@ -373,7 +373,7 @@
  tr_adaptability_dietary_enrichment_desc: "£food£ §Y$mod_country_food_produces_mult$§! возрастает §G10%§!."
  tr_adaptability_dietary_enrichment_delayed: "Питательную ценность веществ, собираемых нами для наших поселений, можно повысить с помощью различных добавок, что позволит нам накормить больше ртов меньшим количеством пищи."
  tr_adaptability_recycling: "Улучшенная переработка"
- tr_adaptability_recycling_desc: "§YСтоимость§! и §Yсодержание§! §Yсооружений§! и §Yрайонов§! ($r_strategic$) снижены на §G-10%§!."
+ tr_adaptability_recycling_desc: "§YСтоимость§! и §Yсодержание§! §Yсооружений§! и §Yрайонов§! ($r_strategic$) снижены на §G-15%§!."
  tr_adaptability_recycling_delayed: "Даже устаревшие материалы могут принести пользу. Мы грамотно распорядимся ими в будущем."
  tr_adaptability_survival_fittest: "Выживание сильнейших"
  tr_adaptability_survival_fittest_desc: "§Y$MOD_PLANET_ORBITAL_BOMBARDMENT_DAMAGE$§! снижен на §G25%§!, а §Y$MOD_ARMY_DEFENSE_DAMAGE_MULT$§! увеличен на §G25%§!."
